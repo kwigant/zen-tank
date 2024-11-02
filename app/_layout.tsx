@@ -1,19 +1,13 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
-import 'react-native-reanimated';
-
-import { useColorScheme } from '@/hooks/useColorScheme';
-
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-SplashScreen.preventAutoHideAsync();
+import { theme } from "@/constants/Theme";
+import { useFonts } from "expo-font";
+import { SplashScreen, Stack } from "expo-router";
+import { useEffect } from "react";
+import { PaperProvider } from "react-native-paper";
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Poppins: require('../assets/fonts/Poppins-Light.ttf'),
+    PoppinsBold: require('../assets/fonts/Poppins-Bold.ttf'),
   });
 
   useEffect(() => {
@@ -25,13 +19,46 @@ export default function RootLayout() {
   if (!loaded) {
     return null;
   }
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <PaperProvider theme={theme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
+        <Stack.Screen name="index" options={{ headerShown: false }}/>
+        <Stack.Screen 
+            name="fish-search/index" 
+            options={{ 
+              headerShown: true, 
+              headerShadowVisible: false, 
+              title: 'Add some fish!', 
+              headerTitleStyle: {
+                fontFamily: 'Poppins', 
+                fontWeight: 'bold'
+              } 
+            }}
+          />
+          <Stack.Screen 
+            name="fish-search/[id]" 
+            options={{ 
+              headerShown: false, 
+              headerShadowVisible: false, 
+              title: '',
+              headerStyle: {
+                backgroundColor: 'transparent'
+              }
+            }}
+          />
+           <Stack.Screen 
+            name="fish-tanks/index" 
+            options={{ 
+              headerShown: true, 
+              headerShadowVisible: false, 
+              title: 'Set up your tank',
+              headerTitleStyle: {
+                fontFamily: 'Poppins', 
+                fontWeight: 'bold'
+              } 
+            }}
+          />
       </Stack>
-    </ThemeProvider>
+    </PaperProvider>
   );
 }
