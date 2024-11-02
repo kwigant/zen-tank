@@ -2,7 +2,10 @@ import React, { Suspense } from "react";
 import { View } from "react-native";
 import { Text, IconButton, TextInput } from "react-native-paper";
 import { style } from "@/constants/Global";
-
+import TankModel from "@/components/TankModel";
+// import { Canvas } from '@react-three/fiber/native'
+// import { useGLTF } from '@react-three/drei/native'
+// import modelPath from './path/to/model.glb'
 export default function FishTankScreen({}) {
   const [editName, setEditName] = React.useState(false);
   const [tankName, setTankName] = React.useState("My first tank :D");

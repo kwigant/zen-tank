@@ -26,3 +26,15 @@ export type fish = {
     };
   };
   
+export type plant = {
+  id: string;
+  img: string;
+  name: string;
+  waterTemperature: string;
+  sunlight: string;
+  fertilizer: string;
+  compatibleFish: string[];
+  susceptibleTo: string[];
+  substrate: string;
+  tankPlacement: string;
+}

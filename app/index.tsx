@@ -32,13 +32,14 @@ export default function HomeScreen() {
               mode="outlined"
             />
           </Link>
-
-          <IconButton
-            icon="leaf"
-            size={60}
-            style={[styles.iconBtn]}
-            mode="outlined"
-          />
+          <Link href="/plant-search">
+            <IconButton
+              icon="leaf"
+              size={60}
+              style={[styles.iconBtn]}
+              mode="outlined"
+            />
+          </Link>
         </View>
       </View>
     </View>

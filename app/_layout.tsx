@@ -58,6 +58,29 @@ export default function RootLayout() {
               } 
             }}
           />
+          <Stack.Screen 
+            name="plant-search/index" 
+            options={{ 
+              headerShown: true, 
+              headerShadowVisible: false, 
+              title: 'Add some plants!', 
+              headerTitleStyle: {
+                fontFamily: 'Poppins', 
+                fontWeight: 'bold'
+              } 
+            }}
+          />
+          <Stack.Screen 
+            name="plant-search/[id]" 
+            options={{ 
+              headerShown: false, 
+              headerShadowVisible: false, 
+              title: '',
+              headerStyle: {
+                backgroundColor: 'transparent'
+              }
+            }}
+          />
       </Stack>
     </PaperProvider>
   );
