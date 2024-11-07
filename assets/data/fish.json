@@ -2,7 +2,7 @@
   [
     {
       "name": "Betta Fish",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/betta_fish.jpg?alt=media&token=6809822e-1d80-4021-9f44-4178232d2a01",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/betta_fish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JldHRhX2Zpc2guanBnIiwiaWF0IjoxNzMxMDA5NjE4LCJleHAiOjE3NjI1NDU2MTh9.yAb-cWCb_3-GqXULGBwfw04XRNAGp3B-H4-caaKiMWk&t=2024-11-07T20%3A00%3A18.073Z",
       "id": "5c2875f9-17cd-48c4-9cfa-53d6b9f37457",
       "sizeAtMaturity": "3 in.",
       "tankSize": "5 gal.",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Neon Tetra",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/neon_tetra.jpg?alt=media&token=d0d4403f-ded9-4005-9b2e-a1ed7668a5a4",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/neon_tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL25lb25fdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5OTYxLCJleHAiOjE3NjI1NDU5NjF9.gEaenEuSDFlI8ReBkEDi-sthmGXpkTO3afLgatY2qls&t=2024-11-07T20%3A06%3A01.494Z",
       "id": "a86ba03e-00ea-47a2-a8e2-7ec5d1e550d4",
       "sizeAtMaturity": "1.5 in.",
       "tankSize": "10 gal.",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Cherry Shrimp",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/cherry_shrimp.jpeg?alt=media&token=1e7fd885-8e4c-4181-998f-0319cb355b7b",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/cherry_shrimp.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2NoZXJyeV9zaHJpbXAuanBlZyIsImlhdCI6MTczMTAwOTY5NSwiZXhwIjoxNzYyNTQ1Njk1fQ.7B88-nygoeD43Z0vYxNWUjKizqHr1dKQW8DTyDaUE-Y&t=2024-11-07T20%3A01%3A35.682Z",
       "id": "5fadb1bb-2b14-4ee0-8ab9-761553654e56",
       "sizeAtMaturity": "1-2 in.",
       "tankSize": "5 gal.",
@@ -134,7 +134,7 @@
     },
     {
       "name": "Pygmy Corydora",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/pygmy_corydoras.jpeg?alt=media&token=14daeecc-b628-4899-970f-4b661d7c3ff7",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pygmy_corydoras.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3B5Z215X2Nvcnlkb3Jhcy5qcGVnIiwiaWF0IjoxNzMxMDEwMDE5LCJleHAiOjE3NjI1NDYwMTl9.mO1B1TNfVvIM4rQb2TJHbO1WPwKjHTM0CfMTeAA-2hs&t=2024-11-07T20%3A06%3A59.875Z",
       "id": "f3015a96-e1c3-45b4-b517-b231aa416c03",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "10 gal.",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Endler's Livebearer",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/endlers_livebearer.jpeg?alt=media&token=7d8e44a3-1234-41d6-9a2a-81f5bd558e4a",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_livebearer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfbGl2ZWJlYXJlci5qcGVnIiwiaWF0IjoxNzMxMDA5ODM0LCJleHAiOjE3NjI1NDU4MzR9.l45F8QiSNP7xz3Qg-ZVCEk5Vph_TxBTXk-SnfZt25GE&t=2024-11-07T20%3A03%3A54.416Z",
       "id": "18e2a692-a579-4d42-8f51-0a3a6fcb4063",
       "sizeAtMaturity": "1.5 in.",
       "tankSize": "5 gal.",
@@ -222,7 +222,7 @@
     },
     {
       "name": "Glowlight Tetra",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/glowligh_tetra.jpeg?alt=media&token=aa0ef8f1-cb6e-4d42-980b-57d53c41d365",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/glowligh_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dsb3dsaWdoX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4NzMsImV4cCI6MTc2MjU0NTg3M30.f_NsfZHccX8rYshtcLTZ1NOsAOkEw6PySg5fl9nnPOo&t=2024-11-07T20%3A04%3A33.117Z",
       "id": "6f1e1b21-33e9-479b-a565-9620b4cbcac2",
       "sizeAtMaturity": "1.5 in.",
       "tankSize": "10 gal.",
@@ -266,7 +266,7 @@
     },
     {
       "name": "Dwarf Rasbora",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/dwarf_rasbora.jpeg?alt=media&token=e40f893c-2c94-4c50-8914-bbbf1ed959f1",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX3Jhc2JvcmEuanBlZyIsImlhdCI6MTczMTAwOTc4NywiZXhwIjoxNzYyNTQ1Nzg3fQ.SOFizjy9WOeu6NgsRQVyx4kGXYgwpmqhVG1bz6Y4zS8&t=2024-11-07T20%3A03%3A07.539Z",
       "id": "b2897bd5-2159-438a-b41d-a7a02a1c7533",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "5 gal.",
@@ -354,7 +354,7 @@
     },
     {
       "name": "Sparkling Gourami",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/sparkling_gourami.jpeg?alt=media&token=f38d32f3-7159-48a3-a09e-233f94037cd8",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/sparkling_gourami.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3NwYXJrbGluZ19nb3VyYW1pLmpwZWciLCJpYXQiOjE3MzEwMTAwNTUsImV4cCI6MTc2MjU0NjA1NX0.e6Vtr66E76G3nnAhtKCtfV2VgEZIC3xDP8Q-W4N9rXU&t=2024-11-07T20%3A07%3A35.704Z",
       "id": "abb36dcb-d204-4659-b4ba-183867927a54",
       "sizeAtMaturity": "2-3 in.",
       "tankSize": "10 gal.",
@@ -443,7 +443,7 @@
     },
     {
       "name": "Brigittae Rasbora",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/brigittae_rasbora.jpeg?alt=media&token=b499fcf5-7c2f-4c67-8839-f05980d6264e",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/brigittae_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JyaWdpdHRhZV9yYXNib3JhLmpwZWciLCJpYXQiOjE3MzEwMDk2NDksImV4cCI6MTc2MjU0NTY0OX0.S70_ZX1sH61fZLDfyRbLBX92Bjot4yf0RmVlzhswOp8&t=2024-11-07T20%3A00%3A49.585Z",
       "id": "3910201a-560a-4ceb-b535-e7c0d76cd3e9",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "5 gal.",
@@ -487,7 +487,7 @@
     },
     {
       "name": "Panda Corydoras",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/panda_corydora.jpeg?alt=media&token=0413f11e-755f-4180-8866-9bdc94b644b4",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/panda_corydora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BhbmRhX2Nvcnlkb3JhLmpwZWciLCJpYXQiOjE3MzEwMDk5ODAsImV4cCI6MTc2MjU0NTk4MH0.0P6cxdWCXwppngcN_uM6roEsVhUILO8BSuho6WkEZXs&t=2024-11-07T20%3A06%3A20.190Z",
       "id": "9b054285-d1dd-4a59-9995-4480145e00d9",
       "sizeAtMaturity": "2-3 in.",
       "tankSize": "10 gal.",
@@ -621,7 +621,7 @@
     },
     {
       "name": "White Cloud Mountain Minnow",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/white_cloud_mountain_minnow.jpeg?alt=media&token=24363701-273e-4009-97ee-54d056f12765",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/white_cloud_mountain_minnow.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3doaXRlX2Nsb3VkX21vdW50YWluX21pbm5vdy5qcGVnIiwiaWF0IjoxNzMxMDEwMTEwLCJleHAiOjE3NjI1NDYxMTB9.sWxl0Qtb1sU9F0WqmNgTfwqKNegcwPzYTeD5OAK2NeM&t=2024-11-07T20%3A08%3A30.602Z",
       "id": "ebbdfccb-9f41-4c08-a38f-2eabecf78f09",
       "sizeAtMaturity": "1.5-2 in.",
       "tankSize": "10 gal.",
@@ -665,7 +665,7 @@
     },
     {
       "name": "Rummy Nose Tetra",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/rummy_nose_tetra.jpeg?alt=media&token=eccc09dd-391d-45b5-81f2-d1e711ded3c1",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rummy_nose_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3J1bW15X25vc2VfdGV0cmEuanBlZyIsImlhdCI6MTczMTAxMDA0NCwiZXhwIjoxNzYyNTQ2MDQ0fQ.OVFz0b6St-4FktnuTQSiu6iY8vRqyLvNtdeykHIsjXc&t=2024-11-07T20%3A07%3A24.293Z",
       "id": "dff344e5-d23d-4bdf-9192-441c07e84c13",
       "sizeAtMaturity": "1.5-2 in.",
       "tankSize": "10 gal.",
@@ -709,7 +709,7 @@
     },
     {
       "name": "Ember Tetra",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/ember_tetra.jpeg?alt=media&token=69a70316-18f6-453f-a1e5-2e71be14c90b",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/ember_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VtYmVyX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4MDQsImV4cCI6MTc2MjU0NTgwNH0.slyplivM8Gj2urM1FRUUQykPdA0o0QewqKmnEpj0AJI&t=2024-11-07T20%3A03%3A24.272Z",
       "id": "77e6de7b-8f3e-42f5-bd29-342a816c67a4",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "10 gal.",
@@ -753,7 +753,7 @@
     },
     {
       "name": "Kuhli Loach",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/kuhli_loach.jpeg?alt=media&token=9d86e471-7df4-4d4a-aa45-868b141d61f9",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/kuhli_loach.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2t1aGxpX2xvYWNoLmpwZWciLCJpYXQiOjE3MzEwMDk5MzIsImV4cCI6MTc2MjU0NTkzMn0.3QijWmH34oYrqBu_Etw0h2Zv-Ff3DEjqkMiI4ardnkw&t=2024-11-07T20%3A05%3A32.839Z",
       "id": "c71a9629-7ddf-4dab-bbe8-5c714ec91933",
       "sizeAtMaturity": "3-4 in.",
       "tankSize": "10 gal.",
@@ -797,7 +797,7 @@
     },
     {
       "name": "Hara Jerdoni",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/hara_jerdoni.jpeg?alt=media&token=5af7f2c1-fb9a-4d73-af8b-36c0542a9edd",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/hara_jerdoni.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2hhcmFfamVyZG9uaS5qcGVnIiwiaWF0IjoxNzMxMDA5ODk5LCJleHAiOjE3NjI1NDU4OTl9.Nlkqz-fFw7TRctQ3BtTj3FZ7LTcvO-fbU8Nz1YMhftw&t=2024-11-07T20%3A04%3A59.439Z",
       "id": "cba16757-81b0-4291-90d9-d9202445db0f",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "10 gal.",
@@ -841,7 +841,7 @@
     },
     {
       "name": "Pea Puffer",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/pea_puffer.jpeg?alt=media&token=7eee92c6-f75f-4b7e-b42a-9b2da97dea7c",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pea_puffer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BlYV9wdWZmZXIuanBlZyIsImlhdCI6MTczMTAwOTk5MCwiZXhwIjoxNzYyNTQ1OTkwfQ.aaTrphC0nxFqf_nYw3AA-b0MUZPQ37bhAXzHKBMUDkE&t=2024-11-07T20%3A06%3A30.706Z",
       "id": "f02eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "1-2 in.",
       "tankSize": "5 gal.",
@@ -883,7 +883,7 @@
     },
     {
       "name": "Fancy Guppy",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/fancy_guppy.jpg?alt=media&token=5a697a08-2077-4268-8bd4-62b09ea31ca9",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/fancy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2ZhbmN5X2d1cHB5LmpwZyIsImlhdCI6MTczMTAwOTg1MSwiZXhwIjoxNzYyNTQ1ODUxfQ.mBZ1b-GpxD8A33RrlHygKOd0UXanPkIdu_x9nv2C87c&t=2024-11-07T20%3A04%3A11.594Z",
       "id": "f03eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "1-2 in.",
       "tankSize": "5 gal.",
@@ -925,7 +925,7 @@
     }, 
     {
       "name": "Endler's Guppy",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/endlers_guppy.jpg?alt=media&token=e299b4d9-a67c-4a54-a0db-c75e4c04ac1c",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfZ3VwcHkuanBnIiwiaWF0IjoxNzMxMDA5ODE2LCJleHAiOjE3NjI1NDU4MTZ9.cOGO018Ampr9c4a1DgwgNBDeq5yYwl13gAYwcFFRU3s&t=2024-11-07T20%3A03%3A36.758Z",
       "id": "f04eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "1-1.5 in.",
       "tankSize": "5 gal.",
@@ -967,7 +967,7 @@
     },
     {
       "name": "Galaxy Guppy",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/galaxy_guppy.jpg?alt=media&token=56b25fba-433e-4ded-9a0f-0a286f4c08f5",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/galaxy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dhbGF4eV9ndXBweS5qcGciLCJpYXQiOjE3MzEwMDk4NjIsImV4cCI6MTc2MjU0NTg2Mn0.p_aQMHBTr37E4qVvK-wH-Bibon4mLtjZBG3hmy1Z-VU&t=2024-11-07T20%3A04%3A22.275Z",
       "id": "f05eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "1-2 in.",
       "tankSize": "5 gal.",
@@ -1009,7 +1009,7 @@
     },
     {
       "name": "Swordtail",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/swordtail.jpg?alt=media&token=21862ca8-7ea5-4f01-95f2-edebc689f160",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/swordtail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3N3b3JkdGFpbC5qcGciLCJpYXQiOjE3MzEwMTAwNzEsImV4cCI6MTc2MjU0NjA3MX0.viVuVO7KgV35juvDiKvTRA952HJZg7G_3V7QJtJgfmE&t=2024-11-07T20%3A07%3A51.227Z",
       "id": "f06eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "3-5 in.",
       "tankSize": "10 gal.",
@@ -1051,7 +1051,7 @@
     },
     {
       "name": "Platy",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/platy.jpg?alt=media&token=01078900-620e-43dc-b414-86b9b14f6a4e",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/platy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BsYXR5LmpwZyIsImlhdCI6MTczMTAxMDAwNSwiZXhwIjoxNzYyNTQ2MDA1fQ.WbGk7le3trdinoSefGFwbr9pBj7B0RdBK-N_JJfzRew&t=2024-11-07T20%3A06%3A45.900Z",
       "id": "f07eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "2-3 in.",
       "tankSize": "10 gal.",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "Otocinclus Catfish",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/otocinclus-catfish.jpg?alt=media&token=4420c6b7-95f8-4ef9-94fb-b1c012e3161e",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/otocinclus-catfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL290b2NpbmNsdXMtY2F0ZmlzaC5qcGciLCJpYXQiOjE3MzEwMDk5NDksImV4cCI6MTc2MjU0NTk0OX0.MT9rZbuDDbXO4fjM1QhXOQBzd3jvm0rzwXOWsspOc_Q&t=2024-11-07T20%3A05%3A49.515Z",
       "id": "f09eeca4-51b5-44d7-a599-fafed92cdddc",
       "sizeAtMaturity": "1.5-2 in.",
       "tankSize": "10 gal.",
@@ -1175,7 +1175,7 @@
     },
     {
       "name": "Common Goldfish",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/goldfish.jpg?alt=media&token=b39d2552-3e8c-41a6-b6af-83aceb3af2c6",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/goldfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dvbGRmaXNoLmpwZyIsImlhdCI6MTczMTAwOTg4NSwiZXhwIjoxNzYyNTQ1ODg1fQ.7_hZFejhKUo4SNznQimypC83UQpTljWZx4jLM1XCQ9M&t=2024-11-07T20%3A04%3A45.314Z",
       "id": "a5d3b29c-8273-4a5b-b1e5-6c4e9b67b5c9",
       "sizeAtMaturity": "6-8 in.",
       "tankSize": "20 gal.",
@@ -1216,7 +1216,7 @@
     },
     {
       "name": "Black Neon Tetra",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/black-neon-tetra.jpg?alt=media&token=afe2c21b-d688-4ea5-9539-56a69cacc300",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/black-neon-tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JsYWNrLW5lb24tdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5NjM1LCJleHAiOjE3NjI1NDU2MzV9.3KPZ9qxGnvXplTOqoyS-YOkByRYDqeyuyiC1B2Zvzfk&t=2024-11-07T20%3A00%3A35.939Z",
       "id": "c22e1a55-7d0d-4c26-8d9c-e20a4c3a9f0e",
       "sizeAtMaturity": "1.5-2 in.",
       "tankSize": "10 gal.",
@@ -1257,7 +1257,7 @@
     },
     {
       "name": "Boesemani Rainbowfish",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/rainbowfish.jpg?alt=media&token=36d24c08-9622-41fe-9c22-47bcd9f7980c",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rainbowfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3JhaW5ib3dmaXNoLmpwZyIsImlhdCI6MTczMTAxMDAzMiwiZXhwIjoxNzYyNTQ2MDMyfQ.zH9X_EEn8XLCge_G72STuRqWSll6eqYTyB6Xr8FWVws&t=2024-11-07T20%3A07%3A12.908Z",
       "id": "d70f8c64-bc32-4f29-9ef7-e2b4c3b2e1d5",
       "sizeAtMaturity": "3-4 in.",
       "tankSize": "20 gal.",
@@ -1298,7 +1298,7 @@
     },
     {
       "name": "Corydoras Sterbai",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/Corydoras-sterbai.jpg?alt=media&token=3fbf3f3e-c688-4694-be4a-f326befaa58b",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/Corydoras-sterbai.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL0Nvcnlkb3Jhcy1zdGVyYmFpLmpwZyIsImlhdCI6MTczMTAwOTc0NCwiZXhwIjoxNzYyNTQ1NzQ0fQ.l12VnBZAcdMiC-4Nh1BUcMY3Pf0orIlR-UQADDf3otc&t=2024-11-07T20%3A02%3A24.458Z",
       "id": "b72e7d26-5b55-4a4e-8457-8e8caa1d82a0",
       "sizeAtMaturity": "2.5-3 in.",
       "tankSize": "10 gal.",
@@ -1339,7 +1339,7 @@
     },
     {
       "name": "Amano Shrimp",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/amano_shrimp.jpg?alt=media&token=066651a7-af65-447f-8f5f-c19aa18d06fd",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/amano_shrimp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2FtYW5vX3NocmltcC5qcGciLCJpYXQiOjE3MzEwMDk1NzYsImV4cCI6MTc2MjU0NTU3Nn0.4HgXKuuEinzSi4XcOKq2FvwowBSWtY8LC7_jP67LrQE&t=2024-11-07T19%3A59%3A36.763Z",
       "id": "f04d8a63-4d7d-40e0-a39d-f5d5d8f541b0",
       "sizeAtMaturity": "2-2.5 in.",
       "tankSize": "10 gal.",
@@ -1380,7 +1380,7 @@
     },
     {
       "name": "Clown Loach",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/clown_loach.jpg?alt=media&token=086390e4-c531-40e9-8a16-28ec4ade717d",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/clown_loach.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2Nsb3duX2xvYWNoLmpwZyIsImlhdCI6MTczMTAwOTcyMywiZXhwIjoxNzYyNTQ1NzIzfQ.I7WOJpGOtZjEoJHynXIBbSZEhPsnytd7m1tqZy4gDd4&t=2024-11-07T20%3A02%3A03.225Z",
       "id": "a1e6e4e9-3b9b-4e8f-b83e-6e7a067eb1e3",
       "sizeAtMaturity": "6-12 in.",
       "tankSize": "75 gal.",
@@ -1421,7 +1421,7 @@
     },
     {
       "name": "Dwarf Cichlid (Apistogramma)",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/dwarf_cichlid.jpg?alt=media&token=7dee3861-5ed7-4d68-b62d-0fcd5c98191e",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_cichlid.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX2NpY2hsaWQuanBnIiwiaWF0IjoxNzMxMDA5NzY0LCJleHAiOjE3NjI1NDU3NjR9.fi6RFAaF57EcU6RpxVQiBwhemoAv4YV-0CglHdhXcxY&t=2024-11-07T20%3A02%3A44.264Z",
       "id": "b2a51a62-1f88-4d3e-b56a-b2d7f3e8e67a",
       "sizeAtMaturity": "2-4 in.",
       "tankSize": "20 gal.",
@@ -1462,7 +1462,7 @@
     },
     {
       "name": "Malaysian Trumpet Snail",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/trumpet_snail.jpg?alt=media&token=7f57d4e5-fc34-4eee-88c8-73ca41f578a9",
+      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/trumpet_snail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3RydW1wZXRfc25haWwuanBnIiwiaWF0IjoxNzMxMDEwMDk5LCJleHAiOjE3NjI1NDYwOTl9.QjcwkFsmrUPnO_h4kuLRT6dvM50s1GBa6rwkuZs_UZw&t=2024-11-07T20%3A08%3A19.911Z",
       "id": "d48e9c66-1b74-4c77-8ec8-6c8ff2b0c1d7",
       "sizeAtMaturity": "1-2 in.",
       "tankSize": "5 gal.",

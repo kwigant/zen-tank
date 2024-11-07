@@ -22,6 +22,7 @@ export const style = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         paddingVertical: 12,
+        width: '100%',
         height: 75,
         borderBottomColor: '#D9D9D970',
         borderBottomWidth: 1

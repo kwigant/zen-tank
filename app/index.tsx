@@ -1,60 +1,27 @@
-import { Link } from "expo-router";
-import * as React from "react";
-import { StyleSheet, View } from "react-native";
-import { Text, IconButton } from "react-native-paper";
+import 'react-native-url-polyfill/auto'
+import { useState, useEffect } from 'react'
+import { supabase } from '../utils/supabase'
+import Auth from '../components/Auth'
+import { View, Text } from 'react-native'
+import { Session } from '@supabase/supabase-js'
 
-export default function HomeScreen() {
+export default function Index() {
+  const [session, setSession] = useState<Session | null>(null)
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session)
+    })
+
+    supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session)
+    })
+  }, [])
+
   return (
-    <View style={{ backgroundColor: "#fff", height: "100%" }}>
-      <View style={styles.center}>
-        <Text variant="headerLarge">Test Tank</Text>
-        <Link href="/fish-tanks">
-          <IconButton
-            icon="cube"
-            size={60}
-            style={[styles.iconBtn]}
-            mode="outlined"
-          />
-        </Link>
-        <View
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-            width: "50%",
-          }}
-        >
-          <Link href="/fish-search">
-            <IconButton
-              icon="fish"
-              size={60}
-              style={[styles.iconBtn]}
-              mode="outlined"
-            />
-          </Link>
-          <Link href="/plant-search">
-            <IconButton
-              icon="leaf"
-              size={60}
-              style={[styles.iconBtn]}
-              mode="outlined"
-            />
-          </Link>
-        </View>
-      </View>
+    <View>
+      <Auth />
+      {session && session.user && <Text>{session.user.id}</Text>}
     </View>
-  );
+  )
 }
-
-const styles = StyleSheet.create({
-  iconBtn: {
-    backgroundColor: "#E8E8E8",
-  },
-  center: {
-    marginTop: -24,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "100%",
-  },
-});

@@ -44,8 +44,7 @@ export default function PlantSearchScreen() {
       <FlatList
         data={plantList}
         renderItem={({ item }) => {
-          return     <Link href={{ pathname: "/plant-search/[id]", params: { id: item.id } }}>
-          <Text>{item.name}</Text></Link>;
+          return <GridItem item={item} isFish={false} />;
         }}
         keyExtractor={(item) => item.id}
       />

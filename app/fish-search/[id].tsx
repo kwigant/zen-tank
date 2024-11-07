@@ -1,17 +1,36 @@
 import * as React from "react";
 import { ImageBackground, View, ScrollView } from "react-native";
-import fishList from "../../assets/data/fish.json";
 import { Button, Text, IconButton } from "react-native-paper";
 import { style } from "@/constants/Global";
 import { Link, useLocalSearchParams } from "expo-router";
 import BasicCare from "@/components/fish/BasicCare";
 import AdditionalCare from "@/components/fish/AdditionalCare";
 import FishStats from "@/components/fish/FishStats";
+import { supabase } from "@/utils/supabase";
+import { fish } from "@/constants/Types";
 
 export default function FishProfileScreen({}) {
   const { id } = useLocalSearchParams();
   const [tab, setTab] = React.useState(0);
-  const fish = fishList.find((f) => f.id === id);
+  const [fish, setFish] = React.useState({} as fish)
+
+  React.useEffect(() => {
+    const fetchData = async () => {
+      const { data, error } = await supabase
+        .from('Fish') // Replace with your table name
+        .select()
+        .eq('id', id);
+
+      if (error) {
+        console.error('Error fetching data:', error);
+      } else {
+        setFish(data[0] as fish);
+      }
+    };
+
+    fetchData();
+  }, []);
+  
   if (fish) {
     return (
       <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>

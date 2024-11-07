@@ -1,16 +1,36 @@
 import * as React from "react";
 import { View } from "react-native";
-import fishList from "../../assets/data/fish.json";
 import { FlatList } from "react-native";
 import GridItem from "@/components/GridItem";
 import { Chip, Icon, IconButton, Searchbar } from "react-native-paper";
 import { Text } from "react-native-paper";
 import { style } from "@/constants/Global";
+import { supabase } from "@/utils/supabase";
+import {fish} from "../../constants/Types";
 
 export default function FishSearchScreen() {
   const [searchQuery, setSearchQuery] = React.useState("");
   const [fresh, setFresh] = React.useState(true);
   const [salt, setSalt] = React.useState(false);
+  const [data, setData] = React.useState([] as fish[]);
+
+  
+  React.useEffect(() => {
+    const fetchData = async () => {
+      const { data, error } = await supabase
+        .from('Fish') // Replace with your table name
+        .select('*');
+
+      if (error) {
+        console.error('Error fetching data:', error);
+      } else {
+        setData(data as fish[]);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <View style={{ backgroundColor: "#fff", padding: 24, paddingTop: 0 }}>
       <Searchbar
@@ -41,9 +61,9 @@ export default function FishSearchScreen() {
       </View>
 
       <FlatList
-        data={fishList}
+        data={data}
         renderItem={({ item }) => {
-          return <GridItem fish={item} />;
+          return <GridItem item={item} isFish={true}/>;
         }}
         keyExtractor={(item) => item.id}
       />

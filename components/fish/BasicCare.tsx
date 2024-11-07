@@ -9,6 +9,7 @@ export default function BasicCare({ fish }: GridProps) {
   const [sOne, setsOne] = useState(true);
   const [sTwo, setsTwo] = useState(false);
   const [sThree, setsThree] = useState(false);
+  console.log(fish.specialEquipment)
 
   return (
     <List.Section style={{ margin: 0, padding: 24, paddingTop: 0 }}>
@@ -42,20 +43,18 @@ export default function BasicCare({ fish }: GridProps) {
       <List.Accordion
         title={
           <Text variant="bodyBold" style={style.accordionListText}>
-            {`Substrates`}{" "}
+            {`Substrates`}
           </Text>
         }
         expanded={sTwo}
         style={{ backgroundColor: "white" }}
         onPress={() => setsTwo(!sTwo)}
       >
-        {fish.idealSubstrates.map((s, i) => {
-          return (
-            <Text style={style.accordionListText} key={i} variant="body">
-              {s}
-            </Text>
-          );
-        })}
+      
+        <Text style={style.accordionListText} variant="body">
+          {fish.idealSubstrates}
+        </Text>
+       
         <Text variant="body" style={style.accordionListText}>
           {`Ideal Tank Setup: ${fish.preferredNumber}`}{" "}
         </Text>
@@ -64,20 +63,18 @@ export default function BasicCare({ fish }: GridProps) {
       <List.Accordion
         title={
           <Text variant="bodyBold" style={style.accordionListText}>
-            {`Special Equipment`}{" "}
+            {`Special Equipment`}
           </Text>
         }
         expanded={sThree}
         style={{ backgroundColor: "white" }}
         onPress={() => setsThree(!sThree)}
       >
-        {fish.specialEquipment.map((s, i) => {
-          return (
-            <Text style={style.accordionListText} key={i} variant="body">
-              {s}
+       
+            <Text style={style.accordionListText} >
+              {fish.specialEquipment}
             </Text>
-          );
-        })}
+       
       </List.Accordion>
     </List.Section>
   );

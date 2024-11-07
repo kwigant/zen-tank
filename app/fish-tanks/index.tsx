@@ -1,15 +1,22 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { View } from "react-native";
 import { Text, IconButton, TextInput } from "react-native-paper";
 import { style } from "@/constants/Global";
-import TankModel from "@/components/TankModel";
-// import { Canvas } from '@react-three/fiber/native'
-// import { useGLTF } from '@react-three/drei/native'
-// import modelPath from './path/to/model.glb'
+
+import { supabase } from "@/utils/supabase";
+
 export default function FishTankScreen({}) {
   const [editName, setEditName] = React.useState(false);
   const [tankName, setTankName] = React.useState("My first tank :D");
   const [size, setSize] = React.useState(5);
+  
+  async function addCountry (){
+    await supabase
+    .from('tanks')
+    .update({name: tankName}).eq('id', '2db389e9-352f-4cbc-9d27-3bbf3a903387')
+    ;
+
+}
 
   return (
     <View
@@ -23,7 +30,7 @@ export default function FishTankScreen({}) {
         justifyContent: "flex-start",
       }}
     >
-      {/* <TankModel/> */}
+      
       <View style={[style.row, { marginBottom: 16 }]}>
         <IconButton
           icon="pencil"
@@ -35,6 +42,7 @@ export default function FishTankScreen({}) {
           <TextInput
             style={{ backgroundColor: "white" }}
             value={tankName}
+            onSubmitEditing={addCountry}
             onChangeText={(text) => setTankName(text)}
           />
         ) : (

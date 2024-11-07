@@ -15,7 +15,7 @@ export default function AdditionalCare({ fish }: GridProps) {
       <List.Accordion
         title={
           <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
-            {`General Info`}{" "}
+            {`General Info`}
           </Text>
         }
         expanded={s1}
@@ -23,26 +23,26 @@ export default function AdditionalCare({ fish }: GridProps) {
         onPress={() => sets1(!s1)}
       >
         <Text variant="body" style={style.accordionListText}>
-          {fish.typicalBehavior}{" "}
+          {fish.typicalBehavior}
         </Text>
 
         <Text variant="body" style={style.accordionListText}>
-          {`Life Span: ${fish.lifespan}`}{" "}
+          {`Life Span: ${fish.lifespan}`}
         </Text>
         <Text variant="body" style={style.accordionListText}>
-          {`Care Difficulty: ${fish.careLevel}`}{" "}
+          {`Care Difficulty: ${fish.careLevel}`}
         </Text>
         <Text variant="body" style={style.accordionListText}>
-          {`Size at Maturity: ${fish.sizeAtMaturity}`}{" "}
+          {`Size at Maturity: ${fish.sizeAtMaturity}`}
         </Text>
         <Text variant="body" style={style.accordionListText}>
-          {`Temperament: ${fish.temperament}`}{" "}
+          {`Temperament: ${fish.temperament}`}
         </Text>
       </List.Accordion>
       <List.Accordion
         title={
           <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
-            {`Feeding Habits`}{" "}
+            {`Feeding Habits`}
           </Text>
         }
         expanded={s2}
@@ -50,35 +50,32 @@ export default function AdditionalCare({ fish }: GridProps) {
         onPress={() => sets2(!s2)}
       >
         <Text variant="body" style={style.accordionListText}>
-          {fish.feedingHabits}{" "}
+          {fish.feedingHabits}
         </Text>
-        {fish.diet.map((s, i) => {
-          return (
-            <View style={[style.row, { marginLeft: 16 }]}>
-              <Icon source="circle" size={4} />
-              <Text style={style.accordionListText} key={i} variant="body">
-                {s}
-              </Text>
-            </View>
-          );
-        })}
+        
+           
+            <Text style={style.accordionListText} variant="body">
+              {fish.diet}
+            </Text>
+          
+        
       </List.Accordion>
       <List.Accordion
         title={
           <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
-            {`Breeding Habits`}{" "}
+            {`Breeding Habits`}
           </Text>
         }
         expanded={s3}
         style={{ backgroundColor: "white" }}
         onPress={() => sets3(!s3)}
       >
-        <Text variant="body" style={style.accordionListText}>
-          {fish.breedingHabits.breedingFrequency}{" "}
+         <Text variant="body" style={style.accordionListText}>
+          {fish.breedingFrequency}
         </Text>
         <Text variant="body" style={style.accordionListText}>
-          {fish.breedingHabits.fryCount}{" "}
-        </Text>
+          {fish.fryCount}
+        </Text> 
       </List.Accordion>
     </List.Section>
   );

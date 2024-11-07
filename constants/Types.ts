@@ -9,26 +9,25 @@ export type fish = {
     pH: string;//
     hardness: string;//
     tankSetup: string;//
-    diet: string[];//
+    diet: string;//
     careLevel: string;//
     lifespan: string;//
     preferredSwimDepth: string;
     preferredNumber: string;//
-    specialEquipment: string[];//
-    idealSubstrates: string[];//
+    specialEquipment: string;//
+    idealSubstrates: string;//
     popularityLevel: string;
-    compatibleSpecies: string[];
+    compatibleSpecies: string;
     typicalBehavior: string;//
     feedingHabits: string;//
-    breedingHabits: {
-      breedingFrequency: string;//
-      fryCount: string;//
-    };
+    breedingFrequency: string;//
+    fryCount: string;//
   };
   
 export type plant = {
   id: string;
   img: string;
+  waterType: string;
   name: string;
   waterTemperature: string;
   sunlight: string;
