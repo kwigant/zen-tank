@@ -1,4 +1,4 @@
-import { style } from "@/constants/Global";
+import { style } from "@/constants/Styles";
 import { fish } from "@/constants/Types";
 import React, { useState } from "react";
 import { View } from "react-native";
@@ -14,34 +14,34 @@ export default function AdditionalCare({ fish }: GridProps) {
     <List.Section style={{ margin: 0, padding: 24, paddingTop: 0 }}>
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
-            {`General Info`}
+          <Text variant="headlineSmall" style={{ padding: 4, marginHorizontal: 10 }}>
+            General Info
           </Text>
         }
         expanded={s1}
         style={{ backgroundColor: "white" }}
         onPress={() => sets1(!s1)}
       >
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {fish.typicalBehavior}
         </Text>
 
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Life Span: ${fish.lifespan}`}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Care Difficulty: ${fish.careLevel}`}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Size at Maturity: ${fish.sizeAtMaturity}`}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Temperament: ${fish.temperament}`}
         </Text>
       </List.Accordion>
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
+          <Text variant="headlineSmall" style={{ padding: 4, marginHorizontal: 10 }}>
             {`Feeding Habits`}
           </Text>
         }
@@ -49,12 +49,12 @@ export default function AdditionalCare({ fish }: GridProps) {
         style={{ backgroundColor: "white" }}
         onPress={() => sets2(!s2)}
       >
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {fish.feedingHabits}
         </Text>
         
            
-            <Text style={style.accordionListText} variant="body">
+            <Text style={style.accordionListText} variant="bodyMedium">
               {fish.diet}
             </Text>
           
@@ -62,7 +62,7 @@ export default function AdditionalCare({ fish }: GridProps) {
       </List.Accordion>
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
+          <Text variant="headlineSmall" style={{ padding: 4, marginHorizontal: 10 }}>
             {`Breeding Habits`}
           </Text>
         }
@@ -70,10 +70,10 @@ export default function AdditionalCare({ fish }: GridProps) {
         style={{ backgroundColor: "white" }}
         onPress={() => sets3(!s3)}
       >
-         <Text variant="body" style={style.accordionListText}>
+         <Text variant="bodyMedium" style={style.accordionListText}>
           {fish.breedingFrequency}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {fish.fryCount}
         </Text> 
       </List.Accordion>

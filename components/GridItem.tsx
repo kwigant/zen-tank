@@ -1,4 +1,4 @@
-import { style } from "@/constants/Global";
+import { style } from "@/constants/Styles";
 import { fish, plant } from "@/constants/Types";
 import { Link } from "expo-router";
 import React from "react";
@@ -13,7 +13,7 @@ const FishTag = ({ fish }: FishProps) => {
   return (
     <View style={style.row}>
       <Text variant="bodySmall" style={{ marginRight: 4 }}>
-        {fish.sizeAtMaturity}{" "}
+        {fish.sizeAtMaturity}
       </Text>
       <Icon source="circle" size={4} />
       <Text variant="bodySmall" style={{ marginHorizontal: 8 }}>
@@ -30,16 +30,16 @@ const FishTag = ({ fish }: FishProps) => {
 const PlantTag = ({ plant }: PlantProps) => {
   return (
     <View style={style.row}>
-      <Text variant="bodySmall" style={{ marginRight: 4 }}>
-        {plant.waterTemperature}
+       <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
+      {plant.temperature}
       </Text>
       <Icon source="circle" size={4} />
       <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
-        {plant.sunlight}
+      {plant.hardness} dGH
       </Text>
       <Icon source="circle" size={4} />
-      <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
-        {plant.waterType}
+      <Text variant="bodySmall" style={{ marginLeft: 4 }}>
+        {plant.pH} pH
       </Text>
     </View>
   );
@@ -54,7 +54,7 @@ export default function GridItem({ item, isFish }: GridProps) {
       <View style={[style.listItem]}>
         <Avatar.Image size={50} source={{ uri: item.img }} />
         <View style={{ marginLeft: 12, alignSelf: "center" }}>
-          <Text variant="body" style={{ marginBottom: 4 }}>
+          <Text variant="headlineSmall" style={{ marginBottom: 4 }}>
             {item.name}
           </Text>
           {isFish ? (

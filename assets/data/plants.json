@@ -1,314 +1,632 @@
-[
-    {
-        "id": "1",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Anubias",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Low to medium",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Guppies", "Tetras", "Corydoras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Aquarium soil or fine gravel",
-        "tankPlacement": "Foreground; shaded areas to prevent leaf burn"
-    },
-    {
-        "id": "2",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Java Fern",
-        "waterTemperature": "64-75°F",
-        "sunlight": "Low to medium",
-        "fertilizer": "Liquid fertilizer with iron",
-        "compatibleFish": ["Betta", "Tetras", "Shrimp"],
-        "susceptibleTo": ["Bacterial infections", "Thread algae"],
-        "substrate": "Can be tied to driftwood or rocks",
-        "tankPlacement": "Midground or background; indirect light to prevent leaf damage"
-    },
-    {
-        "id": "3",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Amazon Sword",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs or liquid fertilizer",
-        "compatibleFish": ["Angelfish", "Gouramis", "Tetras"],
-        "susceptibleTo": ["Nutrient deficiency", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or gravel",
-        "tankPlacement": "Background; needs plenty of light and nutrients for optimal growth"
-    },
-    {
-        "id": "4",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Cryptocoryne",
-        "waterTemperature": "68-82°F",
-        "sunlight": "Low to moderate",
-        "fertilizer": "Liquid fertilizer with potassium",
-        "compatibleFish": ["Corydoras", "Neon Tetras", "Platies"],
-        "susceptibleTo": ["Crypt melt", "Bacterial infections"],
-        "substrate": "Nutrient-rich substrate",
-        "tankPlacement": "Foreground or midground; shaded areas help prevent melt"
-    },
-    {
-        "id": "5",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Water Wisteria",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer or root tabs",
-        "compatibleFish": ["Tetras", "Guppies", "Angelfish"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Aquarium soil or fine gravel",
-        "tankPlacement": "Background or midground; needs good light for healthy growth"
-    },
-    {
-        "id": "6",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Hornwort",
-        "waterTemperature": "64-75°F",
-        "sunlight": "Low to high",
-        "fertilizer": "Minimal; can benefit from liquid fertilizer",
-        "compatibleFish": ["Goldfish", "Tetras", "Shrimp"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Floats; no substrate needed",
-        "tankPlacement": "Background or free-floating; provides shade and cover for fish"
-    },
-    {
-        "id": "7",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Marimo Moss Ball",
-        "waterTemperature": "59-77°F",
-        "sunlight": "Low",
-        "fertilizer": "Rarely needs fertilization",
-        "compatibleFish": ["Betta", "Guppies", "Tetras"],
-        "susceptibleTo": ["Bacterial infections", "Green algae"],
-        "substrate": "Can be placed on the substrate or float",
-        "tankPlacement": "Anywhere; can float on the surface or sit on the substrate for low light"
-    },
-    {
-        "id": "8",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Cabomba",
-        "waterTemperature": "64-75°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with nitrogen",
-        "compatibleFish": ["Neon Tetras", "Angelfish", "Rasboras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or gravel",
-        "tankPlacement": "Background; requires good light for growth and development"
-    },
-    {
-        "id": "9",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Najas",
-        "waterTemperature": "68-75°F",
-        "sunlight": "Moderate",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Tetras", "Corydoras", "Platies"],
-        "susceptibleTo": ["Algae growth", "Bacterial infections"],
-        "substrate": "Fine gravel or nutrient-rich substrate",
-        "tankPlacement": "Background or midground; light should be moderate to prevent algae"
-    },
-    {
-        "id": "10",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Vallisneria",
-        "waterTemperature": "68-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs",
-        "compatibleFish": ["Guppies", "Tetras", "Swordtails"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or sand",
-        "tankPlacement": "Background; requires high light for healthy growth"
-    },
-    {
-        "id": "11",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Pogostemon",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Tetras", "Gouramis", "Barbs"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Midground; needs good light and nutrients for optimal growth"
-    },
-    {
-        "id": "12",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Ludwigia",
-        "waterTemperature": "68-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with potassium",
-        "compatibleFish": ["Angelfish", "Tetras", "Guppies"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Midground or background; requires bright light for best results"
-    },
-    {
-        "id": "13",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Duckweed",
-        "waterTemperature": "64-82°F",
-        "sunlight": "Low to moderate",
-        "fertilizer": "Minimal; can benefit from liquid fertilizer",
-        "compatibleFish": ["Betta", "Guppies", "Tetras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Floats; no substrate needed",
-        "tankPlacement": "Surface or free-floating; provides cover and shade"
-    },
-    {
-        "id": "14",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Pygmy Chain Sword",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs or liquid fertilizer",
-        "compatibleFish": ["Guppies", "Platies", "Tetras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Foreground; requires good light for growth"
-    },
-    {
-        "id": "15",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Dwarf Hairgrass",
-        "waterTemperature": "68-77°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs or liquid fertilizer",
-        "compatibleFish": ["Tetras", "Guppies", "Rasboras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Foreground; needs high light and nutrients for dense growth"
-    },
-    {
-        "id": "16",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Christmas Moss",
-        "waterTemperature": "64-75°F",
-        "sunlight": "Low to moderate",
-        "fertilizer": "Minimal; can benefit from liquid fertilizer",
-        "compatibleFish": ["Shrimp", "Tetras", "Betta"],
-        "susceptibleTo": ["Bacterial infections", "Green algae"],
-        "substrate": "Can be tied to rocks or driftwood",
-        "tankPlacement": "Foreground or midground; indirect light helps prevent algae"
-    },
-    {
-        "id": "17",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Java Moss",
-        "waterTemperature": "64-75°F",
-        "sunlight": "Low to moderate",
-        "fertilizer": "Minimal; can benefit from liquid fertilizer",
-        "compatibleFish": ["Shrimp", "Guppies", "Betta"],
-        "susceptibleTo": ["Bacterial infections", "Green algae"],
-        "substrate": "Can be tied to driftwood or rocks",
-        "tankPlacement": "Foreground or midground; indirect light helps prevent algae growth"
-    },
-    {
-        "id": "18",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Rotala",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Tetras", "Gouramis", "Corydoras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Background; needs bright light for vibrant color and healthy growth"
-    },
-    {
-        "id": "19",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Water Sprite",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with nitrogen",
-        "compatibleFish": ["Guppies", "Tetras", "Angelfish"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Background; good light helps it grow tall and bushy"
-    },
-    {
-        "id": "20",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Giant Hairgrass",
-        "waterTemperature": "68-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs or liquid fertilizer",
-        "compatibleFish": ["Tetras", "Guppies", "Barbs"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Foreground; requires bright light for dense growth"
-    },
-    {
-        "id": "21",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Bacopa",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Guppies", "Tetras", "Platies"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Midground; thrives in bright light for compact growth"
-    },
-    {
-        "id": "22",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Lace Plant",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with potassium",
-        "compatibleFish": ["Gouramis", "Angelfish", "Tetras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Midground; needs good light for optimal leaf development"
-    },
-    {
-        "id": "23",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Water Lettuce",
-        "waterTemperature": "68-86°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Liquid fertilizer with micronutrients",
-        "compatibleFish": ["Goldfish", "Guppies", "Tetras"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Floats; no substrate needed",
-        "tankPlacement": "Surface or free-floating; provides shade and cover"
-    },
-    {
-        "id": "24",
-        "waterType": "fresh water", 
-        "img": "www.example.com",
-        "name": "Tiger Lotus",
-        "waterTemperature": "72-82°F",
-        "sunlight": "Moderate to high",
-        "fertilizer": "Root tabs or liquid fertilizer",
-        "compatibleFish": ["Angelfish", "Tetras", "Gouramis"],
-        "susceptibleTo": ["Bacterial infections", "Algae growth"],
-        "substrate": "Nutrient-rich substrate or fine gravel",
-        "tankPlacement": "Background; needs bright light for optimal flower and leaf growth"
-    }
-]
+// [
+//     {
+//       "id": "1",
+//       "name": "Anubias",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Gravel, sand, or any nutrient-rich substrate",
+//       "ideal_tank_placement": "Mid to low lighting areas, preferably attached to rocks or driftwood",
+//       "light_levels": "Low to moderate",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Attach to rocks or driftwood with fishing line or glue; avoid burying roots",
+//       "common_problems": [
+//         "Slow growth",
+//         "Yellowing leaves (often due to low light or poor nutrients)",
+//         "Algae growth on leaves"
+//       ],
+//       "img": "https://example.com/images/anubias.jpg"
+//     },
+//     {
+//       "id": "2",
+//       "name": "Java Fern",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "68-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Not substrate-dependent, can be attached to rocks or driftwood",
+//       "ideal_tank_placement": "Low to medium light areas, preferably attached to hard surfaces",
+//       "light_levels": "Low to moderate",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Attach to rocks or driftwood using string or glue; avoid burying the rhizome",
+//       "common_problems": [
+//         "Browning or blackened leaves (due to poor lighting or overfeeding)",
+//         "Rhizome rot (if buried in substrate)",
+//         "Algae growth on leaves"
+//       ],
+//       "img": "https://example.com/images/java_fern.jpg"
+//     },
+//     {
+//       "id": "3",
+//       "name": "Amazon Sword",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Nutrient-rich substrate, ideally a deep bed for root expansion",
+//       "ideal_tank_placement": "Foreground to midground, needs space to spread",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25-50% water change",
+//       "planting_instructions": "Plant in nutrient-rich substrate with roots fully buried",
+//       "common_problems": [
+//         "Yellowing leaves (usually from nutrient deficiency, especially iron)",
+//         "Slow growth in low light",
+//         "Algae growth on leaves"
+//       ],
+//       "img": "https://example.com/images/amazon_sword.jpg"
+//     },
+//     {
+//       "id": "4",
+//       "name": "Cryptocoryne",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Nutrient-rich substrate, preferably with a layer of laterite",
+//       "ideal_tank_placement": "Midground or background",
+//       "light_levels": "Low to moderate",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Plant in substrate, with roots well-covered; avoid disturbing roots once planted",
+//       "common_problems": [
+//         "Crypt melt (leaves may deteriorate under stress or sudden changes)",
+//         "Algae growth in low light",
+//         "Slow growth in poor substrate or low lighting"
+//       ],
+//       "img": "https://example.com/images/cryptocoryne.jpg"
+//     },
+//     {
+//       "id": "5",
+//       "name": "Water Wisteria",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Nutrient-rich substrate, sand, or gravel",
+//       "ideal_tank_placement": "Midground or background",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Plant in nutrient-rich substrate, can also be floated or attached to rocks",
+//       "common_problems": [
+//         "Yellowing or wilting leaves (indicating low nutrients or poor lighting)",
+//         "Excessive algae growth",
+//         "Spreading too quickly"
+//       ],
+//       "img": "https://example.com/images/water_wisteria.jpg"
+//     },
+//     {
+//       "id": "6",
+//       "name": "Hornwort",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "64-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Does not require substrate, can be free-floating or anchored",
+//       "ideal_tank_placement": "Background, can float or be anchored to hard surfaces",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Can be left floating or anchored in the substrate; does not require planting",
+//       "common_problems": [
+//         "Overgrowth (can quickly fill tank if left unchecked)",
+//         "Weak stems (when lighting is inadequate)",
+//         "Leaf drop (from insufficient nutrients)"
+//       ],
+//       "img": "https://example.com/images/hornwort.jpg"
+//     },
+//     {
+//       "id": "7",
+//       "name": "Marimo Moss Ball",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "64-75°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Does not require substrate",
+//       "ideal_tank_placement": "Can be placed anywhere, but best in low-flow areas",
+//       "light_levels": "Low to moderate",
+//       "water_change_schedule": "Monthly or as needed (clean and rotate balls)",
+//       "planting_instructions": "Simply place them in the tank or gently roll them to prevent flattening",
+//       "common_problems": [
+//         "Algae buildup (on balls or in water)",
+//         "Moss ball turning brown (due to poor light)",
+//         "Balls losing shape (from lack of rotation)"
+//       ],
+//       "img": "https://example.com/images/marimo_moss_ball.jpg"
+//     },
+//     {
+//       "id": "8",
+//       "name": "Cabomba",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "68-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Nutrient-rich substrate",
+//       "ideal_tank_placement": "Midground to background",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Plant in substrate, with stems spaced apart to allow growth",
+//       "common_problems": [
+//         "Yellowing leaves (indicating nutrient deficiencies)",
+//         "Leaves turning brown (due to low light)",
+//         "Excessive growth (can overtake tanks)"
+//       ],
+//       "img": "https://example.com/images/cabomba.jpg"
+//     },
+//     {
+//       "id": "9",
+//       "name": "Najas",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Any substrate, though a nutrient-rich one is best",
+//       "ideal_tank_placement": "Background, may spread to other areas if not controlled",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Plant in the substrate or leave floating",
+//       "common_problems": [
+//         "Excessive growth (needs frequent trimming)",
+//         "Leaves melting (if lighting is too low)",
+//         "Brown or transparent leaves (indicating nutrient deficiencies)"
+//       ],
+//       "img": "https://example.com/images/najas.jpg"
+//     },
+//     {
+//       "id": "10",
+//       "name": "Vallisneria",
+//       "water_type": "Freshwater",
+//       "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//       },
+//       "ideal_substrates": "Nutrient-rich substrate",
+//       "ideal_tank_placement": "Background or midground",
+//       "light_levels": "Moderate to high",
+//       "water_change_schedule": "Weekly, 25% water change",
+//       "planting_instructions": "Plant deeply in substrate with roots covered, leave leaves above water surface",
+//       "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiency, particularly iron)",
+//         "Leaves becoming weak or thin (low lighting)",
+//         "Slow growth in low-nutrient environments"
+//       ],
+//       "img": "https://example.com/images/vallisneria.jpg"
+//     }, 
+//     {
+//         "id": "11",
+//         "name": "Pogostemon",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with stems spaced apart",
+//         "common_problems": [
+//         "Yellowing leaves (indicating nutrient deficiencies)",
+//         "Leggy growth (due to insufficient lighting)",
+//         "Slow growth in poor substrate"
+//         ],
+//         "img": "https://example.com/images/pogostemon.jpg"
+//     },
+//     {
+//         "id": "12",
+//         "name": "Ludwigia",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots well-covered",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiency)",
+//         "Stunted growth (from poor lighting)",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/ludwigia.jpg"
+//     },
+//     {
+//         "id": "13",
+//         "name": "Duckweed",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "64-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Does not require substrate, floats on water surface",
+//         "ideal_tank_placement": "Surface of the water",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Let it float on the water surface",
+//         "common_problems": [
+//         "Overgrowth (can quickly cover the water surface)",
+//         "Blockage of light to other plants",
+//         "Algae growth due to excess nutrients"
+//         ],
+//         "img": "https://example.com/images/duckweed.jpg"
+//     },
+//     {
+//         "id": "14",
+//         "name": "Pygmy Chain Sword",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Foreground",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots fully buried",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Slow growth in low light",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/pygmy_chain_sword.jpg"
+//     },
+//     {
+//         "id": "15",
+//         "name": "Dwarf Hairgrass",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Foreground",
+//         "light_levels": "High",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate, space the clumps apart to allow growth",
+//         "common_problems": [
+//         "Yellowing or browning leaves (due to nutrient deficiencies)",
+//         "Slow growth without sufficient light",
+//         "Algae growth"
+//         ],
+//         "img": "https://example.com/images/dwarf_hairgrass.jpg"
+//     },
+//     {
+//         "id": "16",
+//         "name": "Christmas Moss",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "5.5-7.5",
+//         "temperature": "64-82°C",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Can be attached to rocks, wood, or left free-floating",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Low to moderate",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Attach to surfaces using thread or glue",
+//         "common_problems": [
+//         "Algae buildup on moss",
+//         "Moss losing its shape",
+//         "Slow growth in low lighting"
+//         ],
+//         "img": "https://example.com/images/christmas_moss.jpg"
+//     },
+//     {
+//         "id": "17",
+//         "name": "Java Moss",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "5.5-7.5",
+//         "temperature": "64-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Can be attached to rocks, wood, or left free-floating",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Low to moderate",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Attach to surfaces with string or glue",
+//         "common_problems": [
+//         "Algae buildup on moss",
+//         "Moss losing shape or turning brown",
+//         "Slow growth in low lighting"
+//         ],
+//         "img": "https://example.com/images/java_moss.jpg"
+//     },
+//     {
+//         "id": "18",
+//         "name": "Rotala",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots buried",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Leggy growth (due to insufficient lighting)",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/rotala.jpg"
+//     },
+//     {
+//         "id": "19",
+//         "name": "Water Sprite",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate or floating",
+//         "ideal_tank_placement": "Background to midground",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in substrate or allow to float",
+//         "common_problems": [
+//         "Overgrowth (can spread quickly)",
+//         "Algae growth",
+//         "Slow growth in low light"
+//         ],
+//         "img": "https://example.com/images/water_sprite.jpg"
+//     },
+//     {
+//         "id": "20",
+//         "name": "Giant Hairgrass",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate, space the clumps to allow growth",
+//         "common_problems": [
+//         "Yellowing or browning leaves (due to nutrient deficiencies)",
+//         "Slow growth in low light",
+//         "Algae growth"
+//         ],
+//         "img": "https://example.com/images/giant_hairgrass.jpg"
+//     }, 
+//     {
+//         "id": "21",
+//         "name": "Bacopa",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots well-covered",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Leggy growth (due to insufficient lighting)",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/bacopa.jpg"
+//     },
+//     {
+//         "id": "22",
+//         "name": "Lace Plant",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots well-covered",
+//         "common_problems": [
+//         "Yellowing leaves (indicating nutrient deficiencies)",
+//         "Slow growth in low lighting",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/lace_plant.jpg"
+//     },
+//     {
+//         "id": "23",
+//         "name": "Water Lettuce",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-86°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Does not require substrate, floats on water surface",
+//         "ideal_tank_placement": "Surface of the water",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Let it float on the surface of the water",
+//         "common_problems": [
+//         "Overgrowth (can quickly cover the surface)",
+//         "Algae growth",
+//         "Blockage of light to other plants"
+//         ],
+//         "img": "https://example.com/images/water_lettuce.jpg"
+//     },
+//     {
+//         "id": "24",
+//         "name": "Tiger Lotus",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Foreground to midground",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots well-covered",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Slow growth in low light",
+//         "Algae growth"
+//         ],
+//         "img": "https://example.com/images/tiger_lotus.jpg"
+//     },
+//     {
+//         "id": "25",
+//         "name": "African Water Fern",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Can be attached to rocks, wood, or left free-floating",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Low to moderate",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Attach to hard surfaces like rocks or driftwood",
+//         "common_problems": [
+//         "Slow growth in low light",
+//         "Algae growth",
+//         "Leaves turning yellow (indicating nutrient deficiencies)"
+//         ],
+//         "img": "https://example.com/images/african_water_fern.jpg"
+//     },
+//     {
+//         "id": "26",
+//         "name": "Sailfin Plant",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate, space clumps apart to allow growth",
+//         "common_problems": [
+//         "Slow growth in low light",
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Algae growth on leaves"
+//         ],
+//         "img": "https://example.com/images/sailfin_plant.jpg"
+//     },
+//     {
+//         "id": "27",
+//         "name": "Riccia Fluitans",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.0-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Can be attached to rocks, wood, or left free-floating",
+//         "ideal_tank_placement": "Foreground to midground",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Attach to surfaces or leave free-floating",
+//         "common_problems": [
+//         "Algae growth",
+//         "Moss turning brown",
+//         "Slow growth in low lighting"
+//         ],
+//         "img": "https://example.com/images/riccia_fluitans.jpg"
+//     },
+//     {
+//         "id": "28",
+//         "name": "Red Ludwigia",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots fully covered",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Slow growth in low light",
+//         "Leggy growth (due to insufficient lighting)"
+//         ],
+//         "img": "https://example.com/images/red_ludwigia.jpg"
+//     },
+//     {
+//         "id": "29",
+//         "name": "Fissidens Moss",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "5.5-7.5",
+//         "temperature": "64-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Can be attached to rocks or wood",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Low to moderate",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Attach to surfaces using thread or glue",
+//         "common_problems": [
+//         "Algae growth",
+//         "Moss turning brown",
+//         "Slow growth in low lighting"
+//         ],
+//         "img": "https://example.com/images/fissidens_moss.jpg"
+//     },
+//     {
+//         "id": "30",
+//         "name": "Hygrophila",
+//         "water_type": "Freshwater",
+//         "ideal_water_chemistry": {
+//         "pH": "6.5-7.5",
+//         "temperature": "72-82°F",
+//         "hardness": "Soft to medium"
+//         },
+//         "ideal_substrates": "Nutrient-rich substrate",
+//         "ideal_tank_placement": "Midground to background",
+//         "light_levels": "Moderate to high",
+//         "water_change_schedule": "Weekly, 25% water change",
+//         "planting_instructions": "Plant in nutrient-rich substrate with roots well-covered",
+//         "common_problems": [
+//         "Yellowing leaves (due to nutrient deficiencies)",
+//         "Leggy growth (due to insufficient lighting)",
+//         "Algae growth"
+//         ],
+//         "img": "https://example.com/images/hygrophila.jpg"
+//     }
+// ]

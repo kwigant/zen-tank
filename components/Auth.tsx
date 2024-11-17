@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Alert, StyleSheet, View } from "react-native";
-import { supabase } from "../utils/supabase";
 import { Button, Text, TextInput } from "react-native-paper";
+import { style } from "@/constants/Styles";
+import { supabase } from "@/utils/supabase";
 import { router } from "expo-router";
 
 // Register / Sign Up User
@@ -9,45 +10,85 @@ export default function Auth() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-
+  const [first, setFirst] = useState("");
+  const [last, setLast] = useState("");
+  const [isSignUp, setIsSignUp] = useState(true);
+ 
   async function signInWithEmail() {
-    setLoading(true);
-    const { error } = await supabase.auth.signInWithPassword({
-      email: email,
-      password: password,
+    
+    const { error, data } = await supabase.auth.signInWithPassword({
+        email: email,
+        password: password,
     });
 
     if (error) Alert.alert(error.message);
-    setLoading(false);
-    if (!error) router.navigate("/dashboard");
+ 
+    if (data) router.navigate("/(app)");
   }
 
   async function signUpWithEmail() {
-    setLoading(true);
     const {
-      data: { session },
-      error,
+        data: { session },
+        error,
     } = await supabase.auth.signUp({
-      email: email,
-      password: password,
+        email: email,
+        password: password,
     });
-
-    if (error) console.log(error.message);
-    if (!session)
-      Alert.alert("Please check your inbox for email verification!");
-    setLoading(false);
-    if (!error) router.navigate("/dashboard");
+    if (error) throw error;
+    if (session) {
+        const { data, error } = await supabase
+        .from("Profiles")
+        .insert({
+            email: session?.user.email,
+            user_id: session?.user.id,
+            first_name: first,
+            last_name: last,
+            img: "",
+            tanks: [],
+            initials: `${first.charAt(0)}${last.charAt(0)}`,
+        })
+        .select();
+        if (error) {
+            console.error("Error fetching data:", error);
+        }
+        if (data && data[0]) router.navigate("/(app)");
+    }
   }
 
   return (
-    <View style={styles.container}>
-      <View style={[styles.verticallySpaced, styles.mt20]}>
-        <Text
-          variant="headerLarge"
-          style={{ textAlign: "center", marginBottom: 16 }}
-        >
-          Zen Tank
-        </Text>
+    <View style={style.authContainer}>
+      <View style={[style.verticallySpaced, style.mt20]}>
+        <View style={{marginBottom: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+          <Text
+            variant="headlineLarge"
+          >
+            Zen Tank
+          </Text>
+          <Text variant="bodyMedium">Visualize Your Ecosystem</Text>
+        </View>
+
+        {isSignUp ? (
+          <View style={[style.row, { marginBottom: 8 }]}>
+            <TextInput
+              label="First Name"
+              style={{ flexGrow: 1, marginRight: 8 }}
+              onChangeText={(text) => setFirst(text)}
+              value={first}
+              mode="outlined"
+              placeholder="John"
+              autoCapitalize={"none"}
+            />
+            <TextInput
+              label="Last Name"
+              style={{ flexGrow: 1 }}
+              onChangeText={(text) => setLast(text)}
+              value={last}
+              mode="outlined"
+              placeholder="Doe"
+              autoCapitalize={"none"}
+            />
+          </View>
+        ) : null}
         <TextInput
           label="Email"
           onChangeText={(text) => setEmail(text)}
@@ -57,7 +98,7 @@ export default function Auth() {
           autoCapitalize={"none"}
         />
       </View>
-      <View style={styles.verticallySpaced}>
+      <View style={style.verticallySpaced}>
         <TextInput
           label="Password"
           mode="outlined"
@@ -68,40 +109,34 @@ export default function Auth() {
           autoCapitalize={"none"}
         />
       </View>
-      <View style={[styles.verticallySpaced, styles.mt20]}>
-        <Button disabled={loading} onPress={() => signInWithEmail()}>
-          Sign In
+      <View
+        style={[
+          style.verticallySpaced,
+          { justifyContent: "center", marginTop: 24 },
+        ]}
+      >
+        <Button
+          mode="text"
+          style={{ marginBottom: 8 }}
+          onPress={() => setIsSignUp(!isSignUp)}
+        >
+          {isSignUp ? (
+            <Text>Already have an account? Log in here</Text>
+          ) : (
+            <Text>Need an account? Sign up here</Text>
+          )}
         </Button>
-      </View>
-      <View style={styles.verticallySpaced}>
-        <Button disabled={loading} onPress={() => signUpWithEmail()}>
-          {" "}
-          Sign Up{" "}
+        <Button
+          mode="contained"
+          onPress={() =>
+            isSignUp
+              ? signUpWithEmail()
+              : signInWithEmail()
+          }
+        >
+          {isSignUp ? <Text>Create Account</Text> : <Text>Sign In</Text>}
         </Button>
       </View>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "lightblue",
-    height: "100%",
-    padding: 12,
-    display: "flex",
-    justifyContent: "center",
-  },
-  verticallySpaced: {
-    paddingTop: 4,
-    paddingBottom: 4,
-    alignSelf: "stretch",
-  },
-  mt20: {
-    marginTop: 20,
-  },
-  gradient: {
-    width: 200,
-    height: 200,
-    borderRadius: 100,
-  },
-});

@@ -1,4 +1,4 @@
-import { style } from "@/constants/Global";
+import { style } from "@/constants/Styles";
 import { fish } from "@/constants/Types";
 import React, { useState } from "react";
 import { List, Text } from "react-native-paper";
@@ -15,7 +15,7 @@ export default function BasicCare({ fish }: GridProps) {
     <List.Section style={{ margin: 0, padding: 24, paddingTop: 0 }}>
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={{ padding: 4, marginHorizontal: 10 }}>
+          <Text variant="headlineSmall" style={{ padding: 4, marginHorizontal: 10 }}>
             {`Optimum Tank Conditions`}{" "}
           </Text>
         }
@@ -23,26 +23,26 @@ export default function BasicCare({ fish }: GridProps) {
         style={{ backgroundColor: "white" }}
         onPress={() => setsOne(!sOne)}
       >
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Minimum Tank Size: ${fish.tankSize}`}{" "}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Water Temperature: ${fish.waterTemperature}`}{" "}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Hardness: ${fish.hardness}`}{" "}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`pH: ${fish.pH}`}{" "}
         </Text>
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Ideal Number: ${fish.preferredNumber}`}{" "}
         </Text>
       </List.Accordion>
 
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={style.accordionListText}>
+          <Text variant="headlineSmall" style={style.accordionListText}>
             {`Substrates`}
           </Text>
         }
@@ -51,18 +51,18 @@ export default function BasicCare({ fish }: GridProps) {
         onPress={() => setsTwo(!sTwo)}
       >
       
-        <Text style={style.accordionListText} variant="body">
+        <Text style={style.accordionListText} variant="bodyMedium">
           {fish.idealSubstrates}
         </Text>
        
-        <Text variant="body" style={style.accordionListText}>
+        <Text variant="bodyMedium" style={style.accordionListText}>
           {`Ideal Tank Setup: ${fish.preferredNumber}`}{" "}
         </Text>
       </List.Accordion>
 
       <List.Accordion
         title={
-          <Text variant="bodyBold" style={style.accordionListText}>
+          <Text variant="headlineSmall" style={style.accordionListText}>
             {`Special Equipment`}
           </Text>
         }

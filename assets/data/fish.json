@@ -1,1545 +1,1545 @@
 
-  [
-    {
-      "name": "Betta Fish",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/betta_fish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JldHRhX2Zpc2guanBnIiwiaWF0IjoxNzMxMDA5NjE4LCJleHAiOjE3NjI1NDU2MTh9.yAb-cWCb_3-GqXULGBwfw04XRNAGp3B-H4-caaKiMWk&t=2024-11-07T20%3A00%3A18.073Z",
-      "id": "5c2875f9-17cd-48c4-9cfa-53d6b9f37457",
-      "sizeAtMaturity": "3 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Aggressive",
-      "waterTemperature": "76-82°F",
-      "pH": "6.5-7.5",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Plants, hiding spots, low flow",
-      "diet": [
-        "High-quality pellets",
-        "Frozen food (e.g., bloodworms, brine shrimp)",
-        "Live food (e.g., daphnia, mosquito larvae)"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "1 (preferably kept alone)",
-      "specialEquipment": [
-        "Heater",
-        "Filter (gentle flow)",
-        "Aquarium plants and decorations for hiding"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Smooth river stones"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Harlequin Rasbora",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "Betta fish are known for their territorial nature and can display aggressive behaviors towards other males and some fin-nipping species. They are curious and may interact with their environment and owners.",
-      "feedingHabits": "Betta fish have a carnivorous diet and should be fed a combination of high-quality pellets specifically formulated for bettas, which provide essential nutrients. It’s beneficial to supplement their diet with frozen or live foods, such as bloodworms or brine shrimp, to ensure a varied intake of proteins. Feed small portions 2-3 times a day, allowing them to eat only what they can consume in a few minutes to prevent overfeeding and maintain water quality.",
-      "breedingHabits": {
-        "breedingFrequency": "Betta fish can breed every few weeks under optimal conditions.",
-        "fryCount": "A single breeding can produce around 20-50 fry, though larger clutches of up to 100 fry are possible."
-      }
-    },
-    {
-      "name": "Neon Tetra",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/neon_tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL25lb25fdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5OTYxLCJleHAiOjE3NjI1NDU5NjF9.gEaenEuSDFlI8ReBkEDi-sthmGXpkTO3afLgatY2qls&t=2024-11-07T20%3A06%3A01.494Z",
-      "id": "a86ba03e-00ea-47a2-a8e2-7ec5d1e550d4",
-      "sizeAtMaturity": "1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "70-81°F",
-      "pH": "6.0-7.0",
-      "hardness": "1-10 dGH",
-      "tankSetup": "Plants, open swimming space, dark substrate",
-      "diet": [
-        "High-quality flake food",
-        "Frozen food (e.g., daphnia, brine shrimp)",
-        "Micro-pellets"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "5-10 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Dark gravel",
-        "Sand",
-        "Aquarium soil"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Guppies",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "Neon Tetras are social fish that thrive in schools and are known for their active swimming and peaceful nature. They enjoy exploring their environment and are generally non-aggressive.",
-      "feedingHabits": "Neon Tetras are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods like daphnia or brine shrimp. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to avoid overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Under optimal conditions, Neon Tetras can breed every few weeks.",
-        "fryCount": "A single breeding can produce around 50-100 fry."
-      }
-    },
-    {
-      "name": "Cherry Shrimp",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/cherry_shrimp.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2NoZXJyeV9zaHJpbXAuanBlZyIsImlhdCI6MTczMTAwOTY5NSwiZXhwIjoxNzYyNTQ1Njk1fQ.7B88-nygoeD43Z0vYxNWUjKizqHr1dKQW8DTyDaUE-Y&t=2024-11-07T20%3A01%3A35.682Z",
-      "id": "5fadb1bb-2b14-4ee0-8ab9-761553654e56",
-      "sizeAtMaturity": "1-2 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "65-80°F",
-      "pH": "6.5-8.0",
-      "hardness": "4-8 dGH",
-      "tankSetup": "Plants, moss, hiding spots, substrate for foraging",
-      "diet": [
-        "Algae wafers",
-        "Vegetables (e.g., blanched spinach, zucchini)",
-        "High-quality shrimp pellets"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "1-2 years",
-      "preferredSwimDepth": "All levels",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater (if necessary)",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soil"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Guppies",
-        "Other peaceful shrimp"
-      ],
-      "typicalBehavior": "Cherry Shrimp are social and active, often seen grazing on algae and biofilm in the tank. They are peaceful and can coexist well with other non-aggressive species.",
-      "feedingHabits": "Cherry Shrimp are omnivorous scavengers and thrive on a varied diet. They should be offered algae wafers, blanched vegetables, and high-quality shrimp pellets. Feeding should be done 1-2 times a day, providing small amounts that they can consume within a few minutes.",
-      "breedingHabits": {
-        "breedingFrequency": "Cherry Shrimp can breed continuously under ideal conditions.",
-        "fryCount": "A single breeding can produce around 20-30 fry, which are small and can be raised in the same tank."
-      }
-    },
-    {
-      "name": "Pygmy Corydora",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pygmy_corydoras.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3B5Z215X2Nvcnlkb3Jhcy5qcGVnIiwiaWF0IjoxNzMxMDEwMDE5LCJleHAiOjE3NjI1NDYwMTl9.mO1B1TNfVvIM4rQb2TJHbO1WPwKjHTM0CfMTeAA-2hs&t=2024-11-07T20%3A06%3A59.875Z",
-      "id": "f3015a96-e1c3-45b4-b517-b231aa416c03",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "2-12 dGH",
-      "tankSetup": "Plants, fine substrate, hiding spots, open swimming space",
-      "diet": [
-        "High-quality sinking pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)",
-        "Vegetables (e.g., blanched peas, zucchini)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants and decorations for hiding"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Moderate",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Guppies",
-        "Cherry Shrimp",
-        "Other peaceful community fish"
-      ],
-      "typicalBehavior": "Pygmy Corydoras are social and active bottom dwellers, often seen foraging for food in groups. They exhibit playful behavior and are known for their peaceful nature.",
-      "feedingHabits": "Pygmy Corydoras are omnivorous and should be fed a varied diet that includes high-quality sinking pellets, along with occasional treats of frozen or live foods. They enjoy foraging, so scattering food on the substrate is beneficial. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Pygmy Corydoras can breed occasionally under ideal conditions.",
-        "fryCount": "A single breeding can produce around 20-40 fry, which are small and can be raised in the same tank."
-      }
-    },
-    {
-      "name": "Endler's Livebearer",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_livebearer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfbGl2ZWJlYXJlci5qcGVnIiwiaWF0IjoxNzMxMDA5ODM0LCJleHAiOjE3NjI1NDU4MzR9.l45F8QiSNP7xz3Qg-ZVCEk5Vph_TxBTXk-SnfZt25GE&t=2024-11-07T20%3A03%3A54.416Z",
-      "id": "18e2a692-a579-4d42-8f51-0a3a6fcb4063",
-      "sizeAtMaturity": "1.5 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "70-80°F",
-      "pH": "6.5-8.0",
-      "hardness": "4-20 dGH",
-      "tankSetup": "Plants, open swimming space, gentle flow",
-      "diet": [
-        "High-quality flake food",
-        "Frozen food (e.g., daphnia, brine shrimp)",
-        "Live food (e.g., micro worms)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "2-3 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand",
-        "Plant substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Guppies",
-        "Cherry Shrimp",
-        "Corydoras Catfish"
-      ],
-      "typicalBehavior": "Endler's Livebearers are active and social fish, known for their colorful patterns and playful behavior. They thrive in groups and are generally peaceful, making them great community tank residents.",
-      "feedingHabits": "Endler's Livebearers are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it all within a few minutes to prevent overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Endler's Livebearers can breed frequently under optimal conditions, often every 3-4 weeks.",
-        "fryCount": "A single breeding can produce around 10-30 fry, which are tiny and can be raised in the same tank if there are plenty of hiding spots."
-      }
-    },
-    {
-      "name": "Glowlight Tetra",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/glowligh_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dsb3dsaWdoX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4NzMsImV4cCI6MTc2MjU0NTg3M30.f_NsfZHccX8rYshtcLTZ1NOsAOkEw6PySg5fl9nnPOo&t=2024-11-07T20%3A04%3A33.117Z",
-      "id": "6f1e1b21-33e9-479b-a565-9620b4cbcac2",
-      "sizeAtMaturity": "1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-82°F",
-      "pH": "5.5-7.5",
-      "hardness": "2-10 dGH",
-      "tankSetup": "Plants, open swimming space, soft substrate",
-      "diet": [
-        "High-quality flake food",
-        "Frozen food (e.g., brine shrimp, bloodworms)",
-        "Micro-pellets"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Aquarium soil"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Endler's Livebearer",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "Glowlight Tetras are social and active fish that thrive in groups. They are known for their shimmering colors and are generally peaceful, making them ideal for community tanks.",
-      "feedingHabits": "Glowlight Tetras are omnivorous and should be fed a balanced diet including high-quality flake food and occasional treats of frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it all within a few minutes to prevent overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Glowlight Tetras can breed every few weeks under optimal conditions.",
-        "fryCount": "A single breeding can produce around 50-100 fry, which are small and can be raised in a separate tank or a well-planted area of the main tank."
-      }
-    },
-    {
-      "name": "Dwarf Rasbora",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX3Jhc2JvcmEuanBlZyIsImlhdCI6MTczMTAwOTc4NywiZXhwIjoxNzYyNTQ1Nzg3fQ.SOFizjy9WOeu6NgsRQVyx4kGXYgwpmqhVG1bz6Y4zS8&t=2024-11-07T20%3A03%3A07.539Z",
-      "id": "b2897bd5-2159-438a-b41d-a7a02a1c7533",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "1-10 dGH",
-      "tankSetup": "Plants, driftwood, open swimming space",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Moderate",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Cherry Shrimp",
-        "Corydoras Catfish",
-        "Endler's Livebearer"
-      ],
-      "typicalBehavior": "Dwarf Rasboras are lively and social fish that thrive in schools. They are known for their vibrant colors and active swimming patterns, making them a delightful addition to community tanks.",
-      "feedingHabits": "Dwarf Rasboras are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional treats of frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to prevent overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Dwarf Rasboras can breed every few weeks under optimal conditions.",
-        "fryCount": "A single breeding can produce around 20-50 fry, which are tiny and require fine food and cover to thrive."
-      }
-    },
-    {
-      "name": "Celestial Pearl Danio",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/celestial_pearl_danio.jpeg?alt=media&token=54dd677e-69d5-4b23-8b73-0460ce06adec",
-      "id": "081e7db4-d25c-45a3-aea0-28f9bd3f9479",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "68-78°F",
-      "pH": "6.5-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, open swimming space, gentle flow",
-      "diet": [
-        "High-quality flake food",
-        "Frozen food (e.g., daphnia, brine shrimp)",
-        "Micro-pellets"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Endler's Livebearer",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "Celestial Pearl Danios are active and social fish, known for their vibrant colors and peaceful demeanor. They thrive in groups and enjoy exploring their environment, making them great community tank inhabitants.",
-      "feedingHabits": "Celestial Pearl Danios are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to avoid overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Celestial Pearl Danios can breed every few weeks under ideal conditions.",
-        "fryCount": "A single breeding can produce around 30-50 fry, which are small and require fine food and ample hiding spots to thrive."
-      }
-    },
-    {
-      "name": "Sparkling Gourami",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/sparkling_gourami.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3NwYXJrbGluZ19nb3VyYW1pLmpwZWciLCJpYXQiOjE3MzEwMTAwNTUsImV4cCI6MTc2MjU0NjA1NX0.e6Vtr66E76G3nnAhtKCtfV2VgEZIC3xDP8Q-W4N9rXU&t=2024-11-07T20%3A07%3A35.704Z",
-      "id": "abb36dcb-d204-4659-b4ba-183867927a54",
-      "sizeAtMaturity": "2-3 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "75-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "Soft to medium",
-      "tankSetup": "Plants, hiding spots, calm waters",
-      "diet": [
-        "High-quality flakes",
-        "Pellets",
-        "Live food (e.g., brine shrimp, daphnia)",
-        "Blanched vegetables"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "4-6 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "3 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Betta Fish (with caution)",
-        "Endler's Livebearer"
-      ],
-      "typicalBehavior": "Sparkling Gouramis are gentle and shy fish, known for their shimmering colors and peaceful nature. They prefer to hide among plants and thrive in a calm community tank environment.",
-      "feedingHabits": "Sparkling Gouramis are omnivorous and should be fed a balanced diet of high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it within a few minutes to prevent overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Sparkling Gouramis can breed every few weeks under suitable conditions.",
-        "fryCount": "A single breeding can produce around 50-100 eggs, which require care and protection in a well-planted tank."
-      }
-    },
-    {
-      "name": "Microdevario",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/microdevario.jpeg?alt=media&token=2506b9e4-575e-4343-b8f7-439b10b7fa05",
-      "id": "e1c7fb91-fbdb-4dd5-9950-9dfd63970700",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, open swimming space, gentle flow",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., daphnia, cyclops)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "Microdevarios are small, active fish that thrive in groups. They are known for their lively swimming patterns and vibrant colors, making them excellent additions to community tanks.",
-      "feedingHabits": "Microdevarios are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small portions 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Microdevarios can breed every few weeks under optimal conditions.",
-        "fryCount": "A single spawning can produce around 30-50 fry, which require small food and plenty of hiding spots."
-      }
-    },
-    {
-      "name": "Brigittae Rasbora",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/brigittae_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JyaWdpdHRhZV9yYXNib3JhLmpwZWciLCJpYXQiOjE3MzEwMDk2NDksImV4cCI6MTc2MjU0NTY0OX0.S70_ZX1sH61fZLDfyRbLBX92Bjot4yf0RmVlzhswOp8&t=2024-11-07T20%3A00%3A49.585Z",
-      "id": "3910201a-560a-4ceb-b535-e7c0d76cd3e9",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, floating vegetation, gentle flow",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Shrimp species",
-        "Other small peaceful fish"
-      ],
-      "typicalBehavior": "Brigittae Rasboras are small, schooling fish known for their vibrant colors and peaceful nature. They enjoy swimming in groups and are often found foraging for food together.",
-      "feedingHabits": "Brigittae Rasboras are omnivorous and should be fed a varied diet, including high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Brigittae Rasboras can breed every few weeks under ideal conditions.",
-        "fryCount": "A single spawning can produce around 30-50 eggs, which are adhesive and require care to prevent predation."
-      }
-    },
-    {
-      "name": "Panda Corydoras",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/panda_corydora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BhbmRhX2Nvcnlkb3JhLmpwZWciLCJpYXQiOjE3MzEwMDk5ODAsImV4cCI6MTc2MjU0NTk4MH0.0P6cxdWCXwppngcN_uM6roEsVhUILO8BSuho6WkEZXs&t=2024-11-07T20%3A06%3A20.190Z",
-      "id": "9b054285-d1dd-4a59-9995-4480145e00d9",
-      "sizeAtMaturity": "2-3 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Sand or fine gravel substrate, plants, hiding spots",
-      "diet": [
-        "High-quality sinking pellets",
-        "Frozen food (e.g., bloodworms, daphnia)",
-        "Vegetables (e.g., blanched zucchini, peas)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "5-10 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "6 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Guppies",
-        "Rasboras",
-        "Other peaceful bottom dwellers"
-      ],
-      "typicalBehavior": "Panda Corydoras are sociable and active bottom dwellers. They are known for their playful nature and enjoy foraging for food in groups, often seen swimming in a coordinated manner.",
-      "feedingHabits": "Panda Corydoras are omnivorous and should be fed a balanced diet of high-quality sinking pellets and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes.",
-      "breedingHabits": {
-        "breedingFrequency": "Panda Corydoras can breed every few weeks under optimal conditions.",
-        "fryCount": "A single spawning can produce around 50-100 eggs, which are laid on flat surfaces and require care to ensure survival."
-      }
-    },
-    {
-      "name": "Honey Gourami",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/honey_gourami.jpeg?alt=media&token=97f42d10-d872-4d6d-97ff-4a7542457bcb",
-      "id": "d56c50db-df25-4f9f-a5fe-1ae2533c0fa0",
-      "sizeAtMaturity": "2-3 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Plants, floating vegetation, calm waters",
-      "diet": [
-        "High-quality flakes",
-        "Pellets",
-        "Frozen food (e.g., daphnia, bloodworms)",
-        "Vegetables (e.g., blanched spinach)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "4-6 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "2 or more (preferably in a small group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Endler's Livebearer"
-      ],
-      "typicalBehavior": "Honey Gouramis are peaceful and sociable fish, known for their vibrant colors and gentle nature. They enjoy exploring their environment and thrive in well-planted tanks.",
-      "feedingHabits": "Honey Gouramis are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Honey Gouramis can breed every few weeks under ideal conditions.",
-        "fryCount": "A single spawning can produce around 30-100 eggs, which are typically cared for by the male in a bubble nest."
-      }
-    },
-    {
-      "name": "Indian Zebra Shrimp",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/indian_zebra_shrimp.jpeg?alt=media&token=391e26c1-f6e5-44b5-9e24-40e702a056da",
-      "id": "52dcfc83-6a40-4b1f-b6b8-b6c424a1b459",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "68-78°F",
-      "pH": "6.5-7.5",
-      "hardness": "4-10 dGH",
-      "tankSetup": "Plants, moss, hiding spots, soft substrate",
-      "diet": [
-        "Algae wafers",
-        "High-quality shrimp pellets",
-        "Blanched vegetables (e.g., zucchini, spinach)",
-        "Microalgae"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "1-2 years",
-      "preferredSwimDepth": "Bottom to middle",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Other small, peaceful fish"
-      ],
-      "typicalBehavior": "Indian Zebra Shrimp are active and social creatures, often seen foraging for food in groups. They are known for their striking stripes and playfulness, making them a popular choice for shrimp enthusiasts.",
-      "feedingHabits": "Indian Zebra Shrimp are omnivorous and should be fed a varied diet that includes algae-based foods and shrimp-specific pellets. Feed small amounts 1-2 times a day, ensuring they consume it quickly to prevent waste.",
-      "breedingHabits": {
-        "breedingFrequency": "Indian Zebra Shrimp can breed year-round under ideal conditions.",
-        "fryCount": "A single female can carry 20-30 eggs, which hatch in about 3-4 weeks."
-      }
-    },
-    {
-      "name": "White Cloud Mountain Minnow",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/white_cloud_mountain_minnow.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3doaXRlX2Nsb3VkX21vdW50YWluX21pbm5vdy5qcGVnIiwiaWF0IjoxNzMxMDEwMTEwLCJleHAiOjE3NjI1NDYxMTB9.sWxl0Qtb1sU9F0WqmNgTfwqKNegcwPzYTeD5OAK2NeM&t=2024-11-07T20%3A08%3A30.602Z",
-      "id": "ebbdfccb-9f41-4c08-a38f-2eabecf78f09",
-      "sizeAtMaturity": "1.5-2 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "64-72°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-19 dGH",
-      "tankSetup": "Plants, open swimming space, moderate flow",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater (if needed)",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Cherry Shrimp"
-      ],
-      "typicalBehavior": "White Cloud Mountain Minnows are active and social fish known for their vibrant colors and schooling behavior. They thrive in groups and are often seen swimming together in the tank.",
-      "feedingHabits": "White Cloud Mountain Minnows are omnivorous and should be fed a varied diet, including high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly.",
-      "breedingHabits": {
-        "breedingFrequency": "White Cloud Mountain Minnows can breed several times a year under suitable conditions.",
-        "fryCount": "A single spawning can produce around 30-100 eggs, which hatch in 24-36 hours."
-      }
-    },
-    {
-      "name": "Rummy Nose Tetra",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rummy_nose_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3J1bW15X25vc2VfdGV0cmEuanBlZyIsImlhdCI6MTczMTAxMDA0NCwiZXhwIjoxNzYyNTQ2MDQ0fQ.OVFz0b6St-4FktnuTQSiu6iY8vRqyLvNtdeykHIsjXc&t=2024-11-07T20%3A07%3A24.293Z",
-      "id": "dff344e5-d23d-4bdf-9192-441c07e84c13",
-      "sizeAtMaturity": "1.5-2 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "74-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, open swimming space, soft substrate",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., brine shrimp, daphnia)"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "5-8 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Other small peaceful fish"
-      ],
-      "typicalBehavior": "Rummy Nose Tetras are active and social fish known for their striking coloration and schooling behavior. They are best kept in groups and are often seen swimming together in a coordinated manner.",
-      "feedingHabits": "Rummy Nose Tetras are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid waste.",
-      "breedingHabits": {
-        "breedingFrequency": "Rummy Nose Tetras can breed under optimal conditions, usually in a separate breeding tank.",
-        "fryCount": "A single spawning can produce around 100-200 eggs, which hatch in 24-36 hours."
-      }
-    },
-    {
-      "name": "Ember Tetra",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/ember_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VtYmVyX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4MDQsImV4cCI6MTc2MjU0NTgwNH0.slyplivM8Gj2urM1FRUUQykPdA0o0QewqKmnEpj0AJI&t=2024-11-07T20%3A03%3A24.272Z",
-      "id": "77e6de7b-8f3e-42f5-bd29-342a816c67a4",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "4-12 dGH",
-      "tankSetup": "Plants, open swimming space, soft substrate",
-      "diet": [
-        "High-quality flake food",
-        "Micro-pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Fine gravel",
-        "Sand",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Shrimp species"
-      ],
-      "typicalBehavior": "Ember Tetras are small, active fish known for their vibrant orange color and schooling behavior. They thrive in groups and are often seen swimming together, adding movement and color to the aquarium.",
-      "feedingHabits": "Ember Tetras are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small portions 2-3 times a day, ensuring they consume it quickly to prevent overfeeding.",
-      "breedingHabits": {
-        "breedingFrequency": "Ember Tetras can breed several times a year under suitable conditions.",
-        "fryCount": "A single spawning can produce around 30-100 eggs, which hatch in about 24-36 hours."
-      }
-    },
-    {
-      "name": "Kuhli Loach",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/kuhli_loach.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2t1aGxpX2xvYWNoLmpwZWciLCJpYXQiOjE3MzEwMDk5MzIsImV4cCI6MTc2MjU0NTkzMn0.3QijWmH34oYrqBu_Etw0h2Zv-Ff3DEjqkMiI4ardnkw&t=2024-11-07T20%3A05%3A32.839Z",
-      "id": "c71a9629-7ddf-4dab-bbe8-5c714ec91933",
-      "sizeAtMaturity": "3-4 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-86°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, hiding spots, soft substrate",
-      "diet": [
-        "High-quality sinking pellets",
-        "Frozen food (e.g., bloodworms, brine shrimp)",
-        "Vegetables (e.g., blanched zucchini, cucumber)"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "10-15 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "4 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants and decor for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Other peaceful bottom dwellers"
-      ],
-      "typicalBehavior": "Kuhli Loaches are nocturnal and shy fish that enjoy burrowing into the substrate. They are social creatures and thrive in groups, often seen exploring their environment and foraging for food.",
-      "feedingHabits": "Kuhli Loaches are omnivorous and should be fed a varied diet that includes sinking pellets, frozen foods, and occasional vegetables. Feed small portions 1-2 times a day, ensuring they consume it quickly.",
-      "breedingHabits": {
-        "breedingFrequency": "Kuhli Loaches are challenging to breed in captivity; spawning typically occurs in soft, acidic water.",
-        "fryCount": "A single spawning can produce several hundred eggs, which require specific care to raise."
-      }
-    },
-    {
-      "name": "Hara Jerdoni",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/hara_jerdoni.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2hhcmFfamVyZG9uaS5qcGVnIiwiaWF0IjoxNzMxMDA5ODk5LCJleHAiOjE3NjI1NDU4OTl9.Nlkqz-fFw7TRctQ3BtTj3FZ7LTcvO-fbU8Nz1YMhftw&t=2024-11-07T20%3A04%3A59.439Z",
-      "id": "cba16757-81b0-4291-90d9-d9202445db0f",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, soft substrate, hiding spots",
-      "diet": [
-        "High-quality sinking pellets",
-        "Frozen food (e.g., daphnia, brine shrimp)",
-        "Small live foods"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "4 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Low to Medium",
-      "compatibleSpecies": [
-        "Neon Tetra",
-        "Corydoras Catfish",
-        "Rasboras",
-        "Other small, peaceful fish"
-      ],
-      "typicalBehavior": "Hara Jerdoni are small, bottom-dwelling fish known for their shy and peaceful nature. They prefer to hide among plants and decorations and are often seen foraging for food.",
-      "feedingHabits": "Hara Jerdoni are omnivorous and should be fed a varied diet, including high-quality sinking pellets and occasional live or frozen foods. Feed small amounts 1-2 times a day, ensuring they consume it quickly.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding Hara Jerdoni in captivity is rare and requires specific conditions.",
-        "fryCount": "When spawning occurs, they may produce around 30-50 eggs, which need to be carefully monitored."
-      }
-    },
-    {
-      "name": "Pea Puffer",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pea_puffer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BlYV9wdWZmZXIuanBlZyIsImlhdCI6MTczMTAwOTk5MCwiZXhwIjoxNzYyNTQ1OTkwfQ.aaTrphC0nxFqf_nYw3AA-b0MUZPQ37bhAXzHKBMUDkE&t=2024-11-07T20%3A06%3A30.706Z",
-      "id": "f02eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1-2 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Varies",
-      "waterTemperature": "74-82°F",
-      "pH": "6.5-8.0",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, hiding spots, open swimming space",
-      "diet": [
-        "High-quality pellets",
-        "Frozen food (e.g., bloodworms, brine shrimp)",
-        "Snails and live foods"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "1-3 (preferably in a small group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium to High",
-      "compatibleSpecies": [
-        "Small, non-aggressive fish",
-        "Shrimp species (with caution)"
-      ],
-      "typicalBehavior": "Pea Puffers are curious and active fish known for their playful nature. They can exhibit territorial behavior, especially during feeding, and prefer to have plenty of hiding spots.",
-      "feedingHabits": "Pea Puffers are carnivorous and should be fed a varied diet that includes high-quality pellets, frozen foods, and occasional live foods like snails. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding in captivity is challenging and requires specific conditions.",
-        "fryCount": "When spawning occurs, a female may lay around 20-30 eggs, which require careful monitoring."
-      }
-    },
-    {
-      "name": "Fancy Guppy",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/fancy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2ZhbmN5X2d1cHB5LmpwZyIsImlhdCI6MTczMTAwOTg1MSwiZXhwIjoxNzYyNTQ1ODUxfQ.mBZ1b-GpxD8A33RrlHygKOd0UXanPkIdu_x9nv2C87c&t=2024-11-07T20%3A04%3A11.594Z",
-      "id": "f03eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1-2 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-82°F",
-      "pH": "6.8-7.8",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Plants, open swimming space, gentle filtration",
-      "diet": [
-        "Flake food",
-        "Freeze-dried foods",
-        "Infusoria and small live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "1-2 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Shrimp species"
-      ],
-      "typicalBehavior": "Fancy Guppies are active and social fish that enjoy swimming in groups. They are generally peaceful and can display vibrant colors and patterns.",
-      "feedingHabits": "Fancy Guppies are omnivorous and thrive on a balanced diet that includes high-quality flake food and occasional live or frozen foods. Feed small amounts 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Guppies breed easily in captivity and can give birth every 4-6 weeks.",
-        "fryCount": "A female can give birth to 20-50 fry per litter, depending on her size and health."
-      }
-    }, 
-    {
-      "name": "Endler's Guppy",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfZ3VwcHkuanBnIiwiaWF0IjoxNzMxMDA5ODE2LCJleHAiOjE3NjI1NDU4MTZ9.cOGO018Ampr9c4a1DgwgNBDeq5yYwl13gAYwcFFRU3s&t=2024-11-07T20%3A03%3A36.758Z",
-      "id": "f04eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1-1.5 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-80°F",
-      "pH": "6.5-8.0",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Plants, open swimming areas, gentle filtration",
-      "diet": [
-        "Flake food",
-        "Frozen foods",
-        "Micro-worms and small live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "2-3 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Shrimp species"
-      ],
-      "typicalBehavior": "Endler's Guppies are lively and sociable fish known for their striking colors and patterns. They thrive in groups and are generally non-aggressive.",
-      "feedingHabits": "Endler's Guppies are omnivorous and benefit from a varied diet, including high-quality flake food and occasional live or frozen treats. Feed small portions 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding is easy, and they can reproduce every 3-4 weeks.",
-        "fryCount": "A female can give birth to 5-20 fry per litter, which are independent at birth."
-      }
-    },
-    {
-      "name": "Galaxy Guppy",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/galaxy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dhbGF4eV9ndXBweS5qcGciLCJpYXQiOjE3MzEwMDk4NjIsImV4cCI6MTc2MjU0NTg2Mn0.p_aQMHBTr37E4qVvK-wH-Bibon4mLtjZBG3hmy1Z-VU&t=2024-11-07T20%3A04%3A22.275Z",
-      "id": "f05eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1-2 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.5-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, open swimming space, gentle filtration",
-      "diet": [
-        "High-quality flakes",
-        "Freeze-dried foods",
-        "Small live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "2-3 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel",
-        "Soft substrate"
-      ],
-      "popularityLevel": "Medium to High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Shrimp species"
-      ],
-      "typicalBehavior": "Galaxy Guppies are active and vibrant fish, known for their striking colors and patterns. They are social and thrive in community tanks.",
-      "feedingHabits": "Galaxy Guppies are omnivorous and should be fed a balanced diet of high-quality flakes, freeze-dried foods, and occasional live treats. Feed small portions 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding is straightforward, with females giving birth every 4-6 weeks.",
-        "fryCount": "A female can give birth to 20-50 fry at a time, which are fully independent at birth."
-      }
-    },
-    {
-      "name": "Swordtail",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/swordtail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3N3b3JkdGFpbC5qcGciLCJpYXQiOjE3MzEwMTAwNzEsImV4cCI6MTc2MjU0NjA3MX0.viVuVO7KgV35juvDiKvTRA952HJZg7G_3V7QJtJgfmE&t=2024-11-07T20%3A07%3A51.227Z",
-      "id": "f06eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "3-5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-79°F",
-      "pH": "7.0-8.0",
-      "hardness": "10-28 dGH",
-      "tankSetup": "Plants, open swimming space, and hiding spots",
-      "diet": [
-        "Flake food",
-        "Frozen foods",
-        "Vegetables and live foods"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "3 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand",
-        "Smooth stones"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small to medium peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Swordtails are social and active fish that enjoy swimming in groups. They are generally peaceful but can exhibit territorial behavior among males.",
-      "feedingHabits": "Swordtails are omnivorous and should be fed a varied diet including high-quality flakes, frozen foods, and fresh vegetables. Feed small amounts 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding is easy, and they can reproduce every 4-6 weeks.",
-        "fryCount": "A female can give birth to 20-100 fry, which are independent at birth."
-      }
-    },
-    {
-      "name": "Platy",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/platy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BsYXR5LmpwZyIsImlhdCI6MTczMTAxMDAwNSwiZXhwIjoxNzYyNTQ2MDA1fQ.WbGk7le3trdinoSefGFwbr9pBj7B0RdBK-N_JJfzRew&t=2024-11-07T20%3A06%3A45.900Z",
-      "id": "f07eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "2-3 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "70-78°F",
-      "pH": "6.8-8.0",
-      "hardness": "10-28 dGH",
-      "tankSetup": "Plants, open swimming space, and hiding spots",
-      "diet": [
-        "Flake food",
-        "Frozen foods",
-        "Vegetables and live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "2-3 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "5 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand",
-        "Smooth stones"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Platies are friendly and active fish that thrive in groups. They are known for their vibrant colors and can display a range of social behaviors.",
-      "feedingHabits": "Platies are omnivorous and should be fed a balanced diet including high-quality flakes, frozen foods, and occasional plant matter. Feed small amounts 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding is easy, and they can reproduce every 4-6 weeks.",
-        "fryCount": "A female can give birth to 20-50 fry, which are independent at birth."
-      }
-    },
-    {
-      "name": "Otocinclus Catfish",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/otocinclus-catfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL290b2NpbmNsdXMtY2F0ZmlzaC5qcGciLCJpYXQiOjE3MzEwMDk5NDksImV4cCI6MTc2MjU0NTk0OX0.MT9rZbuDDbXO4fjM1QhXOQBzd3jvm0rzwXOWsspOc_Q&t=2024-11-07T20%3A05%3A49.515Z",
-      "id": "f09eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1.5-2 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-79°F",
-      "pH": "6.0-7.5",
-      "hardness": "2-12 dGH",
-      "tankSetup": "Plants, driftwood, and hiding spots",
-      "diet": [
-        "Algae wafers",
-        "Vegetable matter",
-        "Blanched vegetables"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "4 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Otocinclus Catfish are social and gentle algae eaters that prefer to stay in groups. They are active during the day and enjoy grazing on surfaces.",
-      "feedingHabits": "Otocinclus Catfish are herbivorous and primarily eat algae. Supplement their diet with algae wafers and blanched vegetables. Feed small portions once or twice a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding in captivity is rare and requires specific conditions.",
-        "fryCount": "When spawning occurs, females may lay a few dozen eggs on surfaces."
-      }
-    },
-    {
-      "name": "Harlequin Rasbora",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/harlequin-rasbora.jpeg?alt=media&token=089c5b20-89ae-4533-90b8-50ddccde297f",
-      "id": "f10eeca4-51b5-44d7-a599-fafed92cdddc",
-      "sizeAtMaturity": "1.5-2 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "73-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, floating plants, and open swimming areas",
-      "diet": [
-        "Flake food",
-        "Frozen foods",
-        "Live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "4-6 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand"
-      ],
-      "popularityLevel": "Medium to High",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Rasbora Heteromorpha are active and social fish that thrive in schools, displaying vibrant colors and lively behavior.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes and small live or frozen foods. Feed small portions 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
-        "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
-      }
-    },
-    {
-      "name": "Common Goldfish",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/goldfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dvbGRmaXNoLmpwZyIsImlhdCI6MTczMTAwOTg4NSwiZXhwIjoxNzYyNTQ1ODg1fQ.7_hZFejhKUo4SNznQimypC83UQpTljWZx4jLM1XCQ9M&t=2024-11-07T20%3A04%3A45.314Z",
-      "id": "a5d3b29c-8273-4a5b-b1e5-6c4e9b67b5c9",
-      "sizeAtMaturity": "6-8 in.",
-      "tankSize": "20 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "65-75°F",
-      "pH": "6.5-7.5",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Open swimming space with plants and decorations for hiding",
-      "diet": [
-        "Goldfish pellets",
-        "Flake food",
-        "Vegetables"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "10-15 years (or longer with proper care)",
-      "preferredSwimDepth": "All levels",
-      "preferredNumber": "Single or in small groups",
-      "specialEquipment": [
-        "Filter",
-        "Heater (if needed)",
-        "Air pump for oxygenation"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Other goldfish",
-        "Larger peaceful fish"
-      ],
-      "typicalBehavior": "Common goldfish are curious and social, often exploring their environment and interacting with tank mates.",
-      "feedingHabits": "They are omnivorous and should be fed a balanced diet of goldfish pellets, flakes, and occasional vegetables. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding occurs in spring under optimal conditions, often in a separate breeding tank.",
-        "fryCount": "Females can lay hundreds of eggs, which are often scattered and require monitoring."
-      }
-    },
-    {
-      "name": "Black Neon Tetra",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/black-neon-tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JsYWNrLW5lb24tdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5NjM1LCJleHAiOjE3NjI1NDU2MzV9.3KPZ9qxGnvXplTOqoyS-YOkByRYDqeyuyiC1B2Zvzfk&t=2024-11-07T20%3A00%3A35.939Z",
-      "id": "c22e1a55-7d0d-4c26-8d9c-e20a4c3a9f0e",
-      "sizeAtMaturity": "1.5-2 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.0",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, soft lighting, and open swimming areas",
-      "diet": [
-        "Flake food",
-        "Frozen foods",
-        "Live foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "3-5 years",
-      "preferredSwimDepth": "Middle",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Small, peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Black Neon Tetras are active and social, often swimming in schools and displaying their striking coloration.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes and small live or frozen foods. Feed small portions 2-3 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
-        "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
-      }
-    },
-    {
-      "name": "Boesemani Rainbowfish",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rainbowfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3JhaW5ib3dmaXNoLmpwZyIsImlhdCI6MTczMTAxMDAzMiwiZXhwIjoxNzYyNTQ2MDMyfQ.zH9X_EEn8XLCge_G72STuRqWSll6eqYTyB6Xr8FWVws&t=2024-11-07T20%3A07%3A12.908Z",
-      "id": "d70f8c64-bc32-4f29-9ef7-e2b4c3b2e1d5",
-      "sizeAtMaturity": "3-4 in.",
-      "tankSize": "20 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "75-82°F",
-      "pH": "6.5-7.5",
-      "hardness": "5-15 dGH",
-      "tankSetup": "Plants, open swimming areas, and hiding spots",
-      "diet": [
-        "Flake food",
-        "Pellets",
-        "Frozen foods"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "5-8 years",
-      "preferredSwimDepth": "Middle to top",
-      "preferredNumber": "6 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small to medium peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Boesemani Rainbowfish are active and social, often displaying vibrant colors when in a group and enjoying open swimming spaces.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes, pellets, and occasional frozen or live foods. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
-        "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
-      }
-    },
-    {
-      "name": "Corydoras Sterbai",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/Corydoras-sterbai.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL0Nvcnlkb3Jhcy1zdGVyYmFpLmpwZyIsImlhdCI6MTczMTAwOTc0NCwiZXhwIjoxNzYyNTQ1NzQ0fQ.l12VnBZAcdMiC-4Nh1BUcMY3Pf0orIlR-UQADDf3otc&t=2024-11-07T20%3A02%3A24.458Z",
-      "id": "b72e7d26-5b55-4a4e-8457-8e8caa1d82a0",
-      "sizeAtMaturity": "2.5-3 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "72-78°F",
-      "pH": "6.0-7.5",
-      "hardness": "2-15 dGH",
-      "tankSetup": "Sandy substrate, plants, and hiding spots",
-      "diet": [
-        "Sinking pellets",
-        "Flake food",
-        "Frozen foods"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "5-10 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "4 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Corydoras Sterbai are social bottom dwellers that thrive in groups, displaying playful behavior and foraging for food.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality sinking pellets, flakes, and occasional frozen or live foods. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
-        "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
-      }
-    },
-    {
-      "name": "Amano Shrimp",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/amano_shrimp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2FtYW5vX3NocmltcC5qcGciLCJpYXQiOjE3MzEwMDk1NzYsImV4cCI6MTc2MjU0NTU3Nn0.4HgXKuuEinzSi4XcOKq2FvwowBSWtY8LC7_jP67LrQE&t=2024-11-07T19%3A59%3A36.763Z",
-      "id": "f04d8a63-4d7d-40e0-a39d-f5d5d8f541b0",
-      "sizeAtMaturity": "2-2.5 in.",
-      "tankSize": "10 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "70-78°F",
-      "pH": "6.5-7.5",
-      "hardness": "4-15 dGH",
-      "tankSetup": "Plants, rocks, and hiding spots",
-      "diet": [
-        "Algae",
-        "Vegetable matter",
-        "Shrimp pellets"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "2-3 years",
-      "preferredSwimDepth": "All levels",
-      "preferredNumber": "4 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Plants for cover"
-      ],
-      "idealSubstrates": [
-        "Gravel",
-        "Sand"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Amano Shrimp are active scavengers, constantly foraging for food and interacting with their environment.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including algae wafers, shrimp pellets, and blanched vegetables. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding requires brackish water conditions; larvae may not survive in freshwater.",
-        "fryCount": "Females can carry eggs, but most young require special care."
-      }
-    },
-    {
-      "name": "Clown Loach",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/clown_loach.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2Nsb3duX2xvYWNoLmpwZyIsImlhdCI6MTczMTAwOTcyMywiZXhwIjoxNzYyNTQ1NzIzfQ.I7WOJpGOtZjEoJHynXIBbSZEhPsnytd7m1tqZy4gDd4&t=2024-11-07T20%3A02%3A03.225Z",
-      "id": "a1e6e4e9-3b9b-4e8f-b83e-6e7a067eb1e3",
-      "sizeAtMaturity": "6-12 in.",
-      "tankSize": "75 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "75-86°F",
-      "pH": "6.0-7.5",
-      "hardness": "2-12 dGH",
-      "tankSetup": "Plants, caves, and hiding spots with open swimming areas",
-      "diet": [
-        "Sinking pellets",
-        "Frozen foods",
-        "Vegetable matter"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "10-15 years",
-      "preferredSwimDepth": "Bottom to middle",
-      "preferredNumber": "4 or more (preferably in a school)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Hiding spots"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel"
-      ],
-      "popularityLevel": "High",
-      "compatibleSpecies": [
-        "Small to medium peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Clown Loaches are social and active fish, known for their playful behavior and tendency to burrow into the substrate.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality sinking pellets, frozen foods, and occasional vegetables. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding in captivity is rare; requires specific conditions.",
-        "fryCount": "Females can lay several hundred eggs in a breeding tank, but fry care can be challenging."
-      }
-    },
-    {
-      "name": "Dwarf Cichlid (Apistogramma)",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_cichlid.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX2NpY2hsaWQuanBnIiwiaWF0IjoxNzMxMDA5NzY0LCJleHAiOjE3NjI1NDU3NjR9.fi6RFAaF57EcU6RpxVQiBwhemoAv4YV-0CglHdhXcxY&t=2024-11-07T20%3A02%3A44.264Z",
-      "id": "b2a51a62-1f88-4d3e-b56a-b2d7f3e8e67a",
-      "sizeAtMaturity": "2-4 in.",
-      "tankSize": "20 gal.",
-      "temperament": "Varies",
-      "waterTemperature": "75-82°F",
-      "pH": "6.0-7.5",
-      "hardness": "2-15 dGH",
-      "tankSetup": "Plants, caves, and hiding spots with subdued lighting",
-      "diet": [
-        "Cichlid pellets",
-        "Frozen foods",
-        "Live foods"
-      ],
-      "careLevel": "Moderate",
-      "lifespan": "4-8 years",
-      "preferredSwimDepth": "Bottom to middle",
-      "preferredNumber": "1 male with 2-3 females for breeding",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Hiding spots"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Gravel"
-      ],
-      "popularityLevel": "Medium to High",
-      "compatibleSpecies": [
-        "Smaller peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Apistogrammas are territorial, especially during breeding, and often display colorful displays of dominance.",
-      "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality cichlid pellets, frozen foods, and occasional live foods. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding occurs in a well-planted tank with caves and hiding spots.",
-        "fryCount": "Females can lay several dozen eggs, which require care from both parents."
-      }
-    },
-    {
-      "name": "Malaysian Trumpet Snail",
-      "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/trumpet_snail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3RydW1wZXRfc25haWwuanBnIiwiaWF0IjoxNzMxMDEwMDk5LCJleHAiOjE3NjI1NDYwOTl9.QjcwkFsmrUPnO_h4kuLRT6dvM50s1GBa6rwkuZs_UZw&t=2024-11-07T20%3A08%3A19.911Z",
-      "id": "d48e9c66-1b74-4c77-8ec8-6c8ff2b0c1d7",
-      "sizeAtMaturity": "1-2 in.",
-      "tankSize": "5 gal.",
-      "temperament": "Peaceful",
-      "waterTemperature": "70-78°F",
-      "pH": "6.5-8.0",
-      "hardness": "3-15 dGH",
-      "tankSetup": "Plants, substrate for burrowing, and hiding spots",
-      "diet": [
-        "Algae",
-        "Decaying plant matter",
-        "Snail pellets"
-      ],
-      "careLevel": "Easy",
-      "lifespan": "1-2 years",
-      "preferredSwimDepth": "Bottom",
-      "preferredNumber": "2 or more (preferably in a group)",
-      "specialEquipment": [
-        "Filter",
-        "Heater (if needed)",
-        "Substrate for burrowing"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Gravel"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Peaceful fish",
-        "Community tank species"
-      ],
-      "typicalBehavior": "Malaysian Trumpet Snails are nocturnal and often burrow in the substrate, helping aerate it and consume leftover food.",
-      "feedingHabits": "They are detritivores and should be fed a varied diet, including algae wafers and decaying plant matter. They often scavenge for leftover food.",
-      "breedingHabits": {
-        "breedingFrequency": "They reproduce easily in the right conditions, with no special care needed for the young.",
-        "fryCount": "Females can produce numerous eggs, which hatch into miniature snails."
-      }
-    },
-    {
-      "name": "Tetraodon",
-      "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/Tetraodon.jpg?alt=media&token=a4de12f2-3f68-45b6-bd03-c6b6cc1dd3f6",
-      "id": "f8e16b7c-adaf-4b49-b7de-f1f8a6d9e2c0",
-      "sizeAtMaturity": "4-12 in. (varies by species)",
-      "tankSize": "30 gal.",
-      "temperament": "Varies",
-      "waterTemperature": "75-82°F",
-      "pH": "7.0-8.5",
-      "hardness": "5-20 dGH",
-      "tankSetup": "Plants, rocks, and hiding spots with open swimming areas",
-      "diet": [
-        "Shellfish",
-        "Live foods",
-        "Vegetables"
-      ],
-      "careLevel": "Moderate to Advanced",
-      "lifespan": "10-15 years",
-      "preferredSwimDepth": "Middle to bottom",
-      "preferredNumber": "Usually kept singly or in pairs (depends on species)",
-      "specialEquipment": [
-        "Filter",
-        "Heater",
-        "Hiding spots"
-      ],
-      "idealSubstrates": [
-        "Sand",
-        "Fine gravel"
-      ],
-      "popularityLevel": "Medium",
-      "compatibleSpecies": [
-        "Species-specific (some are aggressive)"
-      ],
-      "typicalBehavior": "Tetraodons are curious and intelligent fish, known for their playful behavior and unique ability to inflate when threatened.",
-      "feedingHabits": "They are carnivorous and should be fed a varied diet, including shellfish, live foods, and vegetables. Feed small portions 1-2 times a day.",
-      "breedingHabits": {
-        "breedingFrequency": "Breeding is rare in captivity; often requires specific conditions.",
-        "fryCount": "Fry care can be challenging, depending on the species."
-      }
-    }
-  ]
+  // [
+  //   {
+  //     "name": "Betta Fish",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/betta_fish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JldHRhX2Zpc2guanBnIiwiaWF0IjoxNzMxMDA5NjE4LCJleHAiOjE3NjI1NDU2MTh9.yAb-cWCb_3-GqXULGBwfw04XRNAGp3B-H4-caaKiMWk&t=2024-11-07T20%3A00%3A18.073Z",
+  //     "id": "5c2875f9-17cd-48c4-9cfa-53d6b9f37457",
+  //     "sizeAtMaturity": "3 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Aggressive",
+  //     "waterTemperature": "76-82°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Plants, hiding spots, low flow",
+  //     "diet": [
+  //       "High-quality pellets",
+  //       "Frozen food (e.g., bloodworms, brine shrimp)",
+  //       "Live food (e.g., daphnia, mosquito larvae)"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "1 (preferably kept alone)",
+  //     "specialEquipment": [
+  //       "Heater",
+  //       "Filter (gentle flow)",
+  //       "Aquarium plants and decorations for hiding"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Smooth river stones"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Harlequin Rasbora",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "Betta fish are known for their territorial nature and can display aggressive behaviors towards other males and some fin-nipping species. They are curious and may interact with their environment and owners.",
+  //     "feedingHabits": "Betta fish have a carnivorous diet and should be fed a combination of high-quality pellets specifically formulated for bettas, which provide essential nutrients. It’s beneficial to supplement their diet with frozen or live foods, such as bloodworms or brine shrimp, to ensure a varied intake of proteins. Feed small portions 2-3 times a day, allowing them to eat only what they can consume in a few minutes to prevent overfeeding and maintain water quality.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Betta fish can breed every few weeks under optimal conditions.",
+  //       "fryCount": "A single breeding can produce around 20-50 fry, though larger clutches of up to 100 fry are possible."
+  //     }
+  //   },
+  //   {
+  //     "name": "Neon Tetra",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/neon_tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL25lb25fdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5OTYxLCJleHAiOjE3NjI1NDU5NjF9.gEaenEuSDFlI8ReBkEDi-sthmGXpkTO3afLgatY2qls&t=2024-11-07T20%3A06%3A01.494Z",
+  //     "id": "a86ba03e-00ea-47a2-a8e2-7ec5d1e550d4",
+  //     "sizeAtMaturity": "1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "70-81°F",
+  //     "pH": "6.0-7.0",
+  //     "hardness": "1-10 dGH",
+  //     "tankSetup": "Plants, open swimming space, dark substrate",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Frozen food (e.g., daphnia, brine shrimp)",
+  //       "Micro-pellets"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "5-10 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Dark gravel",
+  //       "Sand",
+  //       "Aquarium soil"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Guppies",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "Neon Tetras are social fish that thrive in schools and are known for their active swimming and peaceful nature. They enjoy exploring their environment and are generally non-aggressive.",
+  //     "feedingHabits": "Neon Tetras are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods like daphnia or brine shrimp. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to avoid overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Under optimal conditions, Neon Tetras can breed every few weeks.",
+  //       "fryCount": "A single breeding can produce around 50-100 fry."
+  //     }
+  //   },
+  //   {
+  //     "name": "Cherry Shrimp",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/cherry_shrimp.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2NoZXJyeV9zaHJpbXAuanBlZyIsImlhdCI6MTczMTAwOTY5NSwiZXhwIjoxNzYyNTQ1Njk1fQ.7B88-nygoeD43Z0vYxNWUjKizqHr1dKQW8DTyDaUE-Y&t=2024-11-07T20%3A01%3A35.682Z",
+  //     "id": "5fadb1bb-2b14-4ee0-8ab9-761553654e56",
+  //     "sizeAtMaturity": "1-2 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "65-80°F",
+  //     "pH": "6.5-8.0",
+  //     "hardness": "4-8 dGH",
+  //     "tankSetup": "Plants, moss, hiding spots, substrate for foraging",
+  //     "diet": [
+  //       "Algae wafers",
+  //       "Vegetables (e.g., blanched spinach, zucchini)",
+  //       "High-quality shrimp pellets"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "1-2 years",
+  //     "preferredSwimDepth": "All levels",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater (if necessary)",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soil"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Guppies",
+  //       "Other peaceful shrimp"
+  //     ],
+  //     "typicalBehavior": "Cherry Shrimp are social and active, often seen grazing on algae and biofilm in the tank. They are peaceful and can coexist well with other non-aggressive species.",
+  //     "feedingHabits": "Cherry Shrimp are omnivorous scavengers and thrive on a varied diet. They should be offered algae wafers, blanched vegetables, and high-quality shrimp pellets. Feeding should be done 1-2 times a day, providing small amounts that they can consume within a few minutes.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Cherry Shrimp can breed continuously under ideal conditions.",
+  //       "fryCount": "A single breeding can produce around 20-30 fry, which are small and can be raised in the same tank."
+  //     }
+  //   },
+  //   {
+  //     "name": "Pygmy Corydora",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pygmy_corydoras.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3B5Z215X2Nvcnlkb3Jhcy5qcGVnIiwiaWF0IjoxNzMxMDEwMDE5LCJleHAiOjE3NjI1NDYwMTl9.mO1B1TNfVvIM4rQb2TJHbO1WPwKjHTM0CfMTeAA-2hs&t=2024-11-07T20%3A06%3A59.875Z",
+  //     "id": "f3015a96-e1c3-45b4-b517-b231aa416c03",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "2-12 dGH",
+  //     "tankSetup": "Plants, fine substrate, hiding spots, open swimming space",
+  //     "diet": [
+  //       "High-quality sinking pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)",
+  //       "Vegetables (e.g., blanched peas, zucchini)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants and decorations for hiding"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Moderate",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Guppies",
+  //       "Cherry Shrimp",
+  //       "Other peaceful community fish"
+  //     ],
+  //     "typicalBehavior": "Pygmy Corydoras are social and active bottom dwellers, often seen foraging for food in groups. They exhibit playful behavior and are known for their peaceful nature.",
+  //     "feedingHabits": "Pygmy Corydoras are omnivorous and should be fed a varied diet that includes high-quality sinking pellets, along with occasional treats of frozen or live foods. They enjoy foraging, so scattering food on the substrate is beneficial. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Pygmy Corydoras can breed occasionally under ideal conditions.",
+  //       "fryCount": "A single breeding can produce around 20-40 fry, which are small and can be raised in the same tank."
+  //     }
+  //   },
+  //   {
+  //     "name": "Endler's Livebearer",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_livebearer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfbGl2ZWJlYXJlci5qcGVnIiwiaWF0IjoxNzMxMDA5ODM0LCJleHAiOjE3NjI1NDU4MzR9.l45F8QiSNP7xz3Qg-ZVCEk5Vph_TxBTXk-SnfZt25GE&t=2024-11-07T20%3A03%3A54.416Z",
+  //     "id": "18e2a692-a579-4d42-8f51-0a3a6fcb4063",
+  //     "sizeAtMaturity": "1.5 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "70-80°F",
+  //     "pH": "6.5-8.0",
+  //     "hardness": "4-20 dGH",
+  //     "tankSetup": "Plants, open swimming space, gentle flow",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Frozen food (e.g., daphnia, brine shrimp)",
+  //       "Live food (e.g., micro worms)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "2-3 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand",
+  //       "Plant substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Guppies",
+  //       "Cherry Shrimp",
+  //       "Corydoras Catfish"
+  //     ],
+  //     "typicalBehavior": "Endler's Livebearers are active and social fish, known for their colorful patterns and playful behavior. They thrive in groups and are generally peaceful, making them great community tank residents.",
+  //     "feedingHabits": "Endler's Livebearers are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it all within a few minutes to prevent overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Endler's Livebearers can breed frequently under optimal conditions, often every 3-4 weeks.",
+  //       "fryCount": "A single breeding can produce around 10-30 fry, which are tiny and can be raised in the same tank if there are plenty of hiding spots."
+  //     }
+  //   },
+  //   {
+  //     "name": "Glowlight Tetra",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/glowligh_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dsb3dsaWdoX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4NzMsImV4cCI6MTc2MjU0NTg3M30.f_NsfZHccX8rYshtcLTZ1NOsAOkEw6PySg5fl9nnPOo&t=2024-11-07T20%3A04%3A33.117Z",
+  //     "id": "6f1e1b21-33e9-479b-a565-9620b4cbcac2",
+  //     "sizeAtMaturity": "1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-82°F",
+  //     "pH": "5.5-7.5",
+  //     "hardness": "2-10 dGH",
+  //     "tankSetup": "Plants, open swimming space, soft substrate",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Frozen food (e.g., brine shrimp, bloodworms)",
+  //       "Micro-pellets"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Aquarium soil"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Endler's Livebearer",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "Glowlight Tetras are social and active fish that thrive in groups. They are known for their shimmering colors and are generally peaceful, making them ideal for community tanks.",
+  //     "feedingHabits": "Glowlight Tetras are omnivorous and should be fed a balanced diet including high-quality flake food and occasional treats of frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it all within a few minutes to prevent overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Glowlight Tetras can breed every few weeks under optimal conditions.",
+  //       "fryCount": "A single breeding can produce around 50-100 fry, which are small and can be raised in a separate tank or a well-planted area of the main tank."
+  //     }
+  //   },
+  //   {
+  //     "name": "Dwarf Rasbora",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX3Jhc2JvcmEuanBlZyIsImlhdCI6MTczMTAwOTc4NywiZXhwIjoxNzYyNTQ1Nzg3fQ.SOFizjy9WOeu6NgsRQVyx4kGXYgwpmqhVG1bz6Y4zS8&t=2024-11-07T20%3A03%3A07.539Z",
+  //     "id": "b2897bd5-2159-438a-b41d-a7a02a1c7533",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "1-10 dGH",
+  //     "tankSetup": "Plants, driftwood, open swimming space",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Moderate",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Cherry Shrimp",
+  //       "Corydoras Catfish",
+  //       "Endler's Livebearer"
+  //     ],
+  //     "typicalBehavior": "Dwarf Rasboras are lively and social fish that thrive in schools. They are known for their vibrant colors and active swimming patterns, making them a delightful addition to community tanks.",
+  //     "feedingHabits": "Dwarf Rasboras are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional treats of frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to prevent overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Dwarf Rasboras can breed every few weeks under optimal conditions.",
+  //       "fryCount": "A single breeding can produce around 20-50 fry, which are tiny and require fine food and cover to thrive."
+  //     }
+  //   },
+  //   {
+  //     "name": "Celestial Pearl Danio",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/celestial_pearl_danio.jpeg?alt=media&token=54dd677e-69d5-4b23-8b73-0460ce06adec",
+  //     "id": "081e7db4-d25c-45a3-aea0-28f9bd3f9479",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "68-78°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, open swimming space, gentle flow",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Frozen food (e.g., daphnia, brine shrimp)",
+  //       "Micro-pellets"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Endler's Livebearer",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "Celestial Pearl Danios are active and social fish, known for their vibrant colors and peaceful demeanor. They thrive in groups and enjoy exploring their environment, making them great community tank inhabitants.",
+  //     "feedingHabits": "Celestial Pearl Danios are omnivorous and should be fed a varied diet that includes high-quality flake food and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes to avoid overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Celestial Pearl Danios can breed every few weeks under ideal conditions.",
+  //       "fryCount": "A single breeding can produce around 30-50 fry, which are small and require fine food and ample hiding spots to thrive."
+  //     }
+  //   },
+  //   {
+  //     "name": "Sparkling Gourami",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/sparkling_gourami.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3NwYXJrbGluZ19nb3VyYW1pLmpwZWciLCJpYXQiOjE3MzEwMTAwNTUsImV4cCI6MTc2MjU0NjA1NX0.e6Vtr66E76G3nnAhtKCtfV2VgEZIC3xDP8Q-W4N9rXU&t=2024-11-07T20%3A07%3A35.704Z",
+  //     "id": "abb36dcb-d204-4659-b4ba-183867927a54",
+  //     "sizeAtMaturity": "2-3 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "75-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "Soft to medium",
+  //     "tankSetup": "Plants, hiding spots, calm waters",
+  //     "diet": [
+  //       "High-quality flakes",
+  //       "Pellets",
+  //       "Live food (e.g., brine shrimp, daphnia)",
+  //       "Blanched vegetables"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "4-6 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "3 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Betta Fish (with caution)",
+  //       "Endler's Livebearer"
+  //     ],
+  //     "typicalBehavior": "Sparkling Gouramis are gentle and shy fish, known for their shimmering colors and peaceful nature. They prefer to hide among plants and thrive in a calm community tank environment.",
+  //     "feedingHabits": "Sparkling Gouramis are omnivorous and should be fed a balanced diet of high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it within a few minutes to prevent overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Sparkling Gouramis can breed every few weeks under suitable conditions.",
+  //       "fryCount": "A single breeding can produce around 50-100 eggs, which require care and protection in a well-planted tank."
+  //     }
+  //   },
+  //   {
+  //     "name": "Microdevario",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/microdevario.jpeg?alt=media&token=2506b9e4-575e-4343-b8f7-439b10b7fa05",
+  //     "id": "e1c7fb91-fbdb-4dd5-9950-9dfd63970700",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, open swimming space, gentle flow",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., daphnia, cyclops)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "Microdevarios are small, active fish that thrive in groups. They are known for their lively swimming patterns and vibrant colors, making them excellent additions to community tanks.",
+  //     "feedingHabits": "Microdevarios are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small portions 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Microdevarios can breed every few weeks under optimal conditions.",
+  //       "fryCount": "A single spawning can produce around 30-50 fry, which require small food and plenty of hiding spots."
+  //     }
+  //   },
+  //   {
+  //     "name": "Brigittae Rasbora",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/brigittae_rasbora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JyaWdpdHRhZV9yYXNib3JhLmpwZWciLCJpYXQiOjE3MzEwMDk2NDksImV4cCI6MTc2MjU0NTY0OX0.S70_ZX1sH61fZLDfyRbLBX92Bjot4yf0RmVlzhswOp8&t=2024-11-07T20%3A00%3A49.585Z",
+  //     "id": "3910201a-560a-4ceb-b535-e7c0d76cd3e9",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, floating vegetation, gentle flow",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Shrimp species",
+  //       "Other small peaceful fish"
+  //     ],
+  //     "typicalBehavior": "Brigittae Rasboras are small, schooling fish known for their vibrant colors and peaceful nature. They enjoy swimming in groups and are often found foraging for food together.",
+  //     "feedingHabits": "Brigittae Rasboras are omnivorous and should be fed a varied diet, including high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Brigittae Rasboras can breed every few weeks under ideal conditions.",
+  //       "fryCount": "A single spawning can produce around 30-50 eggs, which are adhesive and require care to prevent predation."
+  //     }
+  //   },
+  //   {
+  //     "name": "Panda Corydoras",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/panda_corydora.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BhbmRhX2Nvcnlkb3JhLmpwZWciLCJpYXQiOjE3MzEwMDk5ODAsImV4cCI6MTc2MjU0NTk4MH0.0P6cxdWCXwppngcN_uM6roEsVhUILO8BSuho6WkEZXs&t=2024-11-07T20%3A06%3A20.190Z",
+  //     "id": "9b054285-d1dd-4a59-9995-4480145e00d9",
+  //     "sizeAtMaturity": "2-3 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Sand or fine gravel substrate, plants, hiding spots",
+  //     "diet": [
+  //       "High-quality sinking pellets",
+  //       "Frozen food (e.g., bloodworms, daphnia)",
+  //       "Vegetables (e.g., blanched zucchini, peas)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "5-10 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "6 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Guppies",
+  //       "Rasboras",
+  //       "Other peaceful bottom dwellers"
+  //     ],
+  //     "typicalBehavior": "Panda Corydoras are sociable and active bottom dwellers. They are known for their playful nature and enjoy foraging for food in groups, often seen swimming in a coordinated manner.",
+  //     "feedingHabits": "Panda Corydoras are omnivorous and should be fed a balanced diet of high-quality sinking pellets and occasional frozen or live foods. Feed small portions 2-3 times a day, ensuring they consume it within a few minutes.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Panda Corydoras can breed every few weeks under optimal conditions.",
+  //       "fryCount": "A single spawning can produce around 50-100 eggs, which are laid on flat surfaces and require care to ensure survival."
+  //     }
+  //   },
+  //   {
+  //     "name": "Honey Gourami",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/honey_gourami.jpeg?alt=media&token=97f42d10-d872-4d6d-97ff-4a7542457bcb",
+  //     "id": "d56c50db-df25-4f9f-a5fe-1ae2533c0fa0",
+  //     "sizeAtMaturity": "2-3 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Plants, floating vegetation, calm waters",
+  //     "diet": [
+  //       "High-quality flakes",
+  //       "Pellets",
+  //       "Frozen food (e.g., daphnia, bloodworms)",
+  //       "Vegetables (e.g., blanched spinach)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "4-6 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "2 or more (preferably in a small group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Endler's Livebearer"
+  //     ],
+  //     "typicalBehavior": "Honey Gouramis are peaceful and sociable fish, known for their vibrant colors and gentle nature. They enjoy exploring their environment and thrive in well-planted tanks.",
+  //     "feedingHabits": "Honey Gouramis are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Honey Gouramis can breed every few weeks under ideal conditions.",
+  //       "fryCount": "A single spawning can produce around 30-100 eggs, which are typically cared for by the male in a bubble nest."
+  //     }
+  //   },
+  //   {
+  //     "name": "Indian Zebra Shrimp",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/indian_zebra_shrimp.jpeg?alt=media&token=391e26c1-f6e5-44b5-9e24-40e702a056da",
+  //     "id": "52dcfc83-6a40-4b1f-b6b8-b6c424a1b459",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "68-78°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "4-10 dGH",
+  //     "tankSetup": "Plants, moss, hiding spots, soft substrate",
+  //     "diet": [
+  //       "Algae wafers",
+  //       "High-quality shrimp pellets",
+  //       "Blanched vegetables (e.g., zucchini, spinach)",
+  //       "Microalgae"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "1-2 years",
+  //     "preferredSwimDepth": "Bottom to middle",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Other small, peaceful fish"
+  //     ],
+  //     "typicalBehavior": "Indian Zebra Shrimp are active and social creatures, often seen foraging for food in groups. They are known for their striking stripes and playfulness, making them a popular choice for shrimp enthusiasts.",
+  //     "feedingHabits": "Indian Zebra Shrimp are omnivorous and should be fed a varied diet that includes algae-based foods and shrimp-specific pellets. Feed small amounts 1-2 times a day, ensuring they consume it quickly to prevent waste.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Indian Zebra Shrimp can breed year-round under ideal conditions.",
+  //       "fryCount": "A single female can carry 20-30 eggs, which hatch in about 3-4 weeks."
+  //     }
+  //   },
+  //   {
+  //     "name": "White Cloud Mountain Minnow",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/white_cloud_mountain_minnow.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3doaXRlX2Nsb3VkX21vdW50YWluX21pbm5vdy5qcGVnIiwiaWF0IjoxNzMxMDEwMTEwLCJleHAiOjE3NjI1NDYxMTB9.sWxl0Qtb1sU9F0WqmNgTfwqKNegcwPzYTeD5OAK2NeM&t=2024-11-07T20%3A08%3A30.602Z",
+  //     "id": "ebbdfccb-9f41-4c08-a38f-2eabecf78f09",
+  //     "sizeAtMaturity": "1.5-2 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "64-72°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-19 dGH",
+  //     "tankSetup": "Plants, open swimming space, moderate flow",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater (if needed)",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Cherry Shrimp"
+  //     ],
+  //     "typicalBehavior": "White Cloud Mountain Minnows are active and social fish known for their vibrant colors and schooling behavior. They thrive in groups and are often seen swimming together in the tank.",
+  //     "feedingHabits": "White Cloud Mountain Minnows are omnivorous and should be fed a varied diet, including high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "White Cloud Mountain Minnows can breed several times a year under suitable conditions.",
+  //       "fryCount": "A single spawning can produce around 30-100 eggs, which hatch in 24-36 hours."
+  //     }
+  //   },
+  //   {
+  //     "name": "Rummy Nose Tetra",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rummy_nose_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3J1bW15X25vc2VfdGV0cmEuanBlZyIsImlhdCI6MTczMTAxMDA0NCwiZXhwIjoxNzYyNTQ2MDQ0fQ.OVFz0b6St-4FktnuTQSiu6iY8vRqyLvNtdeykHIsjXc&t=2024-11-07T20%3A07%3A24.293Z",
+  //     "id": "dff344e5-d23d-4bdf-9192-441c07e84c13",
+  //     "sizeAtMaturity": "1.5-2 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "74-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, open swimming space, soft substrate",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., brine shrimp, daphnia)"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "5-8 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Other small peaceful fish"
+  //     ],
+  //     "typicalBehavior": "Rummy Nose Tetras are active and social fish known for their striking coloration and schooling behavior. They are best kept in groups and are often seen swimming together in a coordinated manner.",
+  //     "feedingHabits": "Rummy Nose Tetras are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small amounts 2-3 times a day, ensuring they consume it quickly to avoid waste.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Rummy Nose Tetras can breed under optimal conditions, usually in a separate breeding tank.",
+  //       "fryCount": "A single spawning can produce around 100-200 eggs, which hatch in 24-36 hours."
+  //     }
+  //   },
+  //   {
+  //     "name": "Ember Tetra",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/ember_tetra.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VtYmVyX3RldHJhLmpwZWciLCJpYXQiOjE3MzEwMDk4MDQsImV4cCI6MTc2MjU0NTgwNH0.slyplivM8Gj2urM1FRUUQykPdA0o0QewqKmnEpj0AJI&t=2024-11-07T20%3A03%3A24.272Z",
+  //     "id": "77e6de7b-8f3e-42f5-bd29-342a816c67a4",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "4-12 dGH",
+  //     "tankSetup": "Plants, open swimming space, soft substrate",
+  //     "diet": [
+  //       "High-quality flake food",
+  //       "Micro-pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Fine gravel",
+  //       "Sand",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Shrimp species"
+  //     ],
+  //     "typicalBehavior": "Ember Tetras are small, active fish known for their vibrant orange color and schooling behavior. They thrive in groups and are often seen swimming together, adding movement and color to the aquarium.",
+  //     "feedingHabits": "Ember Tetras are omnivorous and should be fed a varied diet that includes high-quality flakes and occasional live or frozen foods. Feed small portions 2-3 times a day, ensuring they consume it quickly to prevent overfeeding.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Ember Tetras can breed several times a year under suitable conditions.",
+  //       "fryCount": "A single spawning can produce around 30-100 eggs, which hatch in about 24-36 hours."
+  //     }
+  //   },
+  //   {
+  //     "name": "Kuhli Loach",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/kuhli_loach.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2t1aGxpX2xvYWNoLmpwZWciLCJpYXQiOjE3MzEwMDk5MzIsImV4cCI6MTc2MjU0NTkzMn0.3QijWmH34oYrqBu_Etw0h2Zv-Ff3DEjqkMiI4ardnkw&t=2024-11-07T20%3A05%3A32.839Z",
+  //     "id": "c71a9629-7ddf-4dab-bbe8-5c714ec91933",
+  //     "sizeAtMaturity": "3-4 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-86°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, hiding spots, soft substrate",
+  //     "diet": [
+  //       "High-quality sinking pellets",
+  //       "Frozen food (e.g., bloodworms, brine shrimp)",
+  //       "Vegetables (e.g., blanched zucchini, cucumber)"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "10-15 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "4 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants and decor for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Other peaceful bottom dwellers"
+  //     ],
+  //     "typicalBehavior": "Kuhli Loaches are nocturnal and shy fish that enjoy burrowing into the substrate. They are social creatures and thrive in groups, often seen exploring their environment and foraging for food.",
+  //     "feedingHabits": "Kuhli Loaches are omnivorous and should be fed a varied diet that includes sinking pellets, frozen foods, and occasional vegetables. Feed small portions 1-2 times a day, ensuring they consume it quickly.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Kuhli Loaches are challenging to breed in captivity; spawning typically occurs in soft, acidic water.",
+  //       "fryCount": "A single spawning can produce several hundred eggs, which require specific care to raise."
+  //     }
+  //   },
+  //   {
+  //     "name": "Hara Jerdoni",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/hara_jerdoni.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2hhcmFfamVyZG9uaS5qcGVnIiwiaWF0IjoxNzMxMDA5ODk5LCJleHAiOjE3NjI1NDU4OTl9.Nlkqz-fFw7TRctQ3BtTj3FZ7LTcvO-fbU8Nz1YMhftw&t=2024-11-07T20%3A04%3A59.439Z",
+  //     "id": "cba16757-81b0-4291-90d9-d9202445db0f",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, soft substrate, hiding spots",
+  //     "diet": [
+  //       "High-quality sinking pellets",
+  //       "Frozen food (e.g., daphnia, brine shrimp)",
+  //       "Small live foods"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "4 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Low to Medium",
+  //     "compatibleSpecies": [
+  //       "Neon Tetra",
+  //       "Corydoras Catfish",
+  //       "Rasboras",
+  //       "Other small, peaceful fish"
+  //     ],
+  //     "typicalBehavior": "Hara Jerdoni are small, bottom-dwelling fish known for their shy and peaceful nature. They prefer to hide among plants and decorations and are often seen foraging for food.",
+  //     "feedingHabits": "Hara Jerdoni are omnivorous and should be fed a varied diet, including high-quality sinking pellets and occasional live or frozen foods. Feed small amounts 1-2 times a day, ensuring they consume it quickly.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding Hara Jerdoni in captivity is rare and requires specific conditions.",
+  //       "fryCount": "When spawning occurs, they may produce around 30-50 eggs, which need to be carefully monitored."
+  //     }
+  //   },
+  //   {
+  //     "name": "Pea Puffer",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/pea_puffer.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BlYV9wdWZmZXIuanBlZyIsImlhdCI6MTczMTAwOTk5MCwiZXhwIjoxNzYyNTQ1OTkwfQ.aaTrphC0nxFqf_nYw3AA-b0MUZPQ37bhAXzHKBMUDkE&t=2024-11-07T20%3A06%3A30.706Z",
+  //     "id": "f02eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1-2 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Varies",
+  //     "waterTemperature": "74-82°F",
+  //     "pH": "6.5-8.0",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, hiding spots, open swimming space",
+  //     "diet": [
+  //       "High-quality pellets",
+  //       "Frozen food (e.g., bloodworms, brine shrimp)",
+  //       "Snails and live foods"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "1-3 (preferably in a small group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium to High",
+  //     "compatibleSpecies": [
+  //       "Small, non-aggressive fish",
+  //       "Shrimp species (with caution)"
+  //     ],
+  //     "typicalBehavior": "Pea Puffers are curious and active fish known for their playful nature. They can exhibit territorial behavior, especially during feeding, and prefer to have plenty of hiding spots.",
+  //     "feedingHabits": "Pea Puffers are carnivorous and should be fed a varied diet that includes high-quality pellets, frozen foods, and occasional live foods like snails. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding in captivity is challenging and requires specific conditions.",
+  //       "fryCount": "When spawning occurs, a female may lay around 20-30 eggs, which require careful monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Fancy Guppy",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/fancy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2ZhbmN5X2d1cHB5LmpwZyIsImlhdCI6MTczMTAwOTg1MSwiZXhwIjoxNzYyNTQ1ODUxfQ.mBZ1b-GpxD8A33RrlHygKOd0UXanPkIdu_x9nv2C87c&t=2024-11-07T20%3A04%3A11.594Z",
+  //     "id": "f03eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1-2 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-82°F",
+  //     "pH": "6.8-7.8",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Plants, open swimming space, gentle filtration",
+  //     "diet": [
+  //       "Flake food",
+  //       "Freeze-dried foods",
+  //       "Infusoria and small live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "1-2 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Shrimp species"
+  //     ],
+  //     "typicalBehavior": "Fancy Guppies are active and social fish that enjoy swimming in groups. They are generally peaceful and can display vibrant colors and patterns.",
+  //     "feedingHabits": "Fancy Guppies are omnivorous and thrive on a balanced diet that includes high-quality flake food and occasional live or frozen foods. Feed small amounts 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Guppies breed easily in captivity and can give birth every 4-6 weeks.",
+  //       "fryCount": "A female can give birth to 20-50 fry per litter, depending on her size and health."
+  //     }
+  //   }, 
+  //   {
+  //     "name": "Endler's Guppy",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/endlers_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2VuZGxlcnNfZ3VwcHkuanBnIiwiaWF0IjoxNzMxMDA5ODE2LCJleHAiOjE3NjI1NDU4MTZ9.cOGO018Ampr9c4a1DgwgNBDeq5yYwl13gAYwcFFRU3s&t=2024-11-07T20%3A03%3A36.758Z",
+  //     "id": "f04eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1-1.5 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-80°F",
+  //     "pH": "6.5-8.0",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Plants, open swimming areas, gentle filtration",
+  //     "diet": [
+  //       "Flake food",
+  //       "Frozen foods",
+  //       "Micro-worms and small live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "2-3 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Shrimp species"
+  //     ],
+  //     "typicalBehavior": "Endler's Guppies are lively and sociable fish known for their striking colors and patterns. They thrive in groups and are generally non-aggressive.",
+  //     "feedingHabits": "Endler's Guppies are omnivorous and benefit from a varied diet, including high-quality flake food and occasional live or frozen treats. Feed small portions 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding is easy, and they can reproduce every 3-4 weeks.",
+  //       "fryCount": "A female can give birth to 5-20 fry per litter, which are independent at birth."
+  //     }
+  //   },
+  //   {
+  //     "name": "Galaxy Guppy",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/galaxy_guppy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dhbGF4eV9ndXBweS5qcGciLCJpYXQiOjE3MzEwMDk4NjIsImV4cCI6MTc2MjU0NTg2Mn0.p_aQMHBTr37E4qVvK-wH-Bibon4mLtjZBG3hmy1Z-VU&t=2024-11-07T20%3A04%3A22.275Z",
+  //     "id": "f05eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1-2 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, open swimming space, gentle filtration",
+  //     "diet": [
+  //       "High-quality flakes",
+  //       "Freeze-dried foods",
+  //       "Small live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "2-3 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel",
+  //       "Soft substrate"
+  //     ],
+  //     "popularityLevel": "Medium to High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Shrimp species"
+  //     ],
+  //     "typicalBehavior": "Galaxy Guppies are active and vibrant fish, known for their striking colors and patterns. They are social and thrive in community tanks.",
+  //     "feedingHabits": "Galaxy Guppies are omnivorous and should be fed a balanced diet of high-quality flakes, freeze-dried foods, and occasional live treats. Feed small portions 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding is straightforward, with females giving birth every 4-6 weeks.",
+  //       "fryCount": "A female can give birth to 20-50 fry at a time, which are fully independent at birth."
+  //     }
+  //   },
+  //   {
+  //     "name": "Swordtail",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/swordtail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3N3b3JkdGFpbC5qcGciLCJpYXQiOjE3MzEwMTAwNzEsImV4cCI6MTc2MjU0NjA3MX0.viVuVO7KgV35juvDiKvTRA952HJZg7G_3V7QJtJgfmE&t=2024-11-07T20%3A07%3A51.227Z",
+  //     "id": "f06eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "3-5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-79°F",
+  //     "pH": "7.0-8.0",
+  //     "hardness": "10-28 dGH",
+  //     "tankSetup": "Plants, open swimming space, and hiding spots",
+  //     "diet": [
+  //       "Flake food",
+  //       "Frozen foods",
+  //       "Vegetables and live foods"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "3 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand",
+  //       "Smooth stones"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small to medium peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Swordtails are social and active fish that enjoy swimming in groups. They are generally peaceful but can exhibit territorial behavior among males.",
+  //     "feedingHabits": "Swordtails are omnivorous and should be fed a varied diet including high-quality flakes, frozen foods, and fresh vegetables. Feed small amounts 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding is easy, and they can reproduce every 4-6 weeks.",
+  //       "fryCount": "A female can give birth to 20-100 fry, which are independent at birth."
+  //     }
+  //   },
+  //   {
+  //     "name": "Platy",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/platy.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3BsYXR5LmpwZyIsImlhdCI6MTczMTAxMDAwNSwiZXhwIjoxNzYyNTQ2MDA1fQ.WbGk7le3trdinoSefGFwbr9pBj7B0RdBK-N_JJfzRew&t=2024-11-07T20%3A06%3A45.900Z",
+  //     "id": "f07eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "2-3 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "70-78°F",
+  //     "pH": "6.8-8.0",
+  //     "hardness": "10-28 dGH",
+  //     "tankSetup": "Plants, open swimming space, and hiding spots",
+  //     "diet": [
+  //       "Flake food",
+  //       "Frozen foods",
+  //       "Vegetables and live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "2-3 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "5 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand",
+  //       "Smooth stones"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Platies are friendly and active fish that thrive in groups. They are known for their vibrant colors and can display a range of social behaviors.",
+  //     "feedingHabits": "Platies are omnivorous and should be fed a balanced diet including high-quality flakes, frozen foods, and occasional plant matter. Feed small amounts 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding is easy, and they can reproduce every 4-6 weeks.",
+  //       "fryCount": "A female can give birth to 20-50 fry, which are independent at birth."
+  //     }
+  //   },
+  //   {
+  //     "name": "Otocinclus Catfish",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/otocinclus-catfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL290b2NpbmNsdXMtY2F0ZmlzaC5qcGciLCJpYXQiOjE3MzEwMDk5NDksImV4cCI6MTc2MjU0NTk0OX0.MT9rZbuDDbXO4fjM1QhXOQBzd3jvm0rzwXOWsspOc_Q&t=2024-11-07T20%3A05%3A49.515Z",
+  //     "id": "f09eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1.5-2 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-79°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "2-12 dGH",
+  //     "tankSetup": "Plants, driftwood, and hiding spots",
+  //     "diet": [
+  //       "Algae wafers",
+  //       "Vegetable matter",
+  //       "Blanched vegetables"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "4 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Otocinclus Catfish are social and gentle algae eaters that prefer to stay in groups. They are active during the day and enjoy grazing on surfaces.",
+  //     "feedingHabits": "Otocinclus Catfish are herbivorous and primarily eat algae. Supplement their diet with algae wafers and blanched vegetables. Feed small portions once or twice a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding in captivity is rare and requires specific conditions.",
+  //       "fryCount": "When spawning occurs, females may lay a few dozen eggs on surfaces."
+  //     }
+  //   },
+  //   {
+  //     "name": "Harlequin Rasbora",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/harlequin-rasbora.jpeg?alt=media&token=089c5b20-89ae-4533-90b8-50ddccde297f",
+  //     "id": "f10eeca4-51b5-44d7-a599-fafed92cdddc",
+  //     "sizeAtMaturity": "1.5-2 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "73-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, floating plants, and open swimming areas",
+  //     "diet": [
+  //       "Flake food",
+  //       "Frozen foods",
+  //       "Live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "4-6 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand"
+  //     ],
+  //     "popularityLevel": "Medium to High",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Rasbora Heteromorpha are active and social fish that thrive in schools, displaying vibrant colors and lively behavior.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes and small live or frozen foods. Feed small portions 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
+  //       "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Common Goldfish",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/goldfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2dvbGRmaXNoLmpwZyIsImlhdCI6MTczMTAwOTg4NSwiZXhwIjoxNzYyNTQ1ODg1fQ.7_hZFejhKUo4SNznQimypC83UQpTljWZx4jLM1XCQ9M&t=2024-11-07T20%3A04%3A45.314Z",
+  //     "id": "a5d3b29c-8273-4a5b-b1e5-6c4e9b67b5c9",
+  //     "sizeAtMaturity": "6-8 in.",
+  //     "tankSize": "20 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "65-75°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Open swimming space with plants and decorations for hiding",
+  //     "diet": [
+  //       "Goldfish pellets",
+  //       "Flake food",
+  //       "Vegetables"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "10-15 years (or longer with proper care)",
+  //     "preferredSwimDepth": "All levels",
+  //     "preferredNumber": "Single or in small groups",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater (if needed)",
+  //       "Air pump for oxygenation"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Other goldfish",
+  //       "Larger peaceful fish"
+  //     ],
+  //     "typicalBehavior": "Common goldfish are curious and social, often exploring their environment and interacting with tank mates.",
+  //     "feedingHabits": "They are omnivorous and should be fed a balanced diet of goldfish pellets, flakes, and occasional vegetables. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding occurs in spring under optimal conditions, often in a separate breeding tank.",
+  //       "fryCount": "Females can lay hundreds of eggs, which are often scattered and require monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Black Neon Tetra",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/black-neon-tetra.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2JsYWNrLW5lb24tdGV0cmEuanBnIiwiaWF0IjoxNzMxMDA5NjM1LCJleHAiOjE3NjI1NDU2MzV9.3KPZ9qxGnvXplTOqoyS-YOkByRYDqeyuyiC1B2Zvzfk&t=2024-11-07T20%3A00%3A35.939Z",
+  //     "id": "c22e1a55-7d0d-4c26-8d9c-e20a4c3a9f0e",
+  //     "sizeAtMaturity": "1.5-2 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.0",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, soft lighting, and open swimming areas",
+  //     "diet": [
+  //       "Flake food",
+  //       "Frozen foods",
+  //       "Live foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "3-5 years",
+  //     "preferredSwimDepth": "Middle",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Small, peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Black Neon Tetras are active and social, often swimming in schools and displaying their striking coloration.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes and small live or frozen foods. Feed small portions 2-3 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
+  //       "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Boesemani Rainbowfish",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/rainbowfish.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3JhaW5ib3dmaXNoLmpwZyIsImlhdCI6MTczMTAxMDAzMiwiZXhwIjoxNzYyNTQ2MDMyfQ.zH9X_EEn8XLCge_G72STuRqWSll6eqYTyB6Xr8FWVws&t=2024-11-07T20%3A07%3A12.908Z",
+  //     "id": "d70f8c64-bc32-4f29-9ef7-e2b4c3b2e1d5",
+  //     "sizeAtMaturity": "3-4 in.",
+  //     "tankSize": "20 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "75-82°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "5-15 dGH",
+  //     "tankSetup": "Plants, open swimming areas, and hiding spots",
+  //     "diet": [
+  //       "Flake food",
+  //       "Pellets",
+  //       "Frozen foods"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "5-8 years",
+  //     "preferredSwimDepth": "Middle to top",
+  //     "preferredNumber": "6 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small to medium peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Boesemani Rainbowfish are active and social, often displaying vibrant colors when in a group and enjoying open swimming spaces.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality flakes, pellets, and occasional frozen or live foods. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
+  //       "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Corydoras Sterbai",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/Corydoras-sterbai.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL0Nvcnlkb3Jhcy1zdGVyYmFpLmpwZyIsImlhdCI6MTczMTAwOTc0NCwiZXhwIjoxNzYyNTQ1NzQ0fQ.l12VnBZAcdMiC-4Nh1BUcMY3Pf0orIlR-UQADDf3otc&t=2024-11-07T20%3A02%3A24.458Z",
+  //     "id": "b72e7d26-5b55-4a4e-8457-8e8caa1d82a0",
+  //     "sizeAtMaturity": "2.5-3 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "72-78°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "2-15 dGH",
+  //     "tankSetup": "Sandy substrate, plants, and hiding spots",
+  //     "diet": [
+  //       "Sinking pellets",
+  //       "Flake food",
+  //       "Frozen foods"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "5-10 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "4 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Corydoras Sterbai are social bottom dwellers that thrive in groups, displaying playful behavior and foraging for food.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality sinking pellets, flakes, and occasional frozen or live foods. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding can occur in a separate breeding tank with appropriate conditions.",
+  //       "fryCount": "Females can lay several dozen eggs, which require care and monitoring."
+  //     }
+  //   },
+  //   {
+  //     "name": "Amano Shrimp",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/amano_shrimp.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2FtYW5vX3NocmltcC5qcGciLCJpYXQiOjE3MzEwMDk1NzYsImV4cCI6MTc2MjU0NTU3Nn0.4HgXKuuEinzSi4XcOKq2FvwowBSWtY8LC7_jP67LrQE&t=2024-11-07T19%3A59%3A36.763Z",
+  //     "id": "f04d8a63-4d7d-40e0-a39d-f5d5d8f541b0",
+  //     "sizeAtMaturity": "2-2.5 in.",
+  //     "tankSize": "10 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "70-78°F",
+  //     "pH": "6.5-7.5",
+  //     "hardness": "4-15 dGH",
+  //     "tankSetup": "Plants, rocks, and hiding spots",
+  //     "diet": [
+  //       "Algae",
+  //       "Vegetable matter",
+  //       "Shrimp pellets"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "2-3 years",
+  //     "preferredSwimDepth": "All levels",
+  //     "preferredNumber": "4 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Plants for cover"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Gravel",
+  //       "Sand"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Amano Shrimp are active scavengers, constantly foraging for food and interacting with their environment.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including algae wafers, shrimp pellets, and blanched vegetables. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding requires brackish water conditions; larvae may not survive in freshwater.",
+  //       "fryCount": "Females can carry eggs, but most young require special care."
+  //     }
+  //   },
+  //   {
+  //     "name": "Clown Loach",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/clown_loach.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2Nsb3duX2xvYWNoLmpwZyIsImlhdCI6MTczMTAwOTcyMywiZXhwIjoxNzYyNTQ1NzIzfQ.I7WOJpGOtZjEoJHynXIBbSZEhPsnytd7m1tqZy4gDd4&t=2024-11-07T20%3A02%3A03.225Z",
+  //     "id": "a1e6e4e9-3b9b-4e8f-b83e-6e7a067eb1e3",
+  //     "sizeAtMaturity": "6-12 in.",
+  //     "tankSize": "75 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "75-86°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "2-12 dGH",
+  //     "tankSetup": "Plants, caves, and hiding spots with open swimming areas",
+  //     "diet": [
+  //       "Sinking pellets",
+  //       "Frozen foods",
+  //       "Vegetable matter"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "10-15 years",
+  //     "preferredSwimDepth": "Bottom to middle",
+  //     "preferredNumber": "4 or more (preferably in a school)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Hiding spots"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel"
+  //     ],
+  //     "popularityLevel": "High",
+  //     "compatibleSpecies": [
+  //       "Small to medium peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Clown Loaches are social and active fish, known for their playful behavior and tendency to burrow into the substrate.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality sinking pellets, frozen foods, and occasional vegetables. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding in captivity is rare; requires specific conditions.",
+  //       "fryCount": "Females can lay several hundred eggs in a breeding tank, but fry care can be challenging."
+  //     }
+  //   },
+  //   {
+  //     "name": "Dwarf Cichlid (Apistogramma)",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/dwarf_cichlid.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL2R3YXJmX2NpY2hsaWQuanBnIiwiaWF0IjoxNzMxMDA5NzY0LCJleHAiOjE3NjI1NDU3NjR9.fi6RFAaF57EcU6RpxVQiBwhemoAv4YV-0CglHdhXcxY&t=2024-11-07T20%3A02%3A44.264Z",
+  //     "id": "b2a51a62-1f88-4d3e-b56a-b2d7f3e8e67a",
+  //     "sizeAtMaturity": "2-4 in.",
+  //     "tankSize": "20 gal.",
+  //     "temperament": "Varies",
+  //     "waterTemperature": "75-82°F",
+  //     "pH": "6.0-7.5",
+  //     "hardness": "2-15 dGH",
+  //     "tankSetup": "Plants, caves, and hiding spots with subdued lighting",
+  //     "diet": [
+  //       "Cichlid pellets",
+  //       "Frozen foods",
+  //       "Live foods"
+  //     ],
+  //     "careLevel": "Moderate",
+  //     "lifespan": "4-8 years",
+  //     "preferredSwimDepth": "Bottom to middle",
+  //     "preferredNumber": "1 male with 2-3 females for breeding",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Hiding spots"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Gravel"
+  //     ],
+  //     "popularityLevel": "Medium to High",
+  //     "compatibleSpecies": [
+  //       "Smaller peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Apistogrammas are territorial, especially during breeding, and often display colorful displays of dominance.",
+  //     "feedingHabits": "They are omnivorous and should be fed a varied diet, including high-quality cichlid pellets, frozen foods, and occasional live foods. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding occurs in a well-planted tank with caves and hiding spots.",
+  //       "fryCount": "Females can lay several dozen eggs, which require care from both parents."
+  //     }
+  //   },
+  //   {
+  //     "name": "Malaysian Trumpet Snail",
+  //     "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/fish/trumpet_snail.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJmaXNoL3RydW1wZXRfc25haWwuanBnIiwiaWF0IjoxNzMxMDEwMDk5LCJleHAiOjE3NjI1NDYwOTl9.QjcwkFsmrUPnO_h4kuLRT6dvM50s1GBa6rwkuZs_UZw&t=2024-11-07T20%3A08%3A19.911Z",
+  //     "id": "d48e9c66-1b74-4c77-8ec8-6c8ff2b0c1d7",
+  //     "sizeAtMaturity": "1-2 in.",
+  //     "tankSize": "5 gal.",
+  //     "temperament": "Peaceful",
+  //     "waterTemperature": "70-78°F",
+  //     "pH": "6.5-8.0",
+  //     "hardness": "3-15 dGH",
+  //     "tankSetup": "Plants, substrate for burrowing, and hiding spots",
+  //     "diet": [
+  //       "Algae",
+  //       "Decaying plant matter",
+  //       "Snail pellets"
+  //     ],
+  //     "careLevel": "Easy",
+  //     "lifespan": "1-2 years",
+  //     "preferredSwimDepth": "Bottom",
+  //     "preferredNumber": "2 or more (preferably in a group)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater (if needed)",
+  //       "Substrate for burrowing"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Gravel"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Peaceful fish",
+  //       "Community tank species"
+  //     ],
+  //     "typicalBehavior": "Malaysian Trumpet Snails are nocturnal and often burrow in the substrate, helping aerate it and consume leftover food.",
+  //     "feedingHabits": "They are detritivores and should be fed a varied diet, including algae wafers and decaying plant matter. They often scavenge for leftover food.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "They reproduce easily in the right conditions, with no special care needed for the young.",
+  //       "fryCount": "Females can produce numerous eggs, which hatch into miniature snails."
+  //     }
+  //   },
+  //   {
+  //     "name": "Tetraodon",
+  //     "img": "https://firebasestorage.googleapis.com/v0/b/testtank-a6f24.firebasestorage.app/o/Tetraodon.jpg?alt=media&token=a4de12f2-3f68-45b6-bd03-c6b6cc1dd3f6",
+  //     "id": "f8e16b7c-adaf-4b49-b7de-f1f8a6d9e2c0",
+  //     "sizeAtMaturity": "4-12 in. (varies by species)",
+  //     "tankSize": "30 gal.",
+  //     "temperament": "Varies",
+  //     "waterTemperature": "75-82°F",
+  //     "pH": "7.0-8.5",
+  //     "hardness": "5-20 dGH",
+  //     "tankSetup": "Plants, rocks, and hiding spots with open swimming areas",
+  //     "diet": [
+  //       "Shellfish",
+  //       "Live foods",
+  //       "Vegetables"
+  //     ],
+  //     "careLevel": "Moderate to Advanced",
+  //     "lifespan": "10-15 years",
+  //     "preferredSwimDepth": "Middle to bottom",
+  //     "preferredNumber": "Usually kept singly or in pairs (depends on species)",
+  //     "specialEquipment": [
+  //       "Filter",
+  //       "Heater",
+  //       "Hiding spots"
+  //     ],
+  //     "idealSubstrates": [
+  //       "Sand",
+  //       "Fine gravel"
+  //     ],
+  //     "popularityLevel": "Medium",
+  //     "compatibleSpecies": [
+  //       "Species-specific (some are aggressive)"
+  //     ],
+  //     "typicalBehavior": "Tetraodons are curious and intelligent fish, known for their playful behavior and unique ability to inflate when threatened.",
+  //     "feedingHabits": "They are carnivorous and should be fed a varied diet, including shellfish, live foods, and vegetables. Feed small portions 1-2 times a day.",
+  //     "breedingHabits": {
+  //       "breedingFrequency": "Breeding is rare in captivity; often requires specific conditions.",
+  //       "fryCount": "Fry care can be challenging, depending on the species."
+  //     }
+  //   }
+  // ]
 

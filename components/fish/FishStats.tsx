@@ -8,7 +8,7 @@ export type GridProps = { fish: fish };
 export default function FishStats({ fish }: GridProps) {
   return (
     <View>
-      <Text variant="body"> fish text here</Text>
+      <Text variant="bodyMedium"> fish text here</Text>
     </View>
   );
 }
