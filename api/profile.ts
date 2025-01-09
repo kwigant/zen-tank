@@ -13,12 +13,14 @@ export async function getCurrentProfile(sessionId: string) {
 
 
 export async function updateProfile(profileObj: updateProfileInput) {
+  console.log('update profile')
     const { data, error } = await supabase
       .from("Profiles")
       .update({
         tanks: profileObj.tanks,
         current_tank_id: profileObj.current_tank_id, 
         current_tank_name: profileObj.current_tank_name, 
+        current_tank_size: profileObj.current_tank_size, 
       })
       .eq("user_id", profileObj.user_id)
       .select();

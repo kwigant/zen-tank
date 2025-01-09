@@ -6,10 +6,9 @@ import { Avatar, Text } from "react-native-paper";
 
 type TankItemProps = {
     tank: tank, 
-    setCurrentTank: Dispatch<SetStateAction<tank>>,
 }
 
-export default function TankItem({tank, setCurrentTank}: TankItemProps) {
+export default function TankItem({tank}: TankItemProps) {
     return (
         // <TouchableOpacity onPress={()=> (setCurrentTank(tank))}>
             <View style={style.gridItem}>

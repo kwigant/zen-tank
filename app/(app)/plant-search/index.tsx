@@ -13,7 +13,7 @@ export default function PlantSearchScreen() {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      console.log('calling')
+      //('calling')
       const { data, error } = await supabase
         .from("Plants") // Replace with your table name
         .select("*");

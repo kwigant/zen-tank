@@ -6,7 +6,7 @@ import { Chip, Icon, IconButton, Searchbar } from "react-native-paper";
 import { Text } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { supabase } from "@/utils/supabase";
-import { fish } from "../../constants/Types";
+import { fish } from "@/constants/Types";
 import { fetchFishData, searchFishData } from "@/utils/fish";
 
 export default function FishSearchScreen() {
@@ -18,7 +18,7 @@ export default function FishSearchScreen() {
   }, []);
 
   async function fetchFishData(){
-    console.log('calling')
+    //console.log('calling')
     const { data, error } = await supabase
       .from("Fish")
       .select("*");

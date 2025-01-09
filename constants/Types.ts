@@ -84,10 +84,16 @@ export type SignUpProps = {
 }
 
   export type TankFish = {
+    id: string;
     fish_id: string;
     name: string;
     user_id: string;
     tank_id: string;
+    sizeAtMaturity: string;//
+    temperament: string; 
+    tankSize: string;//
+    waterTemperature: string;//
+    img: string;
   };
 
 // Log In to Account - Auth
@@ -107,6 +113,7 @@ export type updateProfileInput = {
   tanks: number, 
   current_tank_id: string, 
   current_tank_name: string,
+  current_tank_size: number,
   user_id: string
 }
 

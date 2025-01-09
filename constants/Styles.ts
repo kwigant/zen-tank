@@ -99,4 +99,13 @@ export const style = StyleSheet.create({
         display: "flex",
         justifyContent: "center",
     },
+    iconBtn: {
+        backgroundColor: "#F5F5F5", 
+        borderRadius: 8, 
+        padding: 10, 
+        margin: 4,
+        color: 'black',
+        minWidth: '50%',
+        fontSize: 20
+    }
 })

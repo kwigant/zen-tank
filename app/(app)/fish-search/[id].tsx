@@ -1,5 +1,11 @@
 import * as React from "react";
-import { Image, View, ScrollView, FlatList, TouchableOpacity } from "react-native";
+import {
+  Image,
+  View,
+  ScrollView,
+  FlatList,
+  TouchableOpacity,
+} from "react-native";
 import { Button, Text, IconButton, Portal, Modal } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { Link, useLocalSearchParams } from "expo-router";
@@ -10,27 +16,31 @@ import { supabase } from "@/utils/supabase";
 import { fish, tank } from "@/constants/Types";
 import Tabs from "@/components/Tabs";
 import { Session } from "@supabase/supabase-js";
+import { useAuth } from "@/hooks/Auth";
+import { useProfile } from "@/hooks/Profile";
+
 
 export default function FishProfileScreen({}) {
   const { id } = useLocalSearchParams();
+  const ctx = useAuth();
+  const { user } = React.useContext(ctx);
+  const pctx = useProfile();
+  const { profile } = React.useContext(pctx);
   const [tab, setTab] = React.useState(0);
   const [loading, setLoading] = React.useState(false);
   const [fish, setFish] = React.useState({} as fish);
   const [session, setSession] = React.useState<Session | null>(null);
-  const [currentTank, setCurrentTank] = React.useState({} as tank)
+  const [currentTank, setCurrentTank] = React.useState({} as tank);
   const containerStyle = { backgroundColor: "white", margin: 24, padding: 20 };
-  const [tanks, setTanks] = React.useState([] as tank[])
+  const [tanks, setTanks] = React.useState([] as tank[]);
   // modal props
   const [visible, setVisible] = React.useState(false);
   const showModal = () => setVisible(true);
   const hideModal = () => setVisible(false);
 
   React.useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-    });
     const fetchFish = async () => {
-      console.log("calling");
+     //("calling");
       const { data, error } = await supabase
         .from("Fish") // Replace with your table name
         .select()
@@ -45,30 +55,42 @@ export default function FishProfileScreen({}) {
 
     setLoading(true);
     fetchFish();
-    listTanks().then((data => {
-      if (data) { setTanks(data); console.log(tanks); }
-    })).catch(error => {throw error});
+    listTanks()
+      .then((data) => {
+        if (data) {
+          setTanks(data);
+          //console.log(tanks);
+        }
+      })
+      .catch((error) => {
+        throw error;
+      });
   }, []);
 
-
-
-  function addFishToTank(item: tank) {
-    setCurrentTank(item)
-    addFish(item.tank_id)
+  function addFishToTank(tank_id: string) {
+    // setCurrentTank(item)
+    addFish(tank_id);
+    hideModal();
   }
 
   async function addFish(tank_id: string) {
     try {
-      if (session) {
+      if (user) {
         const { error } = await supabase
           .from("TankFish")
           .upsert({
             fish_id: fish.id,
             name: fish.name,
-            user_id: session?.user.id,
-            tank_id: tank_id, 
-            email: session?.user.email
-          }).select();
+            user_id: user.id,
+            img: fish.img,
+            sizeAtMaturity: fish.sizeAtMaturity,
+            waterTemperature: fish.waterTemperature,
+            tankSize: fish.tankSize,
+            temperament: fish.temperament,
+            tank_id: tank_id,
+            email: user.email,
+          })
+          .select();
         if (error) {
           throw error;
         }
@@ -81,7 +103,7 @@ export default function FishProfileScreen({}) {
   }
 
   async function listTanks() {
-    console.log('list tank')
+    //console.log("list tank");
     const { data, error } = await supabase
       .from("Tanks")
       .select()
@@ -102,9 +124,7 @@ export default function FishProfileScreen({}) {
 
       <View style={style.container}>
         <View style={style.justifiedRow}>
-          <Link href="/fish-search">
-            <IconButton icon="arrow-left" iconColor="black" />
-          </Link>
+        
           <Text variant="headlineLarge" style={{ textAlign: "center" }}>
             {fish.name}
           </Text>
@@ -132,17 +152,25 @@ export default function FishProfileScreen({}) {
           onDismiss={hideModal}
           contentContainerStyle={containerStyle}
         >
-          <FlatList
-            data={tanks}
-            
-            renderItem={({ item }) => ( 
-              <TouchableOpacity onPress={()=> addFishToTank(item)}>
+          {profile && (
+            <View>
+              <Text>
+                Add {fish.name} to {profile.current_tank_name}?
+              </Text>
 
-             
-              <Text>{item.name}</Text>
-              </TouchableOpacity>
-            )}
-          />
+              <View style={style.row}>
+                <Button mode="text" onPress={hideModal}>
+                  Cancel
+                </Button>
+                <Button
+                  onPress={() => addFishToTank(profile.current_tank_id)}
+                  mode="contained"
+                >
+                  Add
+                </Button>
+              </View>
+            </View>
+          )}
         </Modal>
       </Portal>
     </View>

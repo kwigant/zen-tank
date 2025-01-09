@@ -6,7 +6,7 @@ import { ProfileProvider } from "@/hooks/Profile";
 export default function AppLayout() {
   return (
     <ProfileProvider>
-      <Stack>
+      <Stack >
         <Stack.Screen
           name="index"
           options={{
@@ -29,7 +29,7 @@ export default function AppLayout() {
         <Stack.Screen
           name="fish-search/[id]"
           options={{
-            headerShown: false,
+            headerShown: true,
             headerShadowVisible: false,
             title: "",
             headerStyle: {
@@ -64,7 +64,7 @@ export default function AppLayout() {
         <Stack.Screen
           name="plant-search/[id]"
           options={{
-            headerShown: false,
+            headerShown: true,
             headerShadowVisible: false,
             title: "",
             headerStyle: {
