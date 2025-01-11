@@ -34,18 +34,18 @@ export type fish = {
 export type plant = {
   id: string;
   img: string;
-  water_type: string; // Freshwater
   name: string;
-  pH: string;
+  ph: string;
   temperature: string;
   hardness: string;
-  light_levels: string;
-  fertilizer: string;
-  commonProblems: string;
-  ideal_substrates: string;
-  ideal_tank_placement: string;
-  planting_instructions: string;
-  water_change_schedule: string;
+  lighting: string;
+  fertilization: string;
+  maintenance: string;
+  growth_rate: string;
+  size: string;
+  look: string;
+  texture: string;
+  tank_with_fish: string;
 }
 
 // Tank Item
@@ -81,6 +81,17 @@ export type SignUpProps = {
   password: string, 
   first: string,
   last: string
+}
+
+export type TankPlants = {
+  id: string,
+  name: string,
+  user_id: string,
+  tank_id: string,
+  plant_id: string, 
+  img: string,
+  temperature: string,
+  ph: string
 }
 
   export type TankFish = {

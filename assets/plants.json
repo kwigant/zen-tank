@@ -1,0 +1,517 @@
+
+   [
+      {
+        "name": "Java Moss",
+        "id": 0,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Java%20Moss.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvSmF2YSBNb3NzLmpwZyIsImlhdCI6MTczNjYyNjU2MCwiZXhwIjoxNzY4MTYyNTYwfQ.DaXmM5Vkhu7v41VrZDo0r6WluQmO_nf2VY4nCNlZyBM&t=2025-01-11T20%3A16%3A00.598Z",
+        "look": "Java Moss is a small, dense, and bushy moss with dark green, thread-like fronds. It often forms a carpet or drapes over objects in the tank.",
+        "texture": "Soft, delicate, and spongy.",
+        "size": "Up to 5-10 cm tall, spreading widely.",
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "5.0-8.0",
+        "hardness": "Soft to hard water",
+        "lighting": "Low to medium lighting, can tolerate low light",
+        "fertilization": "Occasional fertilization with micronutrients may help, but not strictly required.",
+        "maintenance": "Low-maintenance; occasional trimming to prevent overgrowth.",
+        "tank_with_fish": "Safe with most fish, especially peaceful species. Can provide hiding spots for fry and shrimps."
+      },
+      {
+        "name": "Christmas Moss",
+        "id": 1,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Christmas%20Moss.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQ2hyaXN0bWFzIE1vc3MuanBnIiwiaWF0IjoxNzM2NjI2NTc5LCJleHAiOjE3NjgxNjI1Nzl9.BrJzqluZKpI2z4fNQqjkV9YNuoOrhfaOKBzPzecLYBw&t=2025-01-11T20%3A16%3A19.939Z",
+        "look": "Christmas Moss has a rich, bright green color with unique branching patterns that resemble the shape of a Christmas tree, especially at the tips.",
+        "texture": "Soft and fine, resembling other mosses.",
+        "size": "Up to 5-10 cm tall, spreading across surfaces.",
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "5.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Beneficial to add liquid fertilizers with micronutrients, but not a must.",
+        "maintenance": "Low to moderate maintenance; requires occasional trimming to maintain shape and prevent excessive growth.",
+        "tank_with_fish": "Generally safe with most peaceful fish; provides hiding spots for small fish and invertebrates."
+        
+      },
+      {
+        "name": "Duckweed",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Duckweed.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvRHVja3dlZWQuanBnIiwiaWF0IjoxNzM2NjI2NTk5LCJleHAiOjE3NjgxNjI1OTl9.jQPWSbOAUYpP-TTGRDlpUfU_HP9aIr8d-a9yEmdO5zU&t=2025-01-11T20%3A16%3A39.875Z",
+        "id": 2,
+        "look": "Duckweed consists of tiny, bright green, round leaves that float on the surface of the water. It often forms a dense carpet.",
+        "texture": "Smooth, tiny, and delicate.",
+        "size": "Leaves are typically 1-3 mm across, though it spreads quickly and covers the water's surface.",
+        "growth_rate": "Very fast-growing, can quickly cover the tank surface.",
+        "temperature": "20-30°C (68-86°F)",
+        "ph": "6.0-8.0",
+        "hardness": "Soft to hard water",
+        "lighting": "Moderate to high lighting; prefers bright light for rapid growth.",
+        "fertilization": "Responds well to nutrient-rich water, but too many nutrients can cause algae blooms.",
+        "maintenance": "High-maintenance due to rapid growth; may require frequent thinning or removal.",
+        "tank_with_fish": "Safe with most fish but can block light to other plants. Some fish, such as goldfish or certain cichlids, may eat it."
+        
+      },
+      {
+        "name": "Java Fern",
+        "id": 3,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Java%20Fern.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvSmF2YSBGZXJuLmpwZyIsImlhdCI6MTczNjYyNjYxNywiZXhwIjoxNzY4MTYyNjE3fQ.zWAotdFDsA9_KASVhhozSI9b05cvWOQRAEx8ZXfhAss&t=2025-01-11T20%3A16%3A57.556Z",
+        "look": "Java Fern has long, narrow, arching leaves with a deep green color. It forms a rosette shape and attaches to rocks or driftwood.",
+        "texture": "Leathery and firm.",
+        "size": "Typically grows 20-30 cm in height, depending on the variety.",
+        "growth_rate": "Slow-growing.",
+        "temperature": "20-28°C (68-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Low to moderate lighting; can tolerate low light.",
+        "fertilization": "Minimal fertilization required, can benefit from liquid fertilizer.",
+        "maintenance": "Very low-maintenance; occasional trimming of old leaves.",
+        "tank_with_fish": "Safe with most fish, especially peaceful species. Can be used to create hiding places for fry or smaller fish."
+      },
+      {
+        "name": "Najas",
+        "id": 4,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Najas.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvTmFqYXMuanBlZyIsImlhdCI6MTczNjYyNjYzMiwiZXhwIjoxNzY4MTYyNjMyfQ.OuAuAl_D_t2i-Q31F62qchgCw41rlzY7yEOtKtFgid8&t=2025-01-11T20%3A17%3A12.517Z",
+        "look": "Najas has long, fine, and slender leaves that are often bright green. It forms bushy, dense clusters, particularly when allowed to float.",
+        "texture": "Fine and delicate.",
+        "size": "Can grow 30-60 cm tall when submerged, may float or spread across the water surface.",
+        "growth_rate": "Moderate to fast-growing.",
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-8.0",
+        "hardness": "Soft to hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Occasional liquid fertilization can promote growth, especially for nutrient-hungry tanks.",
+        "maintenance": "Moderate maintenance; may require trimming to control its growth, especially when floating.",
+        "tank_with_fish": "Safe with most fish, but may compete for nutrients. Good for providing cover for fish."
+      },
+      {
+        "name": "Dwarf Hairgrass",
+        "id": 5,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Dwarf%20Hairgrass.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvRHdhcmYgSGFpcmdyYXNzLmpwZyIsImlhdCI6MTczNjYyNjY0OSwiZXhwIjoxNzY4MTYyNjQ5fQ.2UXJFp1Rvu2_jRXm2RDkgGiSUpPw1m0ZWa_Ku8c2dfM&t=2025-01-11T20%3A17%3A29.655Z",
+       
+        "look": "Dwarf Hairgrass is a fine-leaved grass-like plant with bright green color, often used to create lush, carpeting effects in aquariums.",
+        "texture": "Fine, soft, and grassy.",
+        "size": "Can grow up to 5-10 cm tall in carpet form, spreads horizontally.",
+        "growth_rate": "Moderate to fast-growing when conditions are ideal.",
+    
+        "temperature": "20-28°C (68-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for a carpet effect.",
+        "fertilization": "Moderate fertilization required, especially nitrogen and potassium.",
+        "maintenance": "Moderate maintenance; requires regular trimming to maintain carpet and prevent excessive growth.",
+        "tank_with_fish": "Works well in tanks with fish that don’t uproot plants. Ideal for peaceful species."
+        
+      },
+      {
+        "name": "Pygmy Chain Sword",
+        "id": 6,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Pygmy%20Chain%20Sword.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvUHlnbXkgQ2hhaW4gU3dvcmQud2VicCIsImlhdCI6MTczNjYyNjY2NiwiZXhwIjoxNzY4MTYyNjY2fQ.gcrPRkpCvSIgI-PlSzP0IFAc0f8Wcm-PNvOS5v4wBwI&t=2025-01-11T20%3A17%3A46.401Z",
+       
+        "look": "Pygmy Chain Sword is a small, compact plant with narrow, sword-shaped leaves that form dense clusters.",
+        "texture": "Soft, smooth leaves.",
+        "size": "Typically grows 5-10 cm in height, spreads out through runners.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+    
+        "temperature": "20-28°C (68-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Light to moderate fertilization with iron and trace elements.",
+        "maintenance": "Moderate maintenance; occasional trimming and management of runners.",
+        "tank_with_fish": "Safe with most fish, especially peaceful species. Can be used as ground cover."
+       
+      },
+      {
+        "name": "Water Wisteria",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Water%20Wisteria.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvV2F0ZXIgV2lzdGVyaWEud2VicCIsImlhdCI6MTczNjYyNjY4NiwiZXhwIjoxNzY4MTYyNjg2fQ.amR4sDsQtV_WoZVct13SfncsFY8JwJt0cQu3bIXbbyo&t=2025-01-11T20%3A18%3A06.684Z",
+       "id": 7,
+        "look": "Water Wisteria has broad, fern-like leaves that grow in a bushy or branching form. It has a bright green color with delicate texture.",
+        "texture": "Delicate, finely divided leaves.",
+        "size": "Grows up to 30-60 cm in height.",
+        "growth_rate": "Fast-growing under optimal conditions.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for faster growth.",
+        "fertilization": "Moderate fertilization required for optimal health.",
+        "maintenance": "Moderate maintenance; occasional trimming to maintain size and shape.",
+        "tank_with_fish": "Safe with most fish and provides excellent cover for smaller fish or fry."
+    
+      },
+      {
+        "name": "Vallisneria",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Vallisneria.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvVmFsbGlzbmVyaWEuanBnIiwiaWF0IjoxNzM2NjI2Njk4LCJleHAiOjE3NjgxNjI2OTh9.M-vd4c95FJI4rVKxpBZySaAJM7mITX8g0kJUigl10QA&t=2025-01-11T20%3A18%3A18.638Z",
+       "id": 8,
+        "look": "Vallisneria has long, narrow leaves that grow in dense rosettes. The leaves are often wavy and can form an attractive backdrop in aquariums.",
+        "texture": "Long, smooth, and flexible.",
+        "size": "Typically grows 30-60 cm in height, but can reach even taller depending on variety.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.5-8.0",
+        "hardness": "Soft to hard water",
+        "lighting": "Moderate lighting; can tolerate lower light conditions.",
+        "fertilization": "Moderate fertilization with a focus on iron, potassium, and trace elements.",
+        "maintenance": "Low to moderate maintenance; trimming required for size control.",
+        "tank_with_fish": "Safe with most fish, especially species that do not disturb plants. Can be used as background planting."
+        
+      },
+      {
+        "name": "Marimo Moss Ball",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Marimo%20Moss%20Ball.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvTWFyaW1vIE1vc3MgQmFsbC5qcGVnIiwiaWF0IjoxNzM2NjI2NzE1LCJleHAiOjE3NjgxNjI3MTV9.K7DJR_4YAMp9UakslpReWmyMcqrwGgRlK5kV5AxpGWc&t=2025-01-11T20%3A18%3A35.202Z",
+        "id": 9,
+        "look": "Marimo Moss Balls are spherical, bright green algae balls that slowly grow and roll around the tank. They have a plush, mossy appearance.",
+        "texture": "Soft and velvety to the touch.",
+        "size": "Typically grows up to 5-10 cm in diameter, though it grows very slowly.",
+        "growth_rate": "Very slow-growing.",
+    
+        "temperature": "18-24°C (64-75°F)",
+        "ph": "6.0-8.0",
+        "hardness": "Soft to hard water",
+        "lighting": "Low to moderate lighting.",
+        "fertilization": "Minimal fertilization; occasional water changes may help.",
+        "maintenance": "Low maintenance; requires occasional rolling to maintain shape.",
+        "tank_with_fish": "Safe with most fish; does not disturb tank dynamics. Also helps with water quality by absorbing excess nutrients."
+        
+      },
+      {
+        "name": "Amazon Sword",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Amazon%20Sword.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQW1hem9uIFN3b3JkLndlYnAiLCJpYXQiOjE3MzY2MjY3MzQsImV4cCI6MTc2ODE2MjczNH0.-kwuo4lYT9fyAZrZmwV28y0jrRxQFFlA8G0pKwlrTi8&t=2025-01-11T20%3A18%3A54.330Z",
+       "id": 10,
+        "look": "Amazon Sword has large, broad, sword-shaped leaves that can form a dramatic background or midground plant. It has a deep green color and can develop reddish tones under ideal conditions.",
+        "texture": "Firm, smooth leaves.",
+        "size": "Can grow 40-60 cm tall, and up to 30 cm wide.",
+        "growth_rate": "Moderate to fast-growing.",
+
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Moderate to high fertilization, especially iron and potassium.",
+        "maintenance": "Moderate maintenance; occasional trimming and removal of older leaves.",
+        "tank_with_fish": "Safe with most fish, especially larger peaceful species. Provides good hiding spots for smaller fish."
+      },
+      {
+        "name": "Hygrophila",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Hygrophila.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvSHlncm9waGlsYS5qcGVnIiwiaWF0IjoxNzM2NjI2NzQ3LCJleHAiOjE3NjgxNjI3NDd9.qnNDQXnLMUwSzM-KcHjsjMwWEB9QfoNyTF4Ztxre6tA&t=2025-01-11T20%3A19%3A07.427Z",
+    "id": 11,
+        "look": "Hygrophila has elongated, oval-shaped leaves that grow in dense bunches. The plant is usually bright green but can develop reddish tones in high light.",
+        "texture": "Soft and smooth leaves.",
+        "size": "Typically grows 20-30 cm tall, can spread widely.",
+        "growth_rate": "Fast-growing under ideal conditions.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for optimal growth.",
+        "fertilization": "Moderate fertilization, especially potassium and iron.",
+        "maintenance": "Moderate maintenance; trimming is needed to control growth.",
+        "tank_with_fish": "Safe with most peaceful fish; good for providing hiding spots and oxygenation."
+      },
+      {
+        "name": "Giant Hairgrass",
+        "id": 12,
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Giant%20Hairgrass.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvR2lhbnQgSGFpcmdyYXNzLndlYnAiLCJpYXQiOjE3MzY2MjY3NTksImV4cCI6MTc2ODE2Mjc1OX0.W7UdiUkHDjTgWt07YvDEn6uoKo-4fVCwTmUZHre7wIs&t=2025-01-11T20%3A19%3A19.378Z",
+        "look": "Giant Hairgrass has long, thin, grassy leaves that form dense clusters and grow tall. It has a light green color, and its upright growth creates a lush appearance.",
+        "texture": "Fine, grassy texture.",
+        "size": "Grows up to 30-60 cm tall, may spread across the substrate.",
+        "growth_rate": "Moderate to fast-growing.",
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Moderate fertilization, especially with nutrients like nitrogen and potassium.",
+        "maintenance": "Moderate maintenance; regular trimming and managing overgrowth.",
+        "tank_with_fish": "Safe with most fish, especially larger peaceful species. Provides cover for fish and hides fry."
+    
+      },
+      {
+        "name": "Riccia Fluitans",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Riccia%20Fluitans.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvUmljY2lhIEZsdWl0YW5zLmpwZWciLCJpYXQiOjE3MzY2MjY3ODYsImV4cCI6MTc2ODE2Mjc4Nn0.y_58ttWRBy78WcrM9E7prtvYRu7zUI2GkRdnKQYcpfI&t=2025-01-11T20%3A19%3A46.114Z",
+    "id": 13,
+        "look": "Riccia Fluitans is a floating moss-like plant with bright green, delicate, and small fronds. It forms floating mats that can be attached to hardscape or left floating.",
+        "texture": "Soft and fluffy.",
+        "size": "Fronds can range from 1-5 cm, spreads across surfaces if attached.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "5.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Moderate fertilization, especially with trace elements and iron.",
+        "maintenance": "Moderate to high maintenance; requires frequent trimming and managing its spread.",
+        "tank_with_fish": "Safe with most fish, but it may block light to lower plants. Some fish, like goldfish, may disturb it."
+    
+      },
+      {
+        "name": "Water Sprite",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Water%20Sprite.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvV2F0ZXIgU3ByaXRlLmpwZWciLCJpYXQiOjE3MzY2MjY4MDAsImV4cCI6MTc2ODE2MjgwMH0.vk5q8nPVqUCNrUQFjoIW_WZI6nundlS76SQhf5hQcTo&t=2025-01-11T20%3A20%3A00.733Z",
+        "id": 14,
+        "look": "Water Sprite has bright green, feathery, finely divided leaves that give it a soft and bushy appearance. It forms a dense, lush growth in aquariums.",
+        "texture": "Feathery, soft, and light.",
+        "size": "Typically grows 20-40 cm tall, but may spread more depending on the environment.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best growth.",
+        "fertilization": "Moderate fertilization, especially with nitrogen and potassium.",
+        "maintenance": "Moderate maintenance; occasional trimming to keep the plant from becoming too large.",
+        "tank_with_fish": "Safe with most fish; its bushy nature provides cover for small fish and fry."
+        
+      },
+      {
+        "name": "Water Lettuce",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Water%20Lettuce.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvV2F0ZXIgTGV0dHVjZS53ZWJwIiwiaWF0IjoxNzM2NjI2ODEyLCJleHAiOjE3NjgxNjI4MTJ9.HBh4xnAGFkX-w3CyhxRHv0zWm3EX8R9bobdfFdGoJ6A&t=2025-01-11T20%3A20%3A12.597Z",
+    "id": 15,
+        "look": "Water Lettuce is a floating plant with rosettes of light green leaves resembling lettuce heads. It forms dense clusters at the water's surface.",
+        "texture": "Soft, light, and velvety.",
+        "size": "Leaves typically 5-15 cm wide, can spread widely across the water surface.",
+        "growth_rate": "Fast-growing.",
+    
+        "temperature": "22-30°C (72-86°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to hard water",
+        "lighting": "Moderate to high lighting for healthy growth.",
+        "fertilization": "Light fertilization; nutrient-rich water encourages growth.",
+        "maintenance": "Moderate maintenance; frequent thinning and removal of excess plants.",
+        "tank_with_fish": "Generally safe with most fish, though large or aggressive fish may disturb or eat it. Can provide surface cover for fish."
+        
+      },
+      {
+        "name": "Anubias",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Anubias.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQW51Ymlhcy53ZWJwIiwiaWF0IjoxNzM2NjI2ODIzLCJleHAiOjE3NjgxNjI4MjN9.0A3GzmwxlqcsWAzqGJc3jvlmd1FJfX0PBCmCDlP3PIE&t=2025-01-11T20%3A20%3A23.153Z",
+       "id": 16,
+        "look": "Anubias is a hardy, slow-growing plant with thick, dark green, leathery leaves. It often forms a rosette shape and can be attached to rocks or driftwood.",
+        "texture": "Leathery, firm, and smooth.",
+        "size": "Typically grows 10-30 cm tall, depending on the variety.",
+        "growth_rate": "Slow-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Low to moderate lighting; can tolerate low light.",
+        "fertilization": "Minimal fertilization; occasional liquid fertilizers can promote growth.",
+        "maintenance": "Very low maintenance; occasional leaf cleaning and detritus removal.",
+        "tank_with_fish": "Safe with most fish; perfect for tanks with slower-growing plants. Fish do not typically disturb it."
+    
+      },
+      {
+        "name": "Lace Plant",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Lace%20Plant.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvTGFjZSBQbGFudC53ZWJwIiwiaWF0IjoxNzM2NjI2ODM5LCJleHAiOjE3NjgxNjI4Mzl9.nizm2PvqzivN2U98N03Sp0sGUc4uQu-MTC0pqUmUNJA&t=2025-01-11T20%3A20%3A39.798Z",
+       "id": 17,
+        "look": "The Lace Plant has intricately patterned, delicate leaves that give it a lace-like appearance. It has a striking, elegant look with fine, net-like veining.",
+        "texture": "Delicate, lace-like.",
+        "size": "Can grow up to 30-50 cm tall.",
+        "growth_rate": "Moderate-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for the best display of colors.",
+        "fertilization": "Moderate fertilization, particularly with iron and potassium.",
+        "maintenance": "Moderate maintenance; requires occasional trimming to maintain shape.",
+        "tank_with_fish": "Safe with most fish, but its delicate leaves may be disturbed by larger, more aggressive species."
+        
+      },
+      {
+        "name": "African Water Fern",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/African%20Water%20Fern.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQWZyaWNhbiBXYXRlciBGZXJuLndlYnAiLCJpYXQiOjE3MzY2MjY4NTAsImV4cCI6MTc2ODE2Mjg1MH0.L8adiN412n7z0ar7Y3d8WfMRc_scXPOxuNDBHXxVV-c&t=2025-01-11T20%3A20%3A50.174Z",
+       "id": 18,
+        "look": "The African Water Fern has large, deep green, rounded leaves that grow in a rosette shape, often forming a bushy appearance. The leaves have a leathery texture.",
+        "texture": "Firm, leathery leaves.",
+        "size": "Can grow 20-40 cm tall.",
+        "growth_rate": "Moderate-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate lighting; tolerates low light conditions.",
+        "fertilization": "Moderate fertilization; can benefit from occasional nutrient dosing.",
+        "maintenance": "Moderate maintenance; occasional trimming of old or dead leaves.",
+        "tank_with_fish": "Safe with most fish, especially peaceful species. It can grow in lower light areas, making it ideal for shaded tanks."
+        
+      },
+      {
+        "name": "Bacopa",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Bacopa.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQmFjb3BhLmpwZyIsImlhdCI6MTczNjYyNjg2MiwiZXhwIjoxNzY4MTYyODYyfQ.9Oz2d11l6-UbaeOWrZZoEaaCnI5HK8P4fG4WPfL1cds&t=2025-01-11T20%3A21%3A02.736Z",
+        "id": 19,
+        "look": "Bacopa has small, rounded, bright green leaves that grow in a bushy, compact form. Some varieties develop reddish hues in high light.",
+        "texture": "Smooth and firm leaves.",
+        "size": "Grows 20-40 cm tall, depending on variety.",
+        "growth_rate": "Moderate-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for the best coloration.",
+        "fertilization": "Moderate fertilization with a focus on potassium and iron.",
+        "maintenance": "Moderate maintenance; occasional trimming and cleaning of old leaves.",
+        "tank_with_fish": "Safe with most peaceful fish. Can be used as a background or midground plant."
+        
+      },
+      {
+        "name": "Cabomba",
+    "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Cabomba.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQ2Fib21iYS53ZWJwIiwiaWF0IjoxNzM2NjI2ODc3LCJleHAiOjE3NjgxNjI4Nzd9.KEUKvJDRFXadIlA__vgVs2-tpqH7funRBFTHIgBlRvo&t=2025-01-11T20%3A21%3A17.779Z",
+    "id": 21,
+        "look": "Cabomba has finely dissected, feathery green leaves that grow in a bushy, branched form. It creates a dense, lush appearance, especially in the mid-to-background of aquariums.",
+        "texture": "Fine, delicate leaves.",
+        "size": "Typically grows 30-50 cm tall.",
+        "growth_rate": "Fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for optimal growth.",
+        "fertilization": "Moderate fertilization, especially with iron and potassium.",
+        "maintenance": "Moderate to high maintenance; requires regular trimming to prevent overgrowth.",
+        "tank_with_fish": "Safe with most fish; provides dense cover for smaller fish or fry."
+        
+      },
+      {
+        "name": "Cryptocoryne",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Cryptocoryne.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvQ3J5cHRvY29yeW5lLmpwZyIsImlhdCI6MTczNjYyNjkwMiwiZXhwIjoxNzY4MTYyOTAyfQ.skuihQbXU6WxoMsvTjOcyF6RG-YO-_vdK9i8qT3HAh0&t=2025-01-11T20%3A21%3A42.649Z",
+    "id": 22,
+        "look": "Cryptocoryne has broad, arrow-shaped or wavy leaves that form rosettes. Its colors range from green to reddish hues, with some varieties showing intricate patterns.",
+        "texture": "Firm, smooth leaves.",
+        "size": "Typically grows 15-30 cm tall, depending on the species.",
+        "growth_rate": "Slow to moderate-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Low to moderate lighting; some varieties may tolerate low light.",
+        "fertilization": "Moderate fertilization, especially with micronutrients and iron.",
+        "maintenance": "Low to moderate maintenance; occasional trimming and cleaning of dead leaves.",
+        "tank_with_fish": "Safe with most fish, particularly peaceful species. Cryptocorynes are great for providing ground cover or mid-ground greenery."
+    
+      },
+      {
+        "name": "Hornwort",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Hornwort.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvSG9ybndvcnQud2VicCIsImlhdCI6MTczNjYyNjkyOSwiZXhwIjoxNzY4MTYyOTI5fQ.rlr2v5ty47DiM-5Jasy3_pq992HKMWS8Nuu4_XE9YIQ&t=2025-01-11T20%3A22%3A09.691Z",
+       "id": 23,
+        "look": "Hornwort is a fast-growing, fine-leaved plant that forms bushy clusters. It has a bright green color and often floats freely in aquariums.",
+        "texture": "Feathery, soft.",
+        "size": "Can grow up to 50 cm or more if allowed to float.",
+        "growth_rate": "Very fast-growing.",
+    
+    
+        "temperature": "18-28°C (64-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to hard water",
+        "lighting": "Moderate to high lighting.",
+        "fertilization": "Minimal fertilization required; may benefit from occasional micronutrient dosing.",
+        "maintenance": "High-maintenance due to rapid growth; may need frequent thinning or removal.",
+        "tank_with_fish": "Safe with most fish; provides shelter for small fish and fry, but can become a floating nuisance in larger tanks."
+        
+      },
+      {
+        "name": "Ludwigia",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Ludwigia.JPG?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvTHVkd2lnaWEuSlBHIiwiaWF0IjoxNzM2NjI2OTQxLCJleHAiOjE3NjgxNjI5NDF9.NCWN2SVPE_diN5wHsctbqgYjc25z3yEp33_m8G5tURA&t=2025-01-11T20%3A22%3A21.059Z",
+      "id": 24,
+        "look": "Ludwigia has broad, opposite leaves that range in color from green to red depending on light and nutrient conditions. It grows in a bushy, upright form.",
+        "texture": "Smooth, firm leaves.",
+        "size": "Typically grows 20-40 cm tall.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for best coloration.",
+        "fertilization": "Moderate fertilization with a focus on iron and potassium.",
+        "maintenance": "Moderate maintenance; occasional trimming and removal of old or damaged leaves.",
+        "tank_with_fish": "Safe with most peaceful fish, though its tender leaves may be disturbed by aggressive species."
+        
+      },
+      {
+        "name": "Pogostemon",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Pogostemon.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvUG9nb3N0ZW1vbi5qcGciLCJpYXQiOjE3MzY2MjY5NTEsImV4cCI6MTc2ODE2Mjk1MX0.qnzbhO0L8-ZtTQO1CYPABfYpKUihKhkjblpGNSgl06M&t=2025-01-11T20%3A22%3A31.120Z",
+       "id": 25,
+        "look": "Pogostemon has long, narrow leaves that grow in whorls around a stem, giving the plant a bushy appearance. The leaves are bright green and often develop reddish hues in high light.",
+        "texture": "Firm, smooth leaves.",
+        "size": "Typically grows 20-30 cm tall.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting for the best coloration.",
+        "fertilization": "Moderate to high fertilization, especially iron and potassium.",
+        "maintenance": "Moderate maintenance; may require trimming to prevent excessive height and maintain shape.",
+        "tank_with_fish": "Safe with most fish, provides cover and oxygenation. Some species may nibble on leaves."
+        
+      },
+      {
+        "name": "Red Ludwigia",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Red%20Ludwigia.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvUmVkIEx1ZHdpZ2lhLndlYnAiLCJpYXQiOjE3MzY2MjY5NjYsImV4cCI6MTc2ODE2Mjk2Nn0.IvrjufSZKufrisCNAZjBk_LJXv21lutL1HQKSOXky4A&t=2025-01-11T20%3A22%3A46.352Z",
+    "id": 26,
+        "look": "Red Ludwigia is similar to Ludwigia but exhibits vibrant red to reddish-purple leaves under high light conditions. It creates a striking contrast in planted aquariums.",
+        "texture": "Firm, smooth leaves.",
+        "size": "Typically grows 20-40 cm tall.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "High lighting to encourage the red coloration.",
+        "fertilization": "Moderate to high fertilization, particularly with iron and potassium.",
+        "maintenance": "Moderate maintenance; requires trimming to prevent overgrowth.",
+        "tank_with_fish": "Safe with most fish, although larger fish may nibble on it. The plant's vibrant color is a highlight in planted tanks."
+        
+      },
+      {
+        "name": "Rotala",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Rotala.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvUm90YWxhLmpwZyIsImlhdCI6MTczNjYyNjk3NSwiZXhwIjoxNzY4MTYyOTc1fQ.6MbfpAL6jDOclS6AaDte-YH0Ky1sGc3VeJs3Y0qolhA&t=2025-01-11T20%3A22%3A55.387Z",
+       "id": 27,
+        "look": "Rotala is a group of plants with fine, narrow leaves that form dense, bushy clumps. The leaves are bright green to red, depending on the variety and lighting.",
+        "texture": "Fine, soft leaves.",
+        "size": "Typically grows 20-40 cm tall, but some varieties can grow larger.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "5.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting to encourage coloration.",
+        "fertilization": "Moderate to high fertilization with a focus on iron and potassium.",
+        "maintenance": "Moderate maintenance; regular trimming to prevent overgrowth.",
+        "tank_with_fish": "Safe with most fish; provides excellent midground or background coverage."
+        
+      },
+      {
+        "name": "Tiger Lotus",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/Tiger%20Lotus.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvVGlnZXIgTG90dXMud2VicCIsImlhdCI6MTczNjYyNjk5MCwiZXhwIjoxNzY4MTYyOTkwfQ.bffxdfp5GDpDWQF5O67jfLbA6oPWy-GUJ5Nj38SgrBE&t=2025-01-11T20%3A23%3A10.464Z",
+      "id": 28,
+        "look": "Tiger Lotus has large, round, and often reddish leaves with contrasting dark green markings. It grows with long, slender stems and can produce floating leaves on the surface.",
+        "texture": "Smooth, firm leaves.",
+        "size": "Can grow up to 30-60 cm tall, with floating leaves reaching the water's surface.",
+        "growth_rate": "Moderate to fast-growing.",
+    
+        "temperature": "22-28°C (72-82°F)",
+        "ph": "6.0-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Moderate to high lighting to achieve vibrant coloration.",
+        "fertilization": "Moderate fertilization, especially with trace elements and potassium.",
+        "maintenance": "Moderate maintenance; occasional trimming of older leaves.",
+        "tank_with_fish": "Safe with most fish, though its larger size may block light to other plants. Ideal for larger tanks."
+        
+      },
+      {
+        "id": 29,
+        "name": "Fissidens Moss",
+        "img": "https://qnvjefnqiwoxsptohyna.supabase.co/storage/v1/object/sign/plants/fissidens.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFudHMvZmlzc2lkZW5zLmpwZyIsImlhdCI6MTczNjYyNzAwOSwiZXhwIjoxNzY4MTYzMDA5fQ.sSu0A4Y2n3nSxEl2DiZ_8jCgoKyh0jPezjlpOZOhQ30&t=2025-01-11T20%3A23%3A29.875Z",
+        "look": "Fissidens Moss is a delicate, cushion-like moss with a dense, velvety appearance. It forms a thick mat and can be attached to rocks or driftwood for a natural look.",
+        "texture": "Soft, velvety.",
+        "size": "Typically grows up to 3-5 cm tall, forming dense mats.",
+        "growth_rate": "Slow-growing.",
+        "temperature": "20-28°C (68-82°F)",
+        "ph": "5.5-7.5",
+        "hardness": "Soft to moderately hard water",
+        "lighting": "Low to moderate lighting for best growth.",
+        "fertilization": "Minimal fertilization required; can benefit from occasional dosing with trace elements.",
+        "maintenance": "Low maintenance; requires occasional cleaning of detritus from the surface.",
+        "tank_with_fish": "Safe with most fish; provides excellent cover for small fish or fry. May be disturbed by larger, more aggressive fish."
+      }
+    ]
+  
+  
+    

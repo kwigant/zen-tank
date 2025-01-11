@@ -18,6 +18,7 @@ import Tabs from "@/components/Tabs";
 import { Session } from "@supabase/supabase-js";
 import { useAuth } from "@/hooks/Auth";
 import { useProfile } from "@/hooks/Profile";
+import AddToTankModal, { AddToTankProps } from "@/components/AddToTankModal";
 
 
 export default function FishProfileScreen({}) {
@@ -67,38 +68,11 @@ export default function FishProfileScreen({}) {
       });
   }, []);
 
-  function addFishToTank(tank_id: string) {
-    // setCurrentTank(item)
-    addFish(tank_id);
-    hideModal();
-  }
-
-  async function addFish(tank_id: string) {
-    try {
-      if (user) {
-        const { error } = await supabase
-          .from("TankFish")
-          .upsert({
-            fish_id: fish.id,
-            name: fish.name,
-            user_id: user.id,
-            img: fish.img,
-            sizeAtMaturity: fish.sizeAtMaturity,
-            waterTemperature: fish.waterTemperature,
-            tankSize: fish.tankSize,
-            temperament: fish.temperament,
-            tank_id: tank_id,
-            email: user.email,
-          })
-          .select();
-        if (error) {
-          throw error;
-        }
-      }
-    } catch (error) {
-      if (error instanceof Error) {
-        alert(error.message);
-      }
+  function getProps() : AddToTankProps {
+    return {
+      fish: fish,
+      visible: visible,
+      hideModal: hideModal
     }
   }
 
@@ -146,33 +120,7 @@ export default function FishProfileScreen({}) {
           <FishStats fish={fish} />
         )}
       </ScrollView>
-      <Portal>
-        <Modal
-          visible={visible}
-          onDismiss={hideModal}
-          contentContainerStyle={containerStyle}
-        >
-          {profile && (
-            <View>
-              <Text>
-                Add {fish.name} to {profile.current_tank_name}?
-              </Text>
-
-              <View style={style.row}>
-                <Button mode="text" onPress={hideModal}>
-                  Cancel
-                </Button>
-                <Button
-                  onPress={() => addFishToTank(profile.current_tank_id)}
-                  mode="contained"
-                >
-                  Add
-                </Button>
-              </View>
-            </View>
-          )}
-        </Modal>
-      </Portal>
+      <AddToTankModal {...getProps()}/>
     </View>
   );
 }

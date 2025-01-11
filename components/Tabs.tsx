@@ -12,27 +12,27 @@ export default function Tabs({ tab, setTab }: TabProps) {
     <View
       style={[
         style.row,
-        { borderBottomWidth: 1, marginTop: 12, justifyContent: 'space-between',  borderBottomColor: "#D9D9D970" },
+        { marginVertical: 12, justifyContent: 'space-between', },
       ]}
     >
       <Button
         style={tab === 0 ? style.tabActive : style.tabInactive}
         onPress={() => setTab(0)}
       >
-        <Text variant="bodyMedium">About</Text>
+        <Text  style={tab === 0 ? {fontWeight: 'bold'} : {fontWeight: 'normal'}} variant="bodyMedium">About</Text>
       </Button>
       <Button
         mode="text"
         style={tab === 1 ? style.tabActive : style.tabInactive}
         onPress={() => setTab(1)}
       >
-        <Text variant="bodyMedium">Basic Care</Text>
+        <Text  style={tab === 1 ? {fontWeight: 'bold'} : {fontWeight: 'normal'}} variant="bodyMedium">Basic Care</Text>
       </Button>
       <Button
         style={tab === 2 ? style.tabActive : style.tabInactive}
         onPress={() => setTab(2)}
       >
-        <Text variant="bodyMedium">Plant Stats</Text>
+        <Text  style={tab === 2 ? {fontWeight: 'bold'} : {fontWeight: 'normal'}} variant="bodyMedium">Plant Stats</Text>
       </Button>
     </View>
   );

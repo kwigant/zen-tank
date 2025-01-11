@@ -57,12 +57,12 @@ export default function DashboardScreen() {
     if (profile) {
       getTank(profile.current_tank_id).then(data => {
         if (data) {
-          console.log('data', data)
+          //console.log('data', data)
           setCurrentTank(data[0])}
       }).catch(error => { throw error })
       getFishInTank(profile.current_tank_id).then(data => {
         if (data) {
-          console.log('fish', data)
+         // console.log('fish', data)
           setCurrentFish(data)
         }
       })
@@ -103,7 +103,7 @@ export default function DashboardScreen() {
       </View>
 
       <View style={styles.center}>
-        <Image source={require('../../assets/images/full-tank.png')}/>
+        <Image style={{width: 330, height: 180}} source={require('../../assets/images/full-tank.png')}/>
         <Text variant="bodyLarge">
           You have {profile?.tanks} tanks set up
         </Text>

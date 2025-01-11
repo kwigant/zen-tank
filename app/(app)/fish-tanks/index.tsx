@@ -10,7 +10,7 @@ import {
   Divider,
 } from "react-native-paper";
 import { style } from "@/constants/Styles";
-import { tank, TankFish } from "@/constants/Types";
+import { tank, TankFish, TankPlants } from "@/constants/Types";
 import uuid from "react-native-uuid";
 import { router } from "expo-router";
 import TankItem from "@/components/TankItems";
@@ -20,7 +20,7 @@ import { useAuth } from "@/hooks/Auth";
 import Accordion, { AccordionInput } from "@/components/Accordion";
 import { useProfile } from "@/hooks/Profile";
 import { updateProfile } from "@/api/profile";
-import { getFishInTank } from "@/api/fish";
+import { getFishInTank, getPlantsInTank } from "@/api/fish";
 import GridItem from "@/components/GridItem";
 
 export default function FishTankScreen() {
@@ -35,6 +35,8 @@ export default function FishTankScreen() {
   const [editMode, setEditMode] = useState(false);
   const [allTanks, setAllTanks] = React.useState([] as tank[]);
   const [allFishInTank, setFishInTank] = React.useState([] as TankFish[]);
+  const [allPlantsInTank, setPlantsInTank] = React.useState([] as TankPlants[]);
+
   const [currentTank, setCurrentTank] = React.useState({} as tank);
   // modal props
   const [visible, setVisible] = React.useState(false);
@@ -65,6 +67,12 @@ export default function FishTankScreen() {
     if (profile) {
       getFishInTank(profile.current_tank_id)
         .then((data) => setFishInTank(data as TankFish[]))
+        .catch((error) => {
+          throw error;
+        });
+
+      getPlantsInTank(profile.current_tank_id)
+        .then((data) => setPlantsInTank(data as TankPlants[]))
         .catch((error) => {
           throw error;
         });
@@ -160,7 +168,10 @@ export default function FishTankScreen() {
       expanded: sTwo,
       onPress: setsTwo,
       title: "Plants",
-      children: <Text>test</Text>,
+      children: <FlatList
+        data={allPlantsInTank}
+        renderItem={({item}) => <GridItem item={item} isFish={false}/>}
+      />,
     },
     {
       expanded: sThree,

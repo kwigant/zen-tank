@@ -1,11 +1,11 @@
 import { style } from "@/constants/Styles";
-import { fish, plant, TankFish } from "@/constants/Types";
+import { fish, plant, TankFish, TankPlants } from "@/constants/Types";
 import { Link } from "expo-router";
 import React from "react";
 import { View } from "react-native";
 import { Avatar, Icon, Text } from "react-native-paper";
 
-export type GridProps = { item: fish | TankFish | plant; isFish: boolean };
+export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean };
 export type FishProps = { fish: fish | TankFish };
 export type PlantProps = { plant: plant };
 
@@ -34,12 +34,12 @@ const PlantTag = ({ plant }: PlantProps) => {
       {plant.temperature}
       </Text>
       <Icon source="circle" size={4} />
-      <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
+      {/* <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
       {plant.hardness} dGH
       </Text>
-      <Icon source="circle" size={4} />
+      <Icon source="circle" size={4} /> */}
       <Text variant="bodySmall" style={{ marginLeft: 4 }}>
-        {plant.pH} pH
+        {plant.ph} pH
       </Text>
     </View>
   );

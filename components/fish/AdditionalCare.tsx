@@ -19,7 +19,7 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s1}
-        style={{ backgroundColor: "white" }}
+        style={style.accordionBackground}
         onPress={() => sets1(!s1)}
       >
         <Text variant="bodyMedium" style={style.accordionListText}>
@@ -46,7 +46,7 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s2}
-        style={{ backgroundColor: "white" }}
+        style={style.accordionBackground}
         onPress={() => sets2(!s2)}
       >
         <Text variant="bodyMedium" style={style.accordionListText}>
@@ -67,7 +67,7 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s3}
-        style={{ backgroundColor: "white" }}
+        style={style.accordionBackground}
         onPress={() => sets3(!s3)}
       >
          <Text variant="bodyMedium" style={style.accordionListText}>

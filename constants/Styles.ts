@@ -23,16 +23,17 @@ export const style = StyleSheet.create({
         flexDirection: 'column'
     },
     tabActive: {
-        color: 'lightblue',
-        borderBottomWidth: 5, 
+        fontWeight: 500,
+        borderBottomWidth: 2, 
         borderRadius: 0,
-        borderColor: 'lightblue'
+        borderColor: 'black'
     }, 
     tabInactive: {
         color: '#d9d9d9',
         borderRadius: 0,
-        borderBottomWidth: 1, 
-        borderBottomColor: 'transparent' 
+        fontWeight: 'normal'
+        // borderBottomWidth: 1, 
+        // borderBottomColor: 'transparent' 
     }, 
     container: {
         padding: 24, 
@@ -91,6 +92,11 @@ export const style = StyleSheet.create({
     accordionListText:  {
         marginHorizontal: 16, 
         marginVertical: 8
+    },
+    accordionBackground: {
+        backgroundColor: "#F5F5F5",
+        paddingVertical: 2,
+        borderRadius: 4,
     },
     // Auth Page Styles ---------------------
     authContainer: {

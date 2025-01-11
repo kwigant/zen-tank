@@ -13,7 +13,7 @@ export async function getCurrentProfile(sessionId: string) {
 
 
 export async function updateProfile(profileObj: updateProfileInput) {
-  console.log('update profile')
+  //console.log('update profile')
     const { data, error } = await supabase
       .from("Profiles")
       .update({

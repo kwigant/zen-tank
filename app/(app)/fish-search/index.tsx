@@ -1,6 +1,5 @@
 import * as React from "react";
-import { View } from "react-native";
-import { FlatList } from "react-native";
+import { View, Image, FlatList } from "react-native";
 import GridItem from "@/components/GridItem";
 import { Chip, Icon, IconButton, Searchbar } from "react-native-paper";
 import { Text } from "react-native-paper";
@@ -43,6 +42,8 @@ export default function FishSearchScreen() {
   return (
     <View style={{ backgroundColor: "#fff", padding: 24, paddingTop: 0 }}>
       <View style={[style.row, { width: "100%", marginVertical: 12 }]}>
+      {/* <Image style={{width: 330, height: 180}} source={require('../assets/images/full-tank.png')}/> */}
+
         <Searchbar
           placeholder="Search"
           onChangeText={setSearchQuery}

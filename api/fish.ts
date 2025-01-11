@@ -10,6 +10,14 @@ export async function getFishInTank(tank_id: string) {
     if (data) return data;
 }
 
+export async function getPlantsInTank(tank_id: string) {
+  const { data, error } = await supabase
+    .from("TankPlants")
+    .select('*')
+    .eq("tank_id", tank_id);
+  if (error) throw error;
+  if (data) return data;
+}
 // async function addFish(tank_id: string, fish: fish) {
 //     try {
 //       if (user) {
