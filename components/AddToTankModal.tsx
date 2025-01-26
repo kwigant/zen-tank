@@ -1,8 +1,10 @@
+import { updateProfile } from "@/api/profile";
+import { addFish, addPlant } from "@/api/tanks";
 import { style } from "@/constants/Styles";
-import { fish, plant, } from "@/constants/Types";
+import { fish, plant, profile } from "@/constants/Types";
 import { useAuth } from "@/hooks/Auth";
 import { useProfile } from "@/hooks/Profile";
-import { supabase } from "@/utils/supabase";
+import { User } from "@supabase/supabase-js";
 import React from "react";
 import { View } from "react-native";
 import { Button, Modal, Portal, Text } from "react-native-paper";
@@ -20,67 +22,29 @@ export default function AddToTankModal(props: AddToTankProps) {
   const ctx = useAuth();
   const { user } = React.useContext(ctx);
   const { profile } = React.useContext(pctx);
-
-  async function addFish(tank_id: string) {
-    try {
-      if (user && props.fish) {
-        const { error } = await supabase
-          .from("TankFish")
-          .upsert({
-            fish_id: props.fish.id,
-            name: props.fish.name,
-            user_id: user.id,
-            img: props.fish.img,
-            sizeAtMaturity: props.fish.sizeAtMaturity,
-            waterTemperature: props.fish.waterTemperature,
-            tankSize: props.fish.tankSize,
-            temperament: props.fish.temperament,
-            tank_id: tank_id,
-            email: user.email,
-          })
-          .select();
-        if (error) {
-          throw error;
-        }
-      }
-    } catch (error) {
-      if (error instanceof Error) {
-        alert(error.message);
-      }
-    }
-  }
-
-  async function addPlant(tank_id: string) {
-    try {
-      if (user && props.plant) {
-        const { error } = await supabase
-          .from("TankPlants")
-          .upsert({
-            plant_id: props.plant.id,
-            name: props.plant.name,
-            user_id: user.id,
-            tank_id: tank_id,
-            email: user.email,
-            img: props.plant.img,
-            ph: props.plant.ph,
-            temperature: props.plant.ph
-          })
-          .select();
-        if (error) {
-          throw error;
-        }
-      }
-    } catch (error) {
-      if (error instanceof Error) {
-        alert(error.message);
-      }
-    }
-  }
-
+ 
+ function updateCurrentProfile(profile: profile, user: User) {
+    updateProfile({
+      tanks: 0,
+      current_tank_id: profile.current_tank_id,
+      current_tank_name: profile.current_tank_name,
+      current_tank_size: profile.current_tank_size,
+      current_tank_description: profile.current_tank_description,
+      current_tank_dgh: props.fish?.hardness || props.plant?.hardness || 'Add to Tank',
+      current_tank_temp: props.fish?.waterTemperature || props.plant?.temperature || 'Add to Tank',
+      user_id: user.id,
+    }).then((data) => {
+      // console.log('data', data)
+      // if (data) setProfile(data[0]);
+    }).catch((error) => console.log(error));
+ }
+  
   function addToTank() {
-    if (profile) {
-      if (props.fish) addFish(profile.current_tank_id);
-      else if (props.plant) addPlant(profile.current_tank_id)
+    if (profile && user) {
+      if (props.fish) addFish(profile.current_tank_id, user, props.fish);
+      else if (props.plant)
+        addPlant(profile.current_tank_id, user, props.plant);
+      updateCurrentProfile(profile, user)
       props.hideModal();
     }
   }

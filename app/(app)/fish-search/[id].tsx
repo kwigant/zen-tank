@@ -1,38 +1,25 @@
 import * as React from "react";
-import {
-  Image,
-  View,
-  ScrollView,
-  FlatList,
-  TouchableOpacity,
-} from "react-native";
-import { Button, Text, IconButton, Portal, Modal } from "react-native-paper";
+import { Image, View, ScrollView } from "react-native";
+import { Text, IconButton, Button } from "react-native-paper";
 import { style } from "@/constants/Styles";
-import { Link, useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams } from "expo-router";
 import BasicCare from "@/components/fish/BasicCare";
 import AdditionalCare from "@/components/fish/AdditionalCare";
 import FishStats from "@/components/fish/FishStats";
 import { supabase } from "@/utils/supabase";
 import { fish, tank } from "@/constants/Types";
 import Tabs from "@/components/Tabs";
-import { Session } from "@supabase/supabase-js";
 import { useAuth } from "@/hooks/Auth";
-import { useProfile } from "@/hooks/Profile";
 import AddToTankModal, { AddToTankProps } from "@/components/AddToTankModal";
-
+import { listTanks } from "@/api/tanks";
 
 export default function FishProfileScreen({}) {
   const { id } = useLocalSearchParams();
   const ctx = useAuth();
   const { user } = React.useContext(ctx);
-  const pctx = useProfile();
-  const { profile } = React.useContext(pctx);
   const [tab, setTab] = React.useState(0);
   const [loading, setLoading] = React.useState(false);
   const [fish, setFish] = React.useState({} as fish);
-  const [session, setSession] = React.useState<Session | null>(null);
-  const [currentTank, setCurrentTank] = React.useState({} as tank);
-  const containerStyle = { backgroundColor: "white", margin: 24, padding: 20 };
   const [tanks, setTanks] = React.useState([] as tank[]);
   // modal props
   const [visible, setVisible] = React.useState(false);
@@ -41,7 +28,6 @@ export default function FishProfileScreen({}) {
 
   React.useEffect(() => {
     const fetchFish = async () => {
-     //("calling");
       const { data, error } = await supabase
         .from("Fish") // Replace with your table name
         .select()
@@ -56,34 +42,24 @@ export default function FishProfileScreen({}) {
 
     setLoading(true);
     fetchFish();
-    listTanks()
-      .then((data) => {
-        if (data) {
-          setTanks(data);
-          //console.log(tanks);
-        }
-      })
-      .catch((error) => {
-        throw error;
-      });
+    if (user)
+      listTanks(user?.id)
+        .then((data) => {
+          if (data) {
+            setTanks(data);
+          }
+        })
+        .catch((error) => {
+          throw error;
+        });
   }, []);
 
-  function getProps() : AddToTankProps {
+  function getProps(): AddToTankProps {
     return {
       fish: fish,
       visible: visible,
-      hideModal: hideModal
-    }
-  }
-
-  async function listTanks() {
-    //console.log("list tank");
-    const { data, error } = await supabase
-      .from("Tanks")
-      .select()
-      .eq("user_id", session?.user.id);
-    if (error) throw error;
-    if (data) return data;
+      hideModal: hideModal,
+    };
   }
 
   if (loading) return <Text>Loading</Text>;
@@ -98,16 +74,17 @@ export default function FishProfileScreen({}) {
 
       <View style={style.container}>
         <View style={style.justifiedRow}>
-        
           <Text variant="headlineLarge" style={{ textAlign: "center" }}>
             {fish.name}
           </Text>
 
-          <IconButton
-            onPress={() => showModal()}
-            icon="plus"
-            iconColor={"black"}
-          />
+          <Button
+              onPress={() => showModal()}
+              style={[style.iconBtn, { padding: 2, minWidth: null }]}
+              textColor="black"
+            >
+              Add Fish
+          </Button>
         </View>
         <Tabs setTab={setTab} tab={tab} />
       </View>
@@ -120,7 +97,7 @@ export default function FishProfileScreen({}) {
           <FishStats fish={fish} />
         )}
       </ScrollView>
-      <AddToTankModal {...getProps()}/>
+      <AddToTankModal {...getProps()} />
     </View>
   );
 }

@@ -1,3 +1,4 @@
+import { style } from "@/constants/Styles";
 import { Dispatch, SetStateAction } from "react";
 import { List, Text } from "react-native-paper";
 
@@ -11,7 +12,7 @@ type ArrayInput = { input: AccordionInput[]}
 
 export default function Accordion(input: ArrayInput) {
   return (
-    <List.Section style={{ width: "100%" }}>
+    <List.Section style={{ width: "100%", overflow: 'scroll' }}>
       {input.input.map((i, index) => {
         return (
           <List.Accordion
@@ -22,7 +23,7 @@ export default function Accordion(input: ArrayInput) {
               </Text>
             }
             expanded={i.expanded}
-            style={{ backgroundColor: "white" }}
+            style={style.accordionBackground}
             onPress={() => i.onPress(!i.expanded)}
           >
             {i.children}

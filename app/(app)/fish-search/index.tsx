@@ -1,12 +1,10 @@
 import * as React from "react";
-import { View, Image, FlatList } from "react-native";
+import { View, FlatList } from "react-native";
 import GridItem from "@/components/GridItem";
-import { Chip, Icon, IconButton, Searchbar } from "react-native-paper";
-import { Text } from "react-native-paper";
+import { IconButton, Searchbar } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { supabase } from "@/utils/supabase";
 import { fish } from "@/constants/Types";
-import { fetchFishData, searchFishData } from "@/utils/fish";
 
 export default function FishSearchScreen() {
   const [searchQuery, setSearchQuery] = React.useState("");
@@ -17,7 +15,6 @@ export default function FishSearchScreen() {
   }, []);
 
   async function fetchFishData(){
-    //console.log('calling')
     const { data, error } = await supabase
       .from("Fish")
       .select("*");

@@ -42,7 +42,7 @@ export default function AppLayout() {
           options={{
             headerShown: true,
             headerShadowVisible: false,
-            title: "My Tank Settings",
+            title: "My Tanks",
             headerTitleStyle: {
               fontFamily: "Poppins",
               fontWeight: "bold",

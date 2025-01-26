@@ -9,7 +9,6 @@ import { router } from "expo-router";
 export default function Auth() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [loading, setLoading] = useState(false);
   const [first, setFirst] = useState("");
   const [last, setLast] = useState("");
   const [isSignUp, setIsSignUp] = useState(true);

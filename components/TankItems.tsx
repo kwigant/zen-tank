@@ -14,8 +14,8 @@ export default function TankItem({tank}: TankItemProps) {
             <View style={style.gridItem}>
                 <Text variant="bodyLarge">{tank.name}</Text>
                 <Text variant="bodySmall">Size: {tank.size}</Text>
-                <Text variant="bodySmall">Fish: 0</Text>
-                <Text variant="bodySmall">Plants: 0</Text>
+                <Text variant="bodySmall">Fish: {tank.fish}</Text>
+                <Text variant="bodySmall">Plants: {tank.plants}</Text>
             </View>
         // </TouchableOpacity>
     )

@@ -1,5 +1,6 @@
+import { User } from "@supabase/supabase-js";
 import { supabase } from "../utils/supabase";
-import { tank } from "@/constants/Types";
+import { fish, plant, tank } from "@/constants/Types";
 
 export async function listTanks(userId: string) {
     const { data, error } = await supabase
@@ -38,4 +39,60 @@ export async function deleteTank(tankId: string) {
     
     if (error) throw error;
   }  
+}
+
+export async function addPlant(tank_id: string, user: User, plant: plant) {
+  try {
+    if (user && plant) {
+      const { error } = await supabase
+        .from("TankPlants")
+        .upsert({
+          plant_id: plant.id,
+          name: plant.name,
+          user_id: user.id,
+          tank_id: tank_id,
+          email: user.email,
+          img: plant.img,
+          ph: plant.ph,
+          temperature: plant.ph
+        })
+        .select();
+      if (error) {
+        throw error;
+      }
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
+}
+
+export  async function addFish(tank_id: string, user: User, fish: fish) {
+  try {
+    if (user && fish) {
+      const { error } = await supabase
+        .from("TankFish")
+        .upsert({
+          fish_id: fish.id,
+          name: fish.name,
+          user_id: user.id,
+          img: fish.img,
+          sizeAtMaturity: fish.sizeAtMaturity,
+          waterTemperature: fish.waterTemperature,
+          tankSize: fish.tankSize,
+          temperament: fish.temperament,
+          tank_id: tank_id,
+          email: user.email,
+        })
+        .select();
+      if (error) {
+        throw error;
+      }
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
 }

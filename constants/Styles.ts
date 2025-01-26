@@ -88,16 +88,18 @@ export const style = StyleSheet.create({
         height: 40,
         flexGrow: 1
     },
-    // Accordion List Styles ----------------
-    accordionListText:  {
-        marginHorizontal: 16, 
-        marginVertical: 8
-    },
-    accordionBackground: {
-        backgroundColor: "#F5F5F5",
-        paddingVertical: 2,
-        borderRadius: 4,
-    },
+    // Tank Card Styles ----------------
+   tankCard: {
+    width: '100%', 
+    height: 'auto',
+    backgroundColor: 'white',
+    borderRadius: 8, 
+    padding: 24, 
+    borderWidth: 1,
+    borderColor: "#00000030",
+    display: 'flex', 
+    flexDirection: 'column',
+   },
     // Auth Page Styles ---------------------
     authContainer: {
         height: "100%",

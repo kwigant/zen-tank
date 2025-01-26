@@ -44,6 +44,7 @@ const PlantTag = ({ plant }: PlantProps) => {
     </View>
   );
 };
+
 export default function GridItem({ item, isFish }: GridProps) {
   const path = isFish ? "/fish-search/[id]" : "/plant-search/[id]";
   return (

@@ -50,14 +50,14 @@ export type plant = {
 
 // Tank Item
 export type tank = {
- //id: number;
   tank_id: string;
   name: string;
   user_id: string;
   size: number;
+  description: string;
   email?: string;
-  // fish: string[]; // fish ids
-  // plants: string[]; // plant ids
+  tank_temp: string,
+  tank_dgh: string, 
 }
 
 // User Profile 
@@ -72,6 +72,11 @@ export type profile = {
   current_tank_id: string;
   current_tank_name: string;
   current_tank_size: number;
+  current_tank_description: string;
+  // fish_in_current_tank: number;
+  // plants_in_current_tank: number;
+  current_tank_temp: string,
+  current_tank_dgh: string, 
 }
 
 // API PROPS--------------------------------
@@ -125,6 +130,11 @@ export type updateProfileInput = {
   current_tank_id: string, 
   current_tank_name: string,
   current_tank_size: number,
+  current_tank_description: string,
+  // plants_in_current_tank: number,
+  // fish_in_current_tank: number,
+  current_tank_temp: string,
+  current_tank_dgh: string, 
   user_id: string
 }
 

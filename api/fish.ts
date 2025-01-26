@@ -18,6 +18,8 @@ export async function getPlantsInTank(tank_id: string) {
   if (error) throw error;
   if (data) return data;
 }
+
+
 // async function addFish(tank_id: string, fish: fish) {
 //     try {
 //       if (user) {

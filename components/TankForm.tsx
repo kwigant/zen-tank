@@ -19,6 +19,8 @@ type tankForm = {
   hideModal: () => void;
   tankName: string;
   setTankName: Dispatch<SetStateAction<string>>;
+  tankDesc: string;
+  setTankDesc: Dispatch<SetStateAction<string>>;
 };
 
 export default function TankForm({
@@ -28,6 +30,8 @@ edit,
   setSize,
   tankName,
   setTankName,
+  tankDesc,
+  setTankDesc,
   visible,
   hideModal,
 }: tankForm) {
@@ -48,7 +52,12 @@ edit,
             mode="outlined"
             onChangeText={(t) => setTankName(t)}
           ></TextInput>
-
+          <TextInput
+            label="Description"
+            value={tankDesc}
+            mode="outlined"
+            onChangeText={(t) => setTankDesc(t)}
+          ></TextInput>
           <View style={style.row}>
             <Text variant="bodyLarge">Size in Gallons: </Text>
             <IconButton icon={"minus"} onPress={() => setSize(size - 1)} />

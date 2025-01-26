@@ -1,8 +1,8 @@
 import * as React from "react";
-import { ImageBackground, View, Image, ScrollView } from "react-native";
-import { Button, Text, IconButton } from "react-native-paper";
+import { View, Image, ScrollView } from "react-native";
+import { Button, Text } from "react-native-paper";
 import { style } from "@/constants/Styles";
-import { Link, useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams } from "expo-router";
 import { plant } from "@/constants/Types";
 import { supabase } from "@/utils/supabase";
 import Tabs from "@/components/Tabs";
@@ -20,7 +20,6 @@ export default function PlantProfileScreen({}) {
   const hideModal = () => setVisible(false);
 
   function getProps(): AddToTankProps {
-    console.log("add plant", plant);
     return {
       plant: plant,
       visible: visible,
