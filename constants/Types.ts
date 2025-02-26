@@ -58,6 +58,7 @@ export type tank = {
   email?: string;
   tank_temp: string,
   tank_dgh: string, 
+  tank_pH: string
 }
 
 // User Profile 
@@ -77,6 +78,7 @@ export type profile = {
   // plants_in_current_tank: number;
   current_tank_temp: string,
   current_tank_dgh: string, 
+  current_tank_ph: string,
 }
 
 // API PROPS--------------------------------
@@ -110,6 +112,8 @@ export type TankPlants = {
     tankSize: string;//
     waterTemperature: string;//
     img: string;
+    pH: string;
+    hardness: string;
   };
 
 // Log In to Account - Auth
@@ -135,6 +139,7 @@ export type updateProfileInput = {
   // fish_in_current_tank: number,
   current_tank_temp: string,
   current_tank_dgh: string, 
+  current_tank_ph: string,
   user_id: string
 }
 

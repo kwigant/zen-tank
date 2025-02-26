@@ -27,7 +27,6 @@ export default function TankSwipe(props: TankSwipeProps) {
   const { user } = React.useContext(ctx);
   
   function setCurrentTankItem(tank: tank) {
-    // console.log("profile", profile);
     setCurrentTank(tank);
     if (user) {
       updateProfile({
@@ -38,6 +37,7 @@ export default function TankSwipe(props: TankSwipeProps) {
         current_tank_description: tank.description,
         current_tank_dgh: tank.tank_dgh,
         current_tank_temp: tank.tank_temp,
+        current_tank_ph: tank.tank_pH,
         user_id: user.id,
       })
         .then((data) => {

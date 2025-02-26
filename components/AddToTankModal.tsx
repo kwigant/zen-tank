@@ -21,30 +21,33 @@ export default function AddToTankModal(props: AddToTankProps) {
   const pctx = useProfile();
   const ctx = useAuth();
   const { user } = React.useContext(ctx);
-  const { profile } = React.useContext(pctx);
+  const { profile, setProfile } = React.useContext(pctx);
  
  function updateCurrentProfile(profile: profile, user: User) {
     updateProfile({
-      tanks: 0,
+      tanks: profile.tanks,
       current_tank_id: profile.current_tank_id,
       current_tank_name: profile.current_tank_name,
       current_tank_size: profile.current_tank_size,
       current_tank_description: profile.current_tank_description,
-      current_tank_dgh: props.fish?.hardness || props.plant?.hardness || 'Add to Tank',
-      current_tank_temp: props.fish?.waterTemperature || props.plant?.temperature || 'Add to Tank',
+      current_tank_dgh: props.fish?.hardness || props.plant?.hardness || '',
+      current_tank_temp: props.fish?.waterTemperature || props.plant?.temperature || '',
+      current_tank_ph: props.fish?.pH || props.plant?.ph || '',
       user_id: user.id,
     }).then((data) => {
-      // console.log('data', data)
-      // if (data) setProfile(data[0]);
+      console.log('add to tank data', data)
+      if (data) setProfile(data[0]);
     }).catch((error) => console.log(error));
  }
   
   function addToTank() {
     if (profile && user) {
-      if (props.fish) addFish(profile.current_tank_id, user, props.fish);
+
+      if (props.fish) 
+        addFish(profile.current_tank_id, user, props.fish).then(()=> updateCurrentProfile(profile, user));
       else if (props.plant)
-        addPlant(profile.current_tank_id, user, props.plant);
-      updateCurrentProfile(profile, user)
+        addPlant(profile.current_tank_id, user, props.plant).then(()=> updateCurrentProfile(profile, user));;
+    
       props.hideModal();
     }
   }

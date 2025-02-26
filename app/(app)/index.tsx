@@ -69,7 +69,7 @@ export default function DashboardScreen() {
       getTank(profile.current_tank_id)
         .then((data) => {
           if (data) {
-            //console.log('data', data)
+           // console.log('current tank', data)
             setCurrentTank(data[0]);
           }
         })
@@ -78,13 +78,16 @@ export default function DashboardScreen() {
         });
       getFishInTank(profile.current_tank_id).then((data) => {
         if (data) {
-          // console.log('fish', data)
+          console.log('fish', data)
           setCurrentFish(data);
         }
       });
     }
-  }, []);
+  }, [ profile]);
 
+  if (currentTank) {
+
+  
   return (
     <SafeAreaView style={{ backgroundColor: "#fff", height: "100%" }}>
       <View style={[style.row, { marginHorizontal: 24 }]}>
@@ -173,6 +176,7 @@ export default function DashboardScreen() {
       </View>
     </SafeAreaView>
   );
+}
 }
 
 const styles = StyleSheet.create({

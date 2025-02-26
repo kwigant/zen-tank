@@ -23,7 +23,8 @@ export async function updateProfile(profileObj: updateProfileInput) {
         current_tank_size: profileObj.current_tank_size, 
         current_tank_description: profileObj.current_tank_description, 
         current_tank_dgh: profileObj.current_tank_dgh,
-        current_tank_temp: profileObj.current_tank_temp
+        current_tank_temp: profileObj.current_tank_temp,
+        current_tank_ph: profileObj.current_tank_ph
       })
       .eq("user_id", profileObj.user_id)
       .select();

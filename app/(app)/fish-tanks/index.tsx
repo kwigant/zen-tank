@@ -72,8 +72,9 @@ export default function FishTankScreen() {
         size: size,
         user_id: user.id,
         tank_id: tank_id,
-        tank_dgh: 'Add to Tank',
-        tank_temp: 'Add to Tank',
+        tank_dgh: '',
+        tank_temp: '',
+        tank_pH: '',
         description: tankDesc,
       })
         .then((data) => {
@@ -94,8 +95,10 @@ export default function FishTankScreen() {
             current_tank_name: tankName,
             current_tank_size: size,
             current_tank_description: tankDesc,
-            current_tank_dgh: 'Add to Tank',
-            current_tank_temp: 'Add to Tank',
+            current_tank_dgh: '',
+            current_tank_temp: '',
+            current_tank_ph: '',
+
             user_id: user.id,
           }).then((data) => {
             if (data) setProfile(data[0]);
@@ -117,6 +120,7 @@ export default function FishTankScreen() {
         current_tank_description: tank.description,
         current_tank_dgh: tank.tank_dgh,
         current_tank_temp: tank.tank_temp,
+        current_tank_ph: tank.tank_pH,
         user_id: user.id,
       })
         .then((data) => {
@@ -159,6 +163,7 @@ export default function FishTankScreen() {
             current_tank_description: allTanks[index].description,
             current_tank_dgh: allTanks[index].tank_dgh,
             current_tank_temp: allTanks[index].tank_temp,
+            current_tank_ph: allTanks[index].tank_pH,
             user_id: user.id,
           }).then((data) => {
             if (data) setProfile(data[0]);
