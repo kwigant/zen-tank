@@ -46,7 +46,7 @@ const PlantTag = ({ plant }: PlantProps) => {
 };
 
 export default function GridItem({ item, isFish }: GridProps) {
-  const path = isFish ? "/fish-search/[id]" : "/plant-search/[id]";
+  const path = isFish ? "(tabs)/tanks/fish-profile" : "(tabs)/tanks/plant-profile";
   return (
     <Link
       href={{ pathname: path, params: { id: item.id } }}

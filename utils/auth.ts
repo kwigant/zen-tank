@@ -29,7 +29,7 @@ export async function signUpWithEmail({email, password, first, last}: SignUpProp
         if (error) {
             console.error("Error fetching data:", error);
         }
-        if (data && data[0]) router.navigate("/(app)");
+        if (data && data[0]) router.navigate("/(tabs)/tanks");
     }
 }
 

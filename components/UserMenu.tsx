@@ -18,7 +18,7 @@ export default function UserMenu() {
       anchor={
         <TouchableOpacity onPress={openMenu}>
           <Avatar.Text
-            size={40}
+            size={44}
             label={`${profile?.first_name.charAt(0)}${profile?.last_name.charAt(
               0
             )}`}

@@ -1,8 +1,6 @@
-import { style } from "@/constants/Styles";
 import { fish } from "@/constants/Types";
 import React, { useState } from "react";
-import { View } from "react-native";
-import { Icon, List, Text } from "react-native-paper";
+import {List, Text } from "react-native-paper";
 
 export type GridProps = { fish: fish };
 
@@ -19,23 +17,22 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s1}
-        style={style.accordionBackground}
         onPress={() => sets1(!s1)}
       >
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {fish.typicalBehavior}
         </Text>
 
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {`Life Span: ${fish.lifespan}`}
         </Text>
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {`Care Difficulty: ${fish.careLevel}`}
         </Text>
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {`Size at Maturity: ${fish.sizeAtMaturity}`}
         </Text>
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {`Temperament: ${fish.temperament}`}
         </Text>
       </List.Accordion>
@@ -46,15 +43,14 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s2}
-        style={style.accordionBackground}
         onPress={() => sets2(!s2)}
       >
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium" >
           {fish.feedingHabits}
         </Text>
         
            
-            <Text style={style.accordionListText} variant="bodyMedium">
+            <Text variant="bodyMedium">
               {fish.diet}
             </Text>
           
@@ -67,13 +63,12 @@ export default function AdditionalCare({ fish }: GridProps) {
           </Text>
         }
         expanded={s3}
-        style={style.accordionBackground}
         onPress={() => sets3(!s3)}
       >
-         <Text variant="bodyMedium" style={style.accordionListText}>
+         <Text variant="bodyMedium">
           {fish.breedingFrequency}
         </Text>
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium">
           {fish.fryCount}
         </Text> 
       </List.Accordion>

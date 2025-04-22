@@ -1,11 +1,13 @@
 import * as React from "react";
-import { View, Image } from "react-native";
+import { View, Image, ScrollView } from "react-native";
 import { Button, Text } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
 import Tabs from "@/components/Tabs";
 import { useQuery } from "react-query";
 import { fetchPlantById } from "@/api/plants";
+import About from "@/components/plants/About";
+import BasicCare from "@/components/plants/BasicCare";
 
 export default function PlantProfileScreen({}) {
   const { id } = useLocalSearchParams();
@@ -36,13 +38,13 @@ export default function PlantProfileScreen({}) {
           </View>
           <Tabs setTab={setTab} tab={tab} />
         </View>
-        {/* <ScrollView>
+        <ScrollView>
           {tab === 0 ? (
-            <About plant={plant} />
+            plant && <About plant={plant} />
           ) : tab === 1 ? (
-            <BasicCare plant={plant} />
+            plant && <BasicCare plant={plant} />
           ) : null}
-        </ScrollView> */}
+        </ScrollView>
       </View>
     );
 }

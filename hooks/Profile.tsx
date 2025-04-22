@@ -14,7 +14,7 @@ export const ProfileProvider = ({ children }: any) => {
   const ctx = useAuth();
   const { user } = useContext(ctx);
   const [loading, setLoading] = useState(true);
-
+ 
   useEffect(() => {
     const setData = async () => {
       if (user) {

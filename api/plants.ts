@@ -37,3 +37,12 @@ export const searchPlantData = async (searchQuery: string) => {
     return data as plant[];
   }
 }
+
+export async function getPlantsInTank(tank_id: string) {
+  const { data, error } = await supabase
+    .from("TankPlants")
+    .select('*')
+    .eq("tank_id", tank_id);
+  if (error) throw error;
+  if (data) return data;
+}

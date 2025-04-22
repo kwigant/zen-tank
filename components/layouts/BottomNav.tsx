@@ -1,12 +1,8 @@
-import React from "react";
-import { Stack } from "expo-router";
-import { ProfileProvider } from "@/hooks/Profile";
+import { Stack } from 'expo-router';
+import * as React from 'react';
+import { BottomNavigation, Text } from 'react-native-paper';
 
-// Main app routes -- available after user login / register
-export default function AppLayout() {
-  return (
-    <ProfileProvider>
-      <Stack >
+const TankRoute = () =>      <Stack>
         <Stack.Screen
           name="index"
           options={{
@@ -40,13 +36,9 @@ export default function AppLayout() {
         <Stack.Screen
           name="fish-tanks/index"
           options={{
-            headerShown: true,
             headerShadowVisible: false,
-            title: "My Tanks",
-            headerTitleStyle: {
-              fontFamily: "Poppins",
-              fontWeight: "bold",
-            },
+            headerShown: true,
+            title: "",
           }}
         />
         <Stack.Screen
@@ -73,6 +65,32 @@ export default function AppLayout() {
           }}
         />
       </Stack>
-    </ProfileProvider>
+
+const SearchRoute = () => <Text>Albums</Text>;
+
+const TasksRoute = () => <Text>Recents</Text>;
+
+const BottomNav = () => {
+  const [index, setIndex] = React.useState(0);
+  const [routes] = React.useState([
+    { key: 'tanks', title: 'Tanks', focusedIcon: 'home', unfocusedIcon: 'home-outline'},
+    { key: 'search', title: 'Search', focusedIcon: 'magnify' },
+    { key: 'tasks', title: 'Tasks', focusedIcon: 'logs' },
+  ]);
+
+  const renderScene = BottomNavigation.SceneMap({
+    tanks: TankRoute,
+    search: SearchRoute,
+    tasks: TasksRoute,
+  });
+
+  return (
+    <BottomNavigation
+      navigationState={{ index, routes }}
+      onIndexChange={setIndex}
+      renderScene={renderScene}
+    />
   );
-}
+};
+
+export default BottomNav;

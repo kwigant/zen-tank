@@ -11,7 +11,7 @@ export async function listTanks(userId: string) {
     if (data) return data;
 }
 
-export async function getTank(tankId: string) {
+export const getTank = async (tankId: string) => {
   const { data, error } = await supabase
     .from("Tanks")
     .select()
@@ -89,6 +89,26 @@ export  async function addFish(tank_id: string, user: User, fish: fish) {
       if (error) {
         throw error;
       }
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
+}
+
+export async function getFishInTank(tank_id: string) {
+  try {
+    if (tank_id) {
+      const {data,  error } = await supabase
+        .from("TankFish")
+        .select()
+        .eq("tank_id", tank_id);
+      if (error) {
+        throw error;
+      }
+      console.log('tank fish for tank', tank_id, data)
+      return data
     }
   } catch (error) {
     if (error instanceof Error) {

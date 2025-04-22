@@ -13,7 +13,7 @@ export default function TankCard(props: tankCardProps) {
     <Link
     style={{marginBottom: 24}}
       href={{
-        pathname: "/(app)/fish-tanks",
+        pathname: "/(tabs)/tanks/fish-tank",
         params: { id: props.tank.tank_id },
       }}
     >

@@ -22,7 +22,7 @@ export default function Auth() {
 
     if (error) Alert.alert(error.message);
  
-    if (data) router.navigate("/(app)");
+    if (data) router.navigate("/(tabs)/tanks");
   }
 
   async function signUpWithEmail() {
@@ -50,7 +50,7 @@ export default function Auth() {
         if (error) {
             console.error("Error fetching data:", error);
         }
-        if (data && data[0]) router.navigate("/(app)");
+        if (data && data[0]) router.navigate("/(tabs)/tanks");
     }
   }
 

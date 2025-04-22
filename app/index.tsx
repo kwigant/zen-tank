@@ -11,7 +11,7 @@ export default function SignIn() {
     // change route depending on auth status
     supabase.auth.onAuthStateChange((_event, session) => {
       if (session) {
-        router.replace({pathname: "/(app)", params: {'user_id': session.user.id} })
+        router.replace({pathname: "/(tabs)/tanks", params: {'user_id': session.user.id} })
         setSession(session)
       }else {
         router.replace("/(auth)")

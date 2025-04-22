@@ -10,6 +10,9 @@ import AddToTankModal, { AddToTankProps } from "@/components/AddToTankModal";
 import { listTanks } from "@/api/tanks";
 import { fetchFish } from "@/api/fish";
 import { useQuery } from "react-query";
+import AdditionalCare from "@/components/fish/AdditionalCare";
+import BasicCare from "@/components/fish/BasicCare";
+import FishStats from "@/components/fish/FishStats";
 
 export default function FishProfileScreen({}) {
   const { id } = useLocalSearchParams();
@@ -58,15 +61,15 @@ export default function FishProfileScreen({}) {
         </View>
         <Tabs setTab={setTab} tab={tab} />
       </View>
-      {/* <ScrollView>
+      <ScrollView>
         {tab === 0 ? (
-          <AdditionalCare {...fish} />
+          fish && <AdditionalCare fish={fish} />
         ) : tab === 1 ? (
-          <BasicCare fish={fish} />
+          fish && <BasicCare fish={fish} />
         ) : (
-          <FishStats fish={fish} />
+          fish && <FishStats fish={fish} />
         )}
-      </ScrollView> */}
+      </ScrollView>
       <AddToTankModal {...getProps()} />
     </View>
   );

@@ -1,4 +1,3 @@
-import { style } from "@/constants/Styles";
 import { plant } from "@/constants/Types";
 import React, { useState } from "react";
 import { List, Text } from "react-native-paper";
@@ -18,18 +17,17 @@ export default function BasicCare({ plant }: GridProps) {
           </Text>
         }
         expanded={sOne}
-        style={style.accordionBackground}
         onPress={() => setsOne(!sOne)}
       >
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium">
          {plant.look}
         </Text>
      
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium">
           {`Texture: ${plant.texture}`}
         </Text>
 
-        <Text variant="bodyMedium" style={style.accordionListText}>
+        <Text variant="bodyMedium">
           {`Growth Rate: ${plant.growth_rate}`}
         </Text>
     
@@ -37,24 +35,23 @@ export default function BasicCare({ plant }: GridProps) {
 
       <List.Accordion
         title={
-          <Text variant="headlineSmall" style={style.accordionListText}>
+          <Text variant="headlineSmall" >
             Ideal Water Chemistry
           </Text>
         }
         expanded={sTwo}
-        style={style.accordionBackground}
         onPress={() => setsTwo(!sTwo)}
       >
       
-        <Text style={style.accordionListText} variant="bodyMedium">
+        <Text variant="bodyMedium">
         {`Temperature: ${plant.temperature}`}
         </Text>
        
-        <Text style={style.accordionListText} variant="bodyMedium">
+        <Text variant="bodyMedium">
         {`pH Level: ${plant.ph}`}
         </Text>
 
-        <Text style={style.accordionListText} variant="bodyMedium">
+        <Text variant="bodyMedium">
         {`Hardness: ${plant.hardness}`}
         </Text>
       </List.Accordion>
