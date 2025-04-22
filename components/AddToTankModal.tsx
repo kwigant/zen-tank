@@ -35,9 +35,8 @@ export default function AddToTankModal(props: AddToTankProps) {
       current_tank_ph: props.fish?.pH || props.plant?.ph || '',
       user_id: user.id,
     }).then((data) => {
-      console.log('add to tank data', data)
       if (data) setProfile(data[0]);
-    }).catch((error) => console.log(error));
+    }).catch((error) => console.error(error));
  }
   
   function addToTank() {

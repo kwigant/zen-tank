@@ -43,26 +43,25 @@ export default function TankCard(props: tankCardProps) {
   const [mVisible, setMVisible] = useState(false);
   const openMenu = () => setMVisible(true);
   const closeMenu = () => setMVisible(false);
-  useEffect(() => {
-    getFishInTank(props.id)
-      .then((data) => {
-        if (data) {
-          setFishInTank(data);
-        }
-      })
-      .catch((error) => {
-        throw error;
-      });
-    getPlantsInTank(props.id)
-      .then((data) => {
-        if (data) setPlantsInTank(data);
-      })
-      .catch((error) => {
-        throw error;
-      });
-      // console.log('tank', props.tank)
-    setCard(props.tank);
-  }, [allFishInTank, allPlantsInTank]);
+  // useEffect(() => {
+  //   getFishInTank(props.id)
+  //     .then((data) => {
+  //       if (data) {
+  //         setFishInTank(data);
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       throw error;
+  //     });
+  //   getPlantsInTank(props.id)
+  //     .then((data) => {
+  //       if (data) setPlantsInTank(data);
+  //     })
+  //     .catch((error) => {
+  //       throw error;
+  //     });
+  //   setCard(props.tank);
+  // }, [allFishInTank, allPlantsInTank]);
 
   // get min and max of temp range from fish
   // function getWaterTemp() {

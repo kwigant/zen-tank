@@ -3,7 +3,7 @@ import { supabase } from "./supabase";
 import { Dispatch, SetStateAction } from "react";
 import { Session } from "@supabase/supabase-js";
 
-export async function searchFishData({searchQuery, setData}: SearchDataProps) {
+export async function searchFishData(searchQuery: string) {
     const { data, error } = await supabase
       .from("Fish") // Replace with your table name
       .select()
@@ -11,7 +11,7 @@ export async function searchFishData({searchQuery, setData}: SearchDataProps) {
     if (error) {
       console.error("Error fetching data:", error);
     } else {
-      setData(data as fish[]);
+      return data as fish[];
     }
 }
 
@@ -34,7 +34,6 @@ export async function fetchFishData({setFishData}: FetchFishProps){
     if (error) throw error;
 
     if (data) {
-      // console.log("calling", data);
       return data;
     }
   }

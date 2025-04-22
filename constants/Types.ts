@@ -146,7 +146,6 @@ export type updateProfileInput = {
 // Search Data Props - Fish
 export type SearchDataProps = {
   searchQuery: string,
-  setData: Dispatch<SetStateAction<fish[]>>
 }
 
 export type FetchFishProps = {

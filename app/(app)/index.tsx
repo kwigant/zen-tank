@@ -64,26 +64,24 @@ export default function DashboardScreen() {
     }
   }
 
-  React.useEffect(() => {
-    if (profile) {
-      getTank(profile.current_tank_id)
-        .then((data) => {
-          if (data) {
-           // console.log('current tank', data)
-            setCurrentTank(data[0]);
-          }
-        })
-        .catch((error) => {
-          throw error;
-        });
-      getFishInTank(profile.current_tank_id).then((data) => {
-        if (data) {
-          console.log('fish', data)
-          setCurrentFish(data);
-        }
-      });
-    }
-  }, [ profile]);
+  // React.useEffect(() => {
+  //   if (profile) {
+  //     getTank(profile.current_tank_id)
+  //       .then((data) => {
+  //         if (data) {
+  //           setCurrentTank(data[0]);
+  //         }
+  //       })
+  //       .catch((error) => {
+  //         throw error;
+  //       });
+  //     getFishInTank(profile.current_tank_id).then((data) => {
+  //       if (data) {
+  //         setCurrentFish(data);
+  //       }
+  //     });
+  //   }
+  // }, [ profile]);
 
   if (currentTank) {
 

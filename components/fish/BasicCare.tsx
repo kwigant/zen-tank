@@ -9,7 +9,6 @@ export default function BasicCare({ fish }: GridProps) {
   const [sOne, setsOne] = useState(true);
   const [sTwo, setsTwo] = useState(false);
   const [sThree, setsThree] = useState(false);
-  //console.log(fish.specialEquipment)
 
   return (
     <List.Section style={{ margin: 0, padding: 24, paddingTop: 0 }}>

@@ -41,10 +41,10 @@ export default function TankSwipe(props: TankSwipeProps) {
         user_id: user.id,
       })
         .then((data) => {
-          // console.log("data", data);
+          // ("data", data);
           if (data) setProfile(data[0]);
         })
-        .catch((error) => console.log(error));
+        .catch((error) => console.error(error));
     }
   }
 

@@ -42,26 +42,26 @@ export default function FishTankScreen() {
   const showDModal = () => setDVisible(true);
   const hideDModal = () => setDVisible(false);
 
-  useEffect(() => {
-    if (user) {
-      listTanks(user.id)
-        .then((items) => {
-          if (items) {
-            setAllTanks(items);
-            setTankIds(
-              items.map((i) => {
-                return i.tank_id;
-              })
-            );
+  // useEffect(() => {
+  //   if (user) {
+  //     listTanks(user.id)
+  //       .then((items) => {
+  //         if (items) {
+  //           setAllTanks(items);
+  //           setTankIds(
+  //             items.map((i) => {
+  //               return i.tank_id;
+  //             })
+  //           );
            
-          }
-        })
-        .catch((error: Error) => {
-          throw error;
-        });
+  //         }
+  //       })
+  //       .catch((error: Error) => {
+  //         throw error;
+  //       });
       
-    }
-  }, []);
+  //   }
+  // }, []);
 
   function createTankAndUpdate() {
     if (user) {
@@ -124,10 +124,10 @@ export default function FishTankScreen() {
         user_id: user.id,
       })
         .then((data) => {
-          // console.log("data", data);
+         
           // if (data) setProfile(data[0]);
         })
-        .catch((error) => console.log(error));
+        .catch((error) => console.error(error));
     }
   }
 
@@ -142,17 +142,17 @@ export default function FishTankScreen() {
 
   function deleteTankAndUpdate() {
     if (user) {
-      console.log('deleting',profile?.current_tank_id)
+     
 
       const index = allTanks.length - 1 === 1 ? 1 : 0;
       if (profile) {
         deleteTank(profile.current_tank_id)
         .then(() => {
           setCurrentTank(allTanks[0])
-          console.log(allTanks)
+         
         })
         .catch((error) => {
-          console.log(error);
+        
           throw error;
         }).finally(() =>
           updateProfile({
