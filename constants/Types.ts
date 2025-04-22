@@ -74,8 +74,8 @@ export type profile = {
   current_tank_name: string;
   current_tank_size: number;
   current_tank_description: string;
-  // fish_in_current_tank: number;
-  // plants_in_current_tank: number;
+  //fish_in_current_tank: number;
+  //plants_in_current_tank: number;
   current_tank_temp: string,
   current_tank_dgh: string, 
   current_tank_ph: string,

@@ -17,7 +17,7 @@ export async function getTank(tankId: string) {
     .select()
     .eq("tank_id", tankId);
   if (error) throw error;
-  if (data) return data;
+  if (data) return data[0] as tank;
 }
 
 export async function createTank(tank: tank ) {

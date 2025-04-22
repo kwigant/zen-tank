@@ -2,10 +2,8 @@ import * as React from "react";
 import { View, Text } from "react-native";
 import { FlatList } from "react-native";
 import GridItem from "@/components/GridItem";
-import { fetchPlantList, searchPlantData } from "@/api/plants";
+import { fetchPlantList } from "@/api/plants";
 import { useQuery } from "react-query";
-import { IconButton, Searchbar } from "react-native-paper";
-import { style } from "@/constants/Styles";
 
 export default function PlantSearchScreen() {
   const [searchQuery, setSearchQuery] = React.useState("");

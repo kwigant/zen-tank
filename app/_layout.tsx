@@ -34,7 +34,7 @@ export default function RootLayout() {
     <PaperProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
         <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index"  /> 
+          <Stack.Screen name="index" /> 
         </Stack>
       </QueryClientProvider>
     </PaperProvider>

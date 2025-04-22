@@ -90,15 +90,15 @@ export const style = StyleSheet.create({
     },
     // Tank Card Styles ----------------
    tankCard: {
-    width: '100%', 
     height: 'auto',
     backgroundColor: 'white',
-    borderRadius: 8, 
     padding: 24, 
+    marginVertical: 12,
     borderWidth: 1,
+    borderRadius: 8,
     borderColor: "#00000030",
     display: 'flex', 
-    flexDirection: 'column',
+    flexDirection: 'row',
    },
     // Auth Page Styles ---------------------
     authContainer: {
