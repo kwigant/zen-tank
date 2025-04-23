@@ -52,14 +52,14 @@ export default function SearchScreen() {
           data={fishData}
           keyExtractor={(item) => item.id.toString()}
           ListEmptyComponent={searchTerm !== '' ? <Text>No Fish Found</Text> : <Text>What fish are you looking for?</Text>}
-          renderItem={({ item }) => <GridItem isFish={true} item={item} tab="search"/>}
+          renderItem={({ item }) => <GridItem isFish={true} item={item} tab="search" tank_id={null} tank_name={null}/> }
         />
       ) : (
         <FlatList
           data={plantData}
           keyExtractor={(item) => item.id.toString()}
           ListEmptyComponent={searchTerm !== '' ? <Text>No Plants Found</Text> : <Text>What plants are you looking for?</Text>}
-          renderItem={({ item }) => <GridItem isFish={false} item={item} tab="search"/>}
+          renderItem={({ item }) => <GridItem isFish={false} item={item} tab="search" tank_id={null} tank_name={null}/>}
         />
       )}
     </View>

@@ -4,8 +4,11 @@ import { FlatList } from "react-native";
 import GridItem from "@/components/GridItem";
 import { fetchPlantList } from "@/api/plants";
 import { useQuery } from "react-query";
+import { useLocalSearchParams } from "expo-router";
 
 export default function PlantSearchScreen() {
+    const {tank_id, tank_name} = useLocalSearchParams()
+  
   const [searchQuery, setSearchQuery] = React.useState("");
   const { data: plantList, isLoading } = useQuery({
     queryKey: "plantList",
@@ -46,7 +49,7 @@ export default function PlantSearchScreen() {
           data={plantList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={false} tab={"tanks"} />;
+            return <GridItem item={item} isFish={false} tab={"tanks"} tank_name={tank_name.toString()}  tank_id={tank_id.toString()}/>;
           }}
           keyExtractor={(item) => item.id}
         />

@@ -1,20 +1,30 @@
+import { deleteTank } from "@/api/tanks";
 import { style } from "@/constants/Styles";
+import { tank } from "@/constants/Types";
 import { useProfile } from "@/hooks/Profile";
+import { router } from "expo-router";
 import React from "react";
 import { View } from "react-native";
 import { Button, Modal, Portal, Text } from "react-native-paper";
+import { useQueryClient } from "react-query";
 
 export type DeleteTankProps = {
   visible: boolean;
   hideModal: () => void;
-  delete: () => void;
+  tank: tank;
 };
 
 export default function DeleteTankModal(props: DeleteTankProps) {
   const containerStyle = { backgroundColor: "white", margin: 24, padding: 20 };
-  const pctx = useProfile();
-  const { profile } = React.useContext(pctx);
-
+  const queryClient = useQueryClient();
+  
+  function removeTank() {
+    deleteTank(props.tank.tank_id).then(() =>
+      queryClient.invalidateQueries("allTanks")
+    );
+    router.push("/(tabs)/tanks");
+  }
+  
   return (
     <Portal>
       <Modal
@@ -22,23 +32,21 @@ export default function DeleteTankModal(props: DeleteTankProps) {
         onDismiss={props.hideModal}
         contentContainerStyle={containerStyle}
       >
-        {profile && (
-          <View>
-            <Text>
-              Are you sure you want to delete tank 
-              {profile.current_tank_name}?
-            </Text>
+        <View>
+          <Text>
+            Are you sure you want to delete tank
+            {props.tank.name}?
+          </Text>
 
-            <View style={style.row}>
-              <Button mode="text" onPress={props.hideModal}>
-                Cancel
-              </Button>
-              <Button onPress={props.delete} mode="contained">
-                Delete
-              </Button>
-            </View>
+          <View style={style.row}>
+            <Button mode="text" onPress={props.hideModal}>
+              Cancel
+            </Button>
+            <Button onPress={() => removeTank()} mode="contained">
+              Delete
+            </Button>
           </View>
-        )}
+        </View>
       </Modal>
     </Portal>
   );

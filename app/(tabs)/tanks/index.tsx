@@ -1,11 +1,12 @@
 import * as React from "react";
 import { View, FlatList } from "react-native";
-import { Text } from "react-native-paper";
+import { Button, Text } from "react-native-paper";
 import { useAuth } from "@/hooks/Auth";
 import { useProfile } from "@/hooks/Profile";
 import { listTanks } from "@/api/tanks";
 import TankCard from "@/components/TankCard";
 import { useQuery } from "react-query";
+import { style } from "@/constants/Styles";
 
 export default function DashboardScreen() {
   // get context
@@ -14,7 +15,9 @@ export default function DashboardScreen() {
   const { user } = React.useContext(ctx);
   const profileCtx = useProfile();
   const { profile } = React.useContext(profileCtx);
+function createNewTank() {
 
+}
   if (user) {
     const { data: allTanks, isLoading } = useQuery({
       queryKey: "tankList",
@@ -48,6 +51,13 @@ export default function DashboardScreen() {
             return <TankCard tank={item}></TankCard>;
           }}
           keyExtractor={(item) => item.id}
+          ListFooterComponent={<Button
+            onPress={() => createNewTank()}
+            style={[style.iconBtn, { padding: 2, minWidth: null }]}
+            textColor="black"
+          >
+            Add a Tank
+        </Button>}
         />
       </View>
     );

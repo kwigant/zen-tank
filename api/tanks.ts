@@ -41,6 +41,21 @@ export async function deleteTank(tankId: string) {
   }  
 }
 
+export async function editTank(tank_id: string, updatedTank: tank) {
+  try {
+    const { data, error } = await supabase
+    .from('Tanks')
+    .update(updatedTank)
+    .eq('tank_id', tank_id)
+    .select()
+    if (error) throw error
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
+}
+
 export async function addPlant(tank_id: string, user: User, plant: plant) {
   try {
     if (user && plant) {

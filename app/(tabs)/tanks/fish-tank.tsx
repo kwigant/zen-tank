@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, Image, FlatList } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { getTank } from "@/api/tanks";
 import { useQuery } from "react-query";
 import { style } from "@/constants/Styles";
-import { Avatar, Button, Text } from "react-native-paper";
+import { Avatar, Button, Card, Modal, Portal, Text, TextInput } from "react-native-paper";
 import { getFishInTank } from "@/api/fish";
 import { getPlantsInTank } from "@/api/plants";
+import TankMenu from "@/components/TankMenu";
+import EditTankModal from "@/components/EditTankModal";
+import DeleteTankModal from "@/components/DeleteTankModal";
 
 export default function FishTankScreen() {
+  const [visible, setVisible] = useState(false);
+  const hideModal = () => setVisible(false);
+  const [delvisible, setDelVisible] = useState(false);
+  const hideDModal = () => setDelVisible(false);
+
   // get context
   const { id } = useLocalSearchParams();
   const { data: tank, isLoading } = useQuery({
@@ -41,12 +49,10 @@ export default function FishTankScreen() {
           <Text variant="headlineLarge" style={{ textAlign: "center" }}>
             {tank?.name}
           </Text>
+          <TankMenu onPress={()=>setVisible(true)} onDeletePress={()=> setDelVisible(true)}/>
         </View>
         <Text>{tank?.description}</Text>
         <Text>Size: {tank?.size} gallons</Text>
-        <Text>Temp: {tank?.tank_temp}</Text>
-        <Text>pH: {tank?.tank_pH}</Text>
-        <Text>dGH: {tank?.tank_dgh}</Text>
         <Text>Fish</Text>
         <FlatList
           data={tankFish}
@@ -63,7 +69,7 @@ export default function FishTankScreen() {
               onPress={() =>
                 router.push({
                   pathname: "/(tabs)/tanks/fish-search",
-                  params: { tank_id: id },
+                  params: { tank_id: id, tank_name: tank?.name },
                 })
               }
               style={[style.iconBtn, { padding: 2, minWidth: null }]}
@@ -89,7 +95,7 @@ export default function FishTankScreen() {
             onPress={() =>
               router.push({
                 pathname: "/(tabs)/tanks/plant-search",
-                params: { tank_id: id },
+                params: { tank_id: id, tank_name: tank?.name },
               })
             }
             style={[style.iconBtn, { padding: 2, minWidth: null }]}
@@ -100,6 +106,9 @@ export default function FishTankScreen() {
           }
         />
       </View>
+    {tank && <EditTankModal visible={visible} hideModal={hideModal} tank={tank}></EditTankModal>}
+    {tank && <DeleteTankModal visible={delvisible} hideModal={hideDModal} tank={tank}></DeleteTankModal>}
+
     </View>
   );
 }

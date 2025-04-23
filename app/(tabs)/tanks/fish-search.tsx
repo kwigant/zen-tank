@@ -10,8 +10,10 @@ import {
 import { IconButton, Searchbar } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { fetchFishList, searchFishData } from "@/api/fish";
+import { useLocalSearchParams } from "expo-router/build/hooks";
 
 export default function FishSearchScreen() {
+  const {tank_id, tank_name} = useLocalSearchParams()
   const [searchQuery, setSearchQuery] = React.useState("");
   const { data: fishList, isLoading } = useQuery({
     queryKey: "fishList", 
@@ -47,7 +49,7 @@ export default function FishSearchScreen() {
           data={fishList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={true} tab={"tanks"}/>;
+            return <GridItem item={item} isFish={true} tab={"tanks"} tank_name={tank_name.toString()} tank_id={tank_id.toString()}/>;
           }}
           keyExtractor={(item) => item.id}
         />

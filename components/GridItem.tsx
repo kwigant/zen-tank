@@ -5,7 +5,7 @@ import React from "react";
 import { View } from "react-native";
 import { Avatar, Icon, Text } from "react-native-paper";
 
-export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean; tab: string };
+export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean; tab: string; tank_id: string | null; tank_name: string | null };
 export type FishProps = { fish: fish | TankFish };
 export type PlantProps = { plant: plant };
 
@@ -45,11 +45,11 @@ const PlantTag = ({ plant }: PlantProps) => {
   );
 };
 
-export default function GridItem({ item, isFish, tab }: GridProps) {
+export default function GridItem({ item, isFish, tab, tank_id, tank_name }: GridProps) {
   const path = isFish ? `(tabs)/${tab}/fish-profile` : `(tabs)/${tab}/plant-profile`;
   return (
     <Link
-      href={{ pathname: path as RelativePathString, params: { id: item.id } }}
+      href={{ pathname: path as RelativePathString, params: { id: item.id, tank_id: tank_id, tank_name: tank_name } }}
       style={{ width: "100%" }}
     >
       <View style={[style.listItem]}>
