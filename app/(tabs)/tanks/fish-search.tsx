@@ -47,7 +47,7 @@ export default function FishSearchScreen() {
           data={fishList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={true} />;
+            return <GridItem item={item} isFish={true} tab={"tanks"}/>;
           }}
           keyExtractor={(item) => item.id}
         />

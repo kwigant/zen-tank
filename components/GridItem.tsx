@@ -1,11 +1,11 @@
 import { style } from "@/constants/Styles";
 import { fish, plant, TankFish, TankPlants } from "@/constants/Types";
-import { Link } from "expo-router";
+import { Link, RelativePathString } from "expo-router";
 import React from "react";
 import { View } from "react-native";
 import { Avatar, Icon, Text } from "react-native-paper";
 
-export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean };
+export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean; tab: string };
 export type FishProps = { fish: fish | TankFish };
 export type PlantProps = { plant: plant };
 
@@ -45,11 +45,11 @@ const PlantTag = ({ plant }: PlantProps) => {
   );
 };
 
-export default function GridItem({ item, isFish }: GridProps) {
-  const path = isFish ? "(tabs)/tanks/fish-profile" : "(tabs)/tanks/plant-profile";
+export default function GridItem({ item, isFish, tab }: GridProps) {
+  const path = isFish ? `(tabs)/${tab}/fish-profile` : `(tabs)/${tab}/plant-profile`;
   return (
     <Link
-      href={{ pathname: path, params: { id: item.id } }}
+      href={{ pathname: path as RelativePathString, params: { id: item.id } }}
       style={{ width: "100%" }}
     >
       <View style={[style.listItem]}>

@@ -46,7 +46,7 @@ export default function PlantSearchScreen() {
           data={plantList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={false} />;
+            return <GridItem item={item} isFish={false} tab={"tanks"} />;
           }}
           keyExtractor={(item) => item.id}
         />

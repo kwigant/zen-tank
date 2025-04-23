@@ -1,22 +1,24 @@
 // app/(tabs)/_layout.tsx
-import { Tabs } from 'expo-router'
+import UserMenu from "@/components/UserMenu";
+import { Tabs } from "expo-router";
 
 const TabsLayout = () => {
-    return (
-        <Tabs screenOptions={{headerShown: false}}>
-            <Tabs.Screen
-                name="tanks"
-                options={{
-                    headerShown: false
-                }}
-            />
-            <Tabs.Screen
-                name="search"
-                options={{
-                   headerShown: false
-                }} />
-        </Tabs>
-    )
-}
+  return (
+    <Tabs>
+      <Tabs.Screen
+        options={() => ({
+          headerShown: false,
+        })}
+        name="tanks"
+      />
+      <Tabs.Screen
+        options={() => ({
+          headerShown: false,
+        })}
+        name="search"
+      />
+    </Tabs>
+  );
+};
 
-export default TabsLayout
+export default TabsLayout;
