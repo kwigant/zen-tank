@@ -3,7 +3,7 @@ import { View, Image, ScrollView } from "react-native";
 import { Button, Text } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
-import Tabs from "@/components/Tabs";
+import Tabs from "@/components/layouts/Tabs";
 import { useQuery } from "react-query";
 import { fetchPlantById } from "@/api/plants";
 import About from "@/components/plants/About";
@@ -17,20 +17,23 @@ export default function PlantProfileScreen({}) {
     const [visible, setVisible] = React.useState(false);
     const showModal = () => setVisible(true);
     const hideModal = () => setVisible(false);
-  
+    const [added, setAdd] = React.useState(false);
+
  const { data: plant, isLoading } = useQuery({
      queryKey: "plantProfile", 
      queryFn: ()=> fetchPlantById(id as string), 
    });
 
   function getProps(): AddToTankProps {
-      return {
+     const props: AddToTankProps =  {
+        add: added,
         name: tank_name.toString(),
         tank: tank_id.toString(),
         plant: plant,
         visible: visible,
         hideModal: hideModal,
       };
+      return props
     }
 
     if (isLoading) return <Text>Loading...</Text>

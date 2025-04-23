@@ -70,8 +70,10 @@ export default function EditTankModal(props: EditTankProps) {
                 size: parseInt(size),
               };
               try {
-                await editTank(props.tank.tank_id, updatedTank).then(() =>
+                await editTank(props.tank.tank_id, updatedTank).then(() =>{
                   queryClient.invalidateQueries("tankProfile")
+                  queryClient.invalidateQueries("tankList")
+                }
                 );
                 resetStates()
               } catch (error) {

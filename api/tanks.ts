@@ -131,3 +131,24 @@ export async function getFishInTank(tank_id: string) {
     }
   }
 }
+
+
+
+export async function deleteFishInTank(id: string) {
+  try {
+    if (id) {
+      const { error } = await supabase
+        .from('TankFish')
+        .delete()
+        .eq('id', id)
+      if (error) {
+        throw error;
+      }
+      
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
+}

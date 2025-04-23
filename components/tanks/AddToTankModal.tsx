@@ -1,4 +1,4 @@
-import { addFish, addPlant } from "@/api/tanks";
+import { addFish, addPlant, deleteFishInTank } from "@/api/tanks";
 import { style } from "@/constants/Styles";
 import { fish, plant } from "@/constants/Types";
 import { useAuth } from "@/hooks/Auth";
@@ -8,6 +8,7 @@ import { Button, Modal, Portal, Text } from "react-native-paper";
 import {  useQueryClient } from "react-query";
 
 export type AddToTankProps = {
+  add: boolean;
   name: string;
   tank: string;
   fish?: fish;
@@ -33,6 +34,15 @@ export default function AddToTankModal(props: AddToTankProps) {
     }
   }
 
+  function removeFromTank() {
+    if (props.tank && user) {
+      if (props.fish) {
+        deleteFishInTank(props.fish.id).then(()=> queryClient.invalidateQueries('tankFish'));
+      }
+      props.hideModal();
+    }
+  }
+
   return (
     <Portal>
       <Modal
@@ -49,8 +59,8 @@ export default function AddToTankModal(props: AddToTankProps) {
             <Button mode="text" onPress={props.hideModal}>
               Cancel
             </Button>
-            <Button onPress={() => addToTank()} mode="contained">
-              Add
+            <Button onPress={() => props.add ? addToTank() : removeFromTank()} mode="contained">
+             { props.add ? 'Add': 'Remove'}
             </Button>
           </View>
         </View>

@@ -3,7 +3,7 @@ import { Image, View, ScrollView } from "react-native";
 import { Text, Button } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
-import Tabs from "@/components/Tabs";
+import Tabs from "@/components/layouts/Tabs";
 import AddToTankModal, { AddToTankProps } from "@/components/tanks/AddToTankModal";
 import { fetchFish } from "@/api/fish";
 import { useQuery } from "react-query";
@@ -26,6 +26,7 @@ export default function FishProfileScreen({}) {
 
   function getProps(): AddToTankProps {
     return {
+      add: false,
       name: '',
       tank: '',
       fish: fish,

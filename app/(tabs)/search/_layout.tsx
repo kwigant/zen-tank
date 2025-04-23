@@ -1,5 +1,5 @@
 // app/(tabs)/tab_1/_layout.tsx
-import UserMenu from "@/components/UserMenu";
+import UserMenu from "@/components/layouts/UserMenu";
 import { Stack } from "expo-router";
 
 const StackLayout = () => {

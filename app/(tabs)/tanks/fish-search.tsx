@@ -1,15 +1,10 @@
 import * as React from "react";
 import { View, Text, FlatList } from "react-native";
-import GridItem from "@/components/GridItem";
+import GridItem from "@/components/layouts/GridItem";
 import {
-  QueryClient,
-  useMutation,
   useQuery,
-  useQueryClient,
 } from "react-query";
-import { IconButton, Searchbar } from "react-native-paper";
-import { style } from "@/constants/Styles";
-import { fetchFishList, searchFishData } from "@/api/fish";
+import { fetchFishList } from "@/api/fish";
 import { useLocalSearchParams } from "expo-router/build/hooks";
 
 export default function FishSearchScreen() {

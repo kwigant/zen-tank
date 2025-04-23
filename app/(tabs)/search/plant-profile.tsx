@@ -3,7 +3,7 @@ import { View, Image, ScrollView } from "react-native";
 import { Button, Text } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
-import Tabs from "@/components/Tabs";
+import Tabs from "@/components/layouts/Tabs";
 import { useQuery } from "react-query";
 import { fetchPlantById } from "@/api/plants";
 import About from "@/components/plants/About";

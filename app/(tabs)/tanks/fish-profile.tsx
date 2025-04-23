@@ -3,7 +3,7 @@ import { Image, View, ScrollView } from "react-native";
 import { Text, Button } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
-import Tabs from "@/components/Tabs";
+import Tabs from "@/components/layouts/Tabs";
 import AddToTankModal, { AddToTankProps } from "@/components/tanks/AddToTankModal";
 import { fetchFish } from "@/api/fish";
 import { useQuery } from "react-query";
@@ -25,13 +25,15 @@ export default function FishProfileScreen({}) {
   })
 
   function getProps(): AddToTankProps {
-    return {
+   const props: AddToTankProps = {
+      add: added,
       name: tank_name.toString(),
       tank: tank_id.toString(),
       fish: fish,
       visible: visible,
       hideModal: hideModal,
     };
+    return props
   }
 
   if (isLoading) return <Text>Loading...</Text>
@@ -69,6 +71,7 @@ export default function FishProfileScreen({}) {
           fish && <FishStats fish={fish} />
         )}
       </ScrollView>
+    
       <AddToTankModal {...getProps()} />
     </View>
   );

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { View, Text } from "react-native";
 import { FlatList } from "react-native";
-import GridItem from "@/components/GridItem";
+import GridItem from "@/components/layouts/GridItem";
 import { fetchPlantList } from "@/api/plants";
 import { useQuery } from "react-query";
 import { useLocalSearchParams } from "expo-router";

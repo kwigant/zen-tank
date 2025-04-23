@@ -1,5 +1,5 @@
 // app/(tabs)/_layout.tsx
-import UserMenu from "@/components/UserMenu";
+import UserMenu from "@/components/layouts/UserMenu";
 import { Tabs } from "expo-router";
 
 const TabsLayout = () => {

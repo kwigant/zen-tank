@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Image, FlatList } from "react-native";
+import { View, Image, FlatList, TouchableOpacity } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { getTank } from "@/api/tanks";
 import { useQuery } from "react-query";
@@ -49,7 +49,10 @@ export default function FishTankScreen() {
           <Text variant="headlineLarge" style={{ textAlign: "center" }}>
             {tank?.name}
           </Text>
-          <TankMenu onPress={()=>setVisible(true)} onDeletePress={()=> setDelVisible(true)}/>
+          <TankMenu
+            onPress={() => setVisible(true)}
+            onDeletePress={() => setDelVisible(true)}
+          />
         </View>
         <Text>{tank?.description}</Text>
         <Text>Size: {tank?.size} gallons</Text>
@@ -60,7 +63,19 @@ export default function FishTankScreen() {
           style={{ marginBottom: 24 }}
           renderItem={({ item }) => {
             return (
-              <Avatar.Image size={50} source={{ uri: item.img }}></Avatar.Image>
+              <TouchableOpacity
+                onPress={() =>
+                  router.push({
+                    pathname: "/(tabs)/tanks/fish-profile",
+                    params: { id: item.fish_id, tank_name: tank?.name,tank_id: tank?.tank_id },
+                  })
+                }
+              >
+                <Avatar.Image
+                  size={50}
+                  source={{ uri: item.img }}
+                ></Avatar.Image>
+              </TouchableOpacity>
             );
           }}
           keyExtractor={(item) => item.id}
@@ -80,35 +95,58 @@ export default function FishTankScreen() {
           }
         />
         <Text>Plants</Text>
-         <FlatList
+        <FlatList
           data={tankPlants}
           horizontal
           style={{ marginBottom: 24 }}
           renderItem={({ item }) => {
             return (
-              <Avatar.Image size={50} source={{ uri: item.img }}></Avatar.Image>
+              <TouchableOpacity
+                onPress={() =>
+                  router.push({
+                    pathname: "/(tabs)/tanks/plant-profile",
+                    params: { id: item.plant_id },
+                  })
+                }
+              >
+                <Avatar.Image
+                  size={50}
+                  source={{ uri: item.img }}
+                ></Avatar.Image>
+              </TouchableOpacity>
             );
           }}
           keyExtractor={(item) => item.id}
           ListFooterComponent={
             <Button
-            onPress={() =>
-              router.push({
-                pathname: "/(tabs)/tanks/plant-search",
-                params: { tank_id: id, tank_name: tank?.name },
-              })
-            }
-            style={[style.iconBtn, { padding: 2, minWidth: null }]}
-            textColor="black"
-          >
-            Add Plants
-          </Button>
+              onPress={() =>
+                router.push({
+                  pathname: "/(tabs)/tanks/plant-search",
+                  params: { tank_id: id, tank_name: tank?.name },
+                })
+              }
+              style={[style.iconBtn, { padding: 2, minWidth: null }]}
+              textColor="black"
+            >
+              Add Plants
+            </Button>
           }
         />
       </View>
-    {tank && <EditTankModal visible={visible} hideModal={hideModal} tank={tank}></EditTankModal>}
-    {tank && <DeleteTankModal visible={delvisible} hideModal={hideDModal} tank={tank}></DeleteTankModal>}
-
+      {tank && (
+        <EditTankModal
+          visible={visible}
+          hideModal={hideModal}
+          tank={tank}
+        ></EditTankModal>
+      )}
+      {tank && (
+        <DeleteTankModal
+          visible={delvisible}
+          hideModal={hideDModal}
+          tank={tank}
+        ></DeleteTankModal>
+      )}
     </View>
   );
 }

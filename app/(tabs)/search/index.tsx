@@ -1,7 +1,7 @@
 import { searchFishData } from "@/api/fish";
 import { searchPlantData } from "@/api/plants";
-import GridItem from "@/components/GridItem";
-import Tabs from "@/components/Tabs";
+import GridItem from "@/components/layouts/GridItem";
+import Tabs from "@/components/layouts/Tabs";
 import { useState } from "react";
 import { FlatList, Text, View } from "react-native";
 import { Searchbar } from "react-native-paper";
