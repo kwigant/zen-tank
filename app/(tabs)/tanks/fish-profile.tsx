@@ -1,13 +1,10 @@
 import * as React from "react";
 import { Image, View, ScrollView } from "react-native";
-import { Text, IconButton, Button } from "react-native-paper";
+import { Text, Button } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
-import { fish, tank } from "@/constants/Types";
 import Tabs from "@/components/Tabs";
-import { useAuth } from "@/hooks/Auth";
-import AddToTankModal, { AddToTankProps } from "@/components/AddToTankModal";
-import { listTanks } from "@/api/tanks";
+import AddToTankModal, { AddToTankProps } from "@/components/tanks/AddToTankModal";
 import { fetchFish } from "@/api/fish";
 import { useQuery } from "react-query";
 import AdditionalCare from "@/components/fish/AdditionalCare";

@@ -4,12 +4,12 @@ import { router, useLocalSearchParams } from "expo-router";
 import { getTank } from "@/api/tanks";
 import { useQuery } from "react-query";
 import { style } from "@/constants/Styles";
-import { Avatar, Button, Card, Modal, Portal, Text, TextInput } from "react-native-paper";
+import { Avatar, Button, Text } from "react-native-paper";
 import { getFishInTank } from "@/api/fish";
 import { getPlantsInTank } from "@/api/plants";
-import TankMenu from "@/components/TankMenu";
-import EditTankModal from "@/components/EditTankModal";
-import DeleteTankModal from "@/components/DeleteTankModal";
+import TankMenu from "@/components/tanks/TankMenu";
+import EditTankModal from "@/components/tanks/EditTankModal";
+import DeleteTankModal from "@/components/tanks/DeleteTankModal";
 
 export default function FishTankScreen() {
   const [visible, setVisible] = useState(false);

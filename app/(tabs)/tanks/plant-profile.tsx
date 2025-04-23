@@ -8,7 +8,7 @@ import { useQuery } from "react-query";
 import { fetchPlantById } from "@/api/plants";
 import About from "@/components/plants/About";
 import BasicCare from "@/components/plants/BasicCare";
-import AddToTankModal, { AddToTankProps } from "@/components/AddToTankModal";
+import AddToTankModal, { AddToTankProps } from "@/components/tanks/AddToTankModal";
 
 export default function PlantProfileScreen({}) {
   const { id, tank_name, tank_id } = useLocalSearchParams();
@@ -32,6 +32,8 @@ export default function PlantProfileScreen({}) {
         hideModal: hideModal,
       };
     }
+
+    if (isLoading) return <Text>Loading...</Text>
     return (
       <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
         <Image

@@ -1,7 +1,6 @@
 import { deleteTank } from "@/api/tanks";
 import { style } from "@/constants/Styles";
 import { tank } from "@/constants/Types";
-import { useProfile } from "@/hooks/Profile";
 import { router } from "expo-router";
 import React from "react";
 import { View } from "react-native";
@@ -17,14 +16,7 @@ export type DeleteTankProps = {
 export default function DeleteTankModal(props: DeleteTankProps) {
   const containerStyle = { backgroundColor: "white", margin: 24, padding: 20 };
   const queryClient = useQueryClient();
-  
-  function removeTank() {
-    deleteTank(props.tank.tank_id).then(() =>
-      queryClient.invalidateQueries("allTanks")
-    );
-    router.push("/(tabs)/tanks");
-  }
-  
+
   return (
     <Portal>
       <Modal
@@ -42,7 +34,20 @@ export default function DeleteTankModal(props: DeleteTankProps) {
             <Button mode="text" onPress={props.hideModal}>
               Cancel
             </Button>
-            <Button onPress={() => removeTank()} mode="contained">
+            <Button
+              onPress={async () => {
+                try {
+                  await deleteTank(props.tank.tank_id).then(() =>
+                    queryClient.invalidateQueries("tankList")
+                  );
+                  props.hideModal();
+                  router.back();
+                } catch (error) {
+                  alert(error);
+                }
+              }}
+              mode="contained"
+            >
               Delete
             </Button>
           </View>

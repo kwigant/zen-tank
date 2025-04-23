@@ -5,7 +5,7 @@ import { useAuth } from "@/hooks/Auth";
 import React from "react";
 import { View } from "react-native";
 import { Button, Modal, Portal, Text } from "react-native-paper";
-import { QueryClient, useMutation, useQueryClient } from "react-query";
+import {  useQueryClient } from "react-query";
 
 export type AddToTankProps = {
   name: string;

@@ -12,39 +12,42 @@ import BasicCare from "@/components/plants/BasicCare";
 export default function PlantProfileScreen({}) {
   const { id } = useLocalSearchParams();
   const [tab, setTab] = React.useState(0);
-  
- const { data: plant, isLoading } = useQuery({
-     queryKey: "plantProfile", 
-     queryFn: ()=> fetchPlantById(id as string), 
-   });
 
-  
-    return (
-      <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
-        <Image
-          source={{ uri: plant?.img }}
-          resizeMode="cover"
-          style={{ width: "100%", height: 250 }}
-        />
-        <View style={style.container}>
-          <View style={style.justifiedRow}>
-            <Text variant="headlineLarge">{plant?.name}</Text>
-            <Button
-              style={[style.iconBtn, { padding: 2, minWidth: null }]}
-              textColor="black"
-            >
-              Add Plant
-            </Button>
-          </View>
-          <Tabs tabs={['About', 'Basic Care', 'Stats']} setTab={setTab} tab={tab} />
+  const { data: plant, isLoading } = useQuery({
+    queryKey: "plantProfile",
+    queryFn: () => fetchPlantById(id as string),
+  });
+
+  return (
+    <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+      <Image
+        source={{ uri: plant?.img }}
+        resizeMode="cover"
+        style={{ width: "100%", height: 250 }}
+      />
+      <View style={style.container}>
+        <View style={style.justifiedRow}>
+          <Text variant="headlineLarge">{plant?.name}</Text>
+          <Button
+            style={[style.iconBtn, { padding: 2, minWidth: null }]}
+            textColor="black"
+          >
+            Add Plant
+          </Button>
         </View>
-        <ScrollView>
-          {tab === 0 ? (
-            plant && <About plant={plant} />
-          ) : tab === 1 ? (
-            plant && <BasicCare plant={plant} />
-          ) : null}
-        </ScrollView>
+        <Tabs
+          tabs={["About", "Basic Care", "Stats"]}
+          setTab={setTab}
+          tab={tab}
+        />
       </View>
-    );
+      <ScrollView>
+        {tab === 0
+          ? plant && <About plant={plant} />
+          : tab === 1
+          ? plant && <BasicCare plant={plant} />
+          : null}
+      </ScrollView>
+    </View>
+  );
 }

@@ -21,7 +21,7 @@ type EditTankProps = {
 export default function EditTankModal(props: EditTankProps) {
   const [name, setName] = useState(props.tank.name);
   const [description, setDescription] = useState(props.tank.description);
-  const [size, setSize] = useState(props.tank.size.toString());
+  const [size, setSize] = useState(props.tank.size.toString() || '0');
   const queryClient = useQueryClient();
 
   function noChanges() {
@@ -30,7 +30,12 @@ export default function EditTankModal(props: EditTankProps) {
     if (props.tank.size !== parseInt(size)) return false;
     return true;
   }
-  
+
+  function resetStates() {
+    setSize('')
+    setDescription('')
+    setName('')
+  }
   return (
     <Portal>
       <Modal visible={props.visible} onDismiss={props.hideModal}>
@@ -68,6 +73,7 @@ export default function EditTankModal(props: EditTankProps) {
                 await editTank(props.tank.tank_id, updatedTank).then(() =>
                   queryClient.invalidateQueries("tankProfile")
                 );
+                resetStates()
               } catch (error) {
                 alert(error);
               }

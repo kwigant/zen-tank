@@ -25,7 +25,7 @@ export default function TankCard(props: tankCardProps) {
             alignSelf: "center",
             marginRight: 18,
           }}
-          source={require("../assets/images/full-tank.png")}
+          source={require("@/assets/images/full-tank.png")}
         />
         <View style={style.column}>
           <Text variant={"bodyMedium"} style={{ fontWeight: "bold" }}>
