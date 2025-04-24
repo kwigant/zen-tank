@@ -4,13 +4,12 @@ import { router, useLocalSearchParams } from "expo-router";
 import { getTank } from "@/api/tanks";
 import { useQuery } from "react-query";
 import { style } from "@/constants/Styles";
-import { Avatar, Button, Chip, Text, useTheme } from "react-native-paper";
+import { Avatar, Button, Text, useTheme } from "react-native-paper";
 import { getFishInTank } from "@/api/fish";
 import { getPlantsInTank } from "@/api/plants";
 import TankMenu from "@/components/tanks/TankMenu";
 import EditTankModal from "@/components/tanks/EditTankModal";
 import DeleteTankModal from "@/components/tanks/DeleteTankModal";
-import { theme } from "@/constants/Theme";
 import TankChips from "@/components/tanks/TankChips";
 
 export default function FishTankScreen() {
@@ -81,6 +80,8 @@ export default function FishTankScreen() {
                       id: item.fish_id,
                       tank_name: tank?.name,
                       tank_id: tank?.tank_id,
+                      adding: 'true',
+                      fish_id: item.id
                     },
                   })
                 }
@@ -103,6 +104,7 @@ export default function FishTankScreen() {
                     tank_name: tank?.name,
                     fish_count: tankFish?.length,
                     plant_count: tankPlants?.length,
+                    
                   },
                 })
               }
@@ -124,7 +126,8 @@ export default function FishTankScreen() {
                 onPress={() =>
                   router.push({
                     pathname: "/(tabs)/tanks/plant-profile",
-                    params: { id: item.plant_id },
+                    params: { id: item.plant_id,  adding: 'true',
+                      plant_id: item.id, tank_id: tank?.tank_id, tank_name: tank?.name, },
                   })
                 }
               >

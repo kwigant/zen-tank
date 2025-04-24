@@ -49,10 +49,10 @@ export default function FishSearchScreen() {
                 item={item}
                 isFish={true}
                 tab={"tanks"}
-                tank_name={tank_name.toString()}
-                tank_id={tank_id.toString()}
-                fish_count={fish_count.toString()}
-                plant_count={plant_count.toString()}
+                tank_name={tank_name ? tank_name.toString(): ''}
+                tank_id={tank_id ? tank_id.toString(): ''}
+                fish_count={fish_count ? fish_count.toString() : '0'}
+                plant_count={plant_count ? plant_count.toString(): '0'}
               />
             );
           }}

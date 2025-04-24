@@ -83,6 +83,7 @@ export default function NewTankModal(props: NewTankProps) {
                     queryClient.invalidateQueries("tankList")
                   );
                   resetStates()
+                  props.hideModal()
                 } catch (error) {
                   alert(error);
                 }

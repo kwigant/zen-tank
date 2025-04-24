@@ -19,7 +19,7 @@ export default function FishProfileScreen({}) {
   const [visible, setVisible] = React.useState(false);
   const showModal = () => setVisible(true);
   const hideModal = () => setVisible(false);
-
+  const [added, setAdded] = React.useState(false)
   const {data: fish, isLoading } = useQuery({
     queryFn: () => fetchFish(id as string),
     queryKey: 'fishProfile'
@@ -27,9 +27,11 @@ export default function FishProfileScreen({}) {
 
   function getProps(): AddToTankProps {
     return {
-      add: false,
+      setAdded: setAdded,
       name: '',
       tank: '',
+      fish_count: 0,
+      plant_count: 0,
       fish: fish,
       visible: visible,
       hideModal: hideModal,

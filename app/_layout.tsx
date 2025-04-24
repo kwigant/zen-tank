@@ -10,6 +10,7 @@ import { ProfileProvider } from "@/hooks/Profile";
 import { Colors } from "@/constants/Colors";
 import { DarkTheme as NavigationDarkTheme, DefaultTheme as NavigationDefaultTheme, ThemeProvider } from "@react-navigation/native";
 import merge from "deepmerge"
+import { NavigationContainer } from '@react-navigation/native';
 
 const customDarkTheme = {...MD3DarkTheme, colors: Colors.dark}
 const customLightTheme = {...MD3LightTheme, colors: Colors.light}
@@ -47,6 +48,7 @@ export default function RootLayout() {
 
   return (
     <AuthProvider>
+      <NavigationContainer>
       <PaperProvider theme={paperTheme}>
         <ThemeProvider value={paperTheme}>
         <QueryClientProvider client={queryClient}>
@@ -63,6 +65,7 @@ export default function RootLayout() {
         </QueryClientProvider>
         </ThemeProvider>
       </PaperProvider>
+      </NavigationContainer>
     </AuthProvider>
   );
 }

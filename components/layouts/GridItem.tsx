@@ -9,10 +9,10 @@ export type GridProps = {
   item: fish | TankFish | plant | TankPlants;
   isFish: boolean;
   tab: string;
-  tank_id: string | null;
-  tank_name: string | null;
-  fish_count: string | null;
-  plant_count: string | null;
+  tank_id?: string;
+  tank_name?: string;
+  fish_count?: string;
+  plant_count?: string;
 };
 export type FishProps = { fish: fish | TankFish };
 export type PlantProps = { plant: plant };
@@ -42,10 +42,6 @@ const PlantTag = ({ plant }: PlantProps) => {
         {plant.temperature}
       </Text>
       <Icon source="circle" size={4} />
-      {/* <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
-      {plant.hardness} dGH
-      </Text>
-      <Icon source="circle" size={4} /> */}
       <Text variant="bodySmall" style={{ marginLeft: 4 }}>
         {plant.ph} pH
       </Text>
@@ -59,8 +55,8 @@ export default function GridItem({
   tab,
   tank_id,
   tank_name,
-  fish_count, 
-  plant_count
+  fish_count,
+  plant_count,
 }: GridProps) {
   const path = isFish
     ? `(tabs)/${tab}/fish-profile`
@@ -69,7 +65,13 @@ export default function GridItem({
     <Link
       href={{
         pathname: path as RelativePathString,
-        params: { id: item.id, tank_id: tank_id, tank_name: tank_name, fish_count: fish_count, plant_count: plant_count },
+        params: {
+          id: item.id,
+          tank_id: tank_id,
+          tank_name: tank_name,
+          fish_count: fish_count,
+          plant_count: plant_count
+        },
       }}
       style={{ width: "100%" }}
     >

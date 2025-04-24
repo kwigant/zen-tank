@@ -5,54 +5,42 @@ import {
     updatePlantsInTank,
   } from "@/api/tanks";
   import { style } from "@/constants/Styles";
-  import { fish, plant } from "@/constants/Types";
   import { useAuth } from "@/hooks/Auth";
-  import React, { Dispatch, SetStateAction } from "react";
+  import React from "react";
   import { View } from "react-native";
   import { Button, Modal, Portal, Text } from "react-native-paper";
   import { useQueryClient } from "react-query";
+import { AddToTankProps } from "./AddToTankModal";
+import { useNavigation } from "expo-router";
   
-  export type RemoveFromTankProps = {
-    setAdded: Dispatch<SetStateAction<boolean>>;
-    fish_count: number;
-    plant_count: number;
-    fish_tank_id: string;
-    name: string;
-    tank: string;
-    fish?: fish;
-    plant?: plant;
-    visible: boolean;
-    hideModal: () => void;
-  };
-  
-  export default function RemoveFromTankModal(props: RemoveFromTankProps) {
+  export default function RemoveFromTankModal(props: AddToTankProps) {
     const containerStyle = { backgroundColor: "white", margin: 24, padding: 20 };
     const ctx = useAuth();
+
     const { user } = React.useContext(ctx);
     const queryClient = useQueryClient();
-    
-  
+    const navigation = useNavigation()
     function removeFromTank() {
       if (props.tank && user) {
-        if (props.fish) {
-          deleteFishInTank(props.fish.id).then(() => updateFishInTank(props.tank, props.fish_count - 1))
+        if (props.fish_id) {
+          deleteFishInTank(props.fish_id).then(() => updateFishInTank(props.tank, props.fish_count - 1))
           .finally(() => {
             queryClient.invalidateQueries("tankFish");
             queryClient.invalidateQueries("tankList");
             queryClient.invalidateQueries("tankProfile");
           });
         }
-        else if (props.plant) {
-            deletePlantInTank(props.plant.id).then(() => updatePlantsInTank(props.tank, props.plant_count - 1))
+        else if (props.plant && props.plant_id) {
+            deletePlantInTank(props.plant_id).then(() => updatePlantsInTank(props.tank, props.plant_count - 1))
             .finally(() => {
-              queryClient.invalidateQueries("tankFish");
               queryClient.invalidateQueries("tankList");
               queryClient.invalidateQueries("tankProfile");
+              queryClient.invalidateQueries("tankPlants");
             });
           }
         
-        props.setAdded(false)
         props.hideModal();
+        navigation.popTo('fish-tank')
       }
     }
   

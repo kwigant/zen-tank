@@ -122,7 +122,6 @@ export async function getFishInTank(tank_id: string) {
       if (error) {
         throw error;
       }
-      console.log('tank fish for tank', tank_id, data)
       return data
     }
   } catch (error) {
@@ -155,7 +154,6 @@ export async function deletePlantInTank(id: string) {
 export async function deleteFishInTank(id: string) {
   try {
     if (id) {
-      console.log('delet', id)
       const { error } = await supabase
         .from('TankFish')
         .delete()
