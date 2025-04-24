@@ -3,8 +3,8 @@ import { searchPlantData } from "@/api/plants";
 import GridItem from "@/components/layouts/GridItem";
 import Tabs from "@/components/layouts/Tabs";
 import { useState } from "react";
-import { FlatList, Text, View } from "react-native";
-import { Searchbar } from "react-native-paper";
+import { FlatList, View } from "react-native";
+import { Searchbar, useTheme, Text } from "react-native-paper";
 import { useQuery } from "react-query";
 
 enum SearchType {
@@ -16,7 +16,7 @@ enum SearchType {
 export default function SearchScreen() {
   const [searchType, setSearchType] = useState(SearchType.Fish);
   const [tab, setTab] = useState(0);
-
+  const theme = useTheme()
   const [searchTerm, setSearchTerm] = useState("");
 
   const { data: fishData, isLoading } = useQuery(
@@ -39,7 +39,7 @@ export default function SearchScreen() {
   };
 
   return (
-    <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+    <View style={{ backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>
       <Searchbar
         style={{ margin: 12 }}
         value={searchTerm}

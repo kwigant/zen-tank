@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, Image, ScrollView } from "react-native";
-import { Button, Text } from "react-native-paper";
+import { Button, Text, useTheme } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
 import Tabs from "@/components/layouts/Tabs";
@@ -12,14 +12,14 @@ import BasicCare from "@/components/plants/BasicCare";
 export default function PlantProfileScreen({}) {
   const { id } = useLocalSearchParams();
   const [tab, setTab] = React.useState(0);
-
+  const theme = useTheme()
   const { data: plant, isLoading } = useQuery({
     queryKey: "plantProfile",
     queryFn: () => fetchPlantById(id as string),
   });
 
   return (
-    <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+    <View style={{ backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>
       <Image
         source={{ uri: plant?.img }}
         resizeMode="cover"

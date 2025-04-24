@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Image, View, ScrollView } from "react-native";
-import { Text, Button } from "react-native-paper";
+import { Text, Button, useTheme } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
 import Tabs from "@/components/layouts/Tabs";
@@ -10,10 +10,12 @@ import { useQuery } from "react-query";
 import AdditionalCare from "@/components/fish/AdditionalCare";
 import BasicCare from "@/components/fish/BasicCare";
 import FishStats from "@/components/fish/FishStats";
+import RemoveFromTankModal from "@/components/tanks/RemoveFromTankModal";
 
 export default function FishProfileScreen({}) {
-  const { id, tank_id, tank_name } = useLocalSearchParams();
+  const { id, tank_id, tank_name, fish_count, plant_count } = useLocalSearchParams();
   const [tab, setTab] = React.useState(0);
+  const theme = useTheme()
   // modal props
   const [visible, setVisible] = React.useState(false);
   const showModal = () => setVisible(true);
@@ -26,9 +28,11 @@ export default function FishProfileScreen({}) {
 
   function getProps(): AddToTankProps {
    const props: AddToTankProps = {
-      add: added,
-      name: tank_name.toString(),
-      tank: tank_id.toString(),
+      setAdded: setAdded,
+      fish_count: parseInt(fish_count ? fish_count.toString() : '0'),
+      plant_count: parseInt(plant_count ? plant_count.toString() : '0'),
+      name: tank_name.toString() || '',
+      tank: tank_id.toString() || '',
       fish: fish,
       visible: visible,
       hideModal: hideModal,
@@ -37,9 +41,10 @@ export default function FishProfileScreen({}) {
   }
 
   if (isLoading) return <Text>Loading...</Text>
+  
 
   return (
-    <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+    <View style={{  backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>
       <Image
         source={{ uri: fish?.img }}
         resizeMode="cover"
@@ -72,7 +77,8 @@ export default function FishProfileScreen({}) {
         )}
       </ScrollView>
     
-      <AddToTankModal {...getProps()} />
+   <AddToTankModal {...getProps()} />
     </View>
   );
 }
+

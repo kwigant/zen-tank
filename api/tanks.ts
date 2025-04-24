@@ -133,10 +133,29 @@ export async function getFishInTank(tank_id: string) {
 }
 
 
+export async function deletePlantInTank(id: string) {
+  try {
+    if (id) {
+      const { error } = await supabase
+        .from('TankPlants')
+        .delete()
+        .eq('id', id)
+      if (error) {
+        throw error;
+      }
+      
+    }
+  } catch (error) {
+    if (error instanceof Error) {
+      alert(error.message);
+    }
+  }
+}
 
 export async function deleteFishInTank(id: string) {
   try {
     if (id) {
+      console.log('delet', id)
       const { error } = await supabase
         .from('TankFish')
         .delete()
@@ -151,4 +170,24 @@ export async function deleteFishInTank(id: string) {
       alert(error.message);
     }
   }
+}
+
+export async function updateFishInTank(tank_id: string, fish_count: number ) {
+  const { data, error } = await supabase
+  .from('Tanks')
+  .update({ fish_count: fish_count })
+  .eq('tank_id', tank_id)
+  .select()
+  if (error) throw error;
+  if (data) return data
+}
+
+export async function updatePlantsInTank(tank_id: string, plant_count: number ) {
+  const { data, error } = await supabase
+  .from('Tanks')
+  .update({ plant_count: plant_count })
+  .eq('tank_id', tank_id)
+  .select()
+  if (error) throw error;
+  if (data) return data
 }

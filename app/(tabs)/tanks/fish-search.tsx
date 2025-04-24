@@ -1,27 +1,27 @@
 import * as React from "react";
 import { View, Text, FlatList } from "react-native";
 import GridItem from "@/components/layouts/GridItem";
-import {
-  useQuery,
-} from "react-query";
+import { useQuery } from "react-query";
 import { fetchFishList } from "@/api/fish";
 import { useLocalSearchParams } from "expo-router/build/hooks";
+import { useTheme } from "react-native-paper";
 
 export default function FishSearchScreen() {
-  const {tank_id, tank_name} = useLocalSearchParams()
+  const { tank_id, tank_name, fish_count, plant_count } =
+    useLocalSearchParams();
+    const theme= useTheme()
   const [searchQuery, setSearchQuery] = React.useState("");
   const { data: fishList, isLoading } = useQuery({
-    queryKey: "fishList", 
-    queryFn: fetchFishList, 
+    queryKey: "fishList",
+    queryFn: fetchFishList,
   });
 
- 
   return (
-    <View style={{ backgroundColor: "#fff", padding: 24, paddingTop: 0 }}>
+    <View style={{ backgroundColor: theme.colors.background, padding: 24, paddingTop: 0 }}>
       {/* <View style={[style.row, { width: "100%", marginVertical: 12 }]}>
         {/* <Image style={{width: 330, height: 180}} source={require('../assets/images/full-tank.png')}/> */}
 
-        {/* <Searchbar
+      {/* <Searchbar
           placeholder="Search"
           onChangeText={setSearchQuery}
           value={searchQuery}
@@ -44,7 +44,17 @@ export default function FishSearchScreen() {
           data={fishList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={true} tab={"tanks"} tank_name={tank_name.toString()} tank_id={tank_id.toString()}/>;
+            return (
+              <GridItem
+                item={item}
+                isFish={true}
+                tab={"tanks"}
+                tank_name={tank_name.toString()}
+                tank_id={tank_id.toString()}
+                fish_count={fish_count.toString()}
+                plant_count={plant_count.toString()}
+              />
+            );
           }}
           keyExtractor={(item) => item.id}
         />

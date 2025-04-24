@@ -5,16 +5,16 @@ import { useTheme } from "react-native-paper";
 
 const StackLayout = () => {
   const theme = useTheme()
-  return (
-    <Stack
-      screenOptions={() => ({
-        title: "",
-        headerStyle: {backgroundColor: theme.colors.background},
-        headerRight: () => <UserMenu />,
-        headerShadowVisible: false,
-      })}
-    />
-  );
+   return (
+     <Stack
+       screenOptions={() => ({
+         title: "",
+         headerStyle: {backgroundColor: theme.colors.background},
+         headerRight: () => <UserMenu />,
+         headerShadowVisible: false,
+       })}
+     />
+   );
 };
 
 export default StackLayout;

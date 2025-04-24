@@ -4,19 +4,21 @@ import { router, useLocalSearchParams } from "expo-router";
 import { getTank } from "@/api/tanks";
 import { useQuery } from "react-query";
 import { style } from "@/constants/Styles";
-import { Avatar, Button, Text } from "react-native-paper";
+import { Avatar, Button, Chip, Text, useTheme } from "react-native-paper";
 import { getFishInTank } from "@/api/fish";
 import { getPlantsInTank } from "@/api/plants";
 import TankMenu from "@/components/tanks/TankMenu";
 import EditTankModal from "@/components/tanks/EditTankModal";
 import DeleteTankModal from "@/components/tanks/DeleteTankModal";
+import { theme } from "@/constants/Theme";
+import TankChips from "@/components/tanks/TankChips";
 
 export default function FishTankScreen() {
   const [visible, setVisible] = useState(false);
   const hideModal = () => setVisible(false);
   const [delvisible, setDelVisible] = useState(false);
   const hideDModal = () => setDelVisible(false);
-
+  const theme = useTheme()
   // get context
   const { id } = useLocalSearchParams();
   const { data: tank, isLoading } = useQuery({
@@ -37,7 +39,7 @@ export default function FishTankScreen() {
   if (isLoading) return <Text>Loading...</Text>;
 
   return (
-    <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+    <View style={{ backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>
       <Image
         source={require("@/assets/images/full-tank.png")}
         resizeMode="cover"
@@ -54,8 +56,16 @@ export default function FishTankScreen() {
             onDeletePress={() => setDelVisible(true)}
           />
         </View>
+        {tank && (
+          <TankChips
+            size={tank.size}
+            fish_count={tank.fish_count}
+            plant_count={tank.plant_count}
+          />
+        )}
+
         <Text>{tank?.description}</Text>
-        <Text>Size: {tank?.size} gallons</Text>
+
         <Text>Fish</Text>
         <FlatList
           data={tankFish}
@@ -67,7 +77,11 @@ export default function FishTankScreen() {
                 onPress={() =>
                   router.push({
                     pathname: "/(tabs)/tanks/fish-profile",
-                    params: { id: item.fish_id, tank_name: tank?.name,tank_id: tank?.tank_id },
+                    params: {
+                      id: item.fish_id,
+                      tank_name: tank?.name,
+                      tank_id: tank?.tank_id,
+                    },
                   })
                 }
               >
@@ -84,7 +98,12 @@ export default function FishTankScreen() {
               onPress={() =>
                 router.push({
                   pathname: "/(tabs)/tanks/fish-search",
-                  params: { tank_id: id, tank_name: tank?.name },
+                  params: {
+                    tank_id: id,
+                    tank_name: tank?.name,
+                    fish_count: tankFish?.length,
+                    plant_count: tankPlants?.length,
+                  },
                 })
               }
               style={[style.iconBtn, { padding: 2, minWidth: null }]}
@@ -122,7 +141,12 @@ export default function FishTankScreen() {
               onPress={() =>
                 router.push({
                   pathname: "/(tabs)/tanks/plant-search",
-                  params: { tank_id: id, tank_name: tank?.name },
+                  params: {
+                    tank_id: id,
+                    tank_name: tank?.name,
+                    fish_count: tankFish?.length,
+                    plant_count: tankPlants?.length,
+                  },
                 })
               }
               style={[style.iconBtn, { padding: 2, minWidth: null }]}

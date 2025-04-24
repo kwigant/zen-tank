@@ -5,7 +5,15 @@ import React from "react";
 import { View } from "react-native";
 import { Avatar, Icon, Text } from "react-native-paper";
 
-export type GridProps = { item: fish | TankFish | plant | TankPlants; isFish: boolean; tab: string; tank_id: string | null; tank_name: string | null };
+export type GridProps = {
+  item: fish | TankFish | plant | TankPlants;
+  isFish: boolean;
+  tab: string;
+  tank_id: string | null;
+  tank_name: string | null;
+  fish_count: string | null;
+  plant_count: string | null;
+};
 export type FishProps = { fish: fish | TankFish };
 export type PlantProps = { plant: plant };
 
@@ -30,8 +38,8 @@ const FishTag = ({ fish }: FishProps) => {
 const PlantTag = ({ plant }: PlantProps) => {
   return (
     <View style={style.row}>
-       <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
-      {plant.temperature}
+      <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
+        {plant.temperature}
       </Text>
       <Icon source="circle" size={4} />
       {/* <Text variant="bodySmall" style={{ marginHorizontal: 4 }}>
@@ -45,11 +53,24 @@ const PlantTag = ({ plant }: PlantProps) => {
   );
 };
 
-export default function GridItem({ item, isFish, tab, tank_id, tank_name }: GridProps) {
-  const path = isFish ? `(tabs)/${tab}/fish-profile` : `(tabs)/${tab}/plant-profile`;
+export default function GridItem({
+  item,
+  isFish,
+  tab,
+  tank_id,
+  tank_name,
+  fish_count, 
+  plant_count
+}: GridProps) {
+  const path = isFish
+    ? `(tabs)/${tab}/fish-profile`
+    : `(tabs)/${tab}/plant-profile`;
   return (
     <Link
-      href={{ pathname: path as RelativePathString, params: { id: item.id, tank_id: tank_id, tank_name: tank_name } }}
+      href={{
+        pathname: path as RelativePathString,
+        params: { id: item.id, tank_id: tank_id, tank_name: tank_name, fish_count: fish_count, plant_count: plant_count },
+      }}
       style={{ width: "100%" }}
     >
       <View style={[style.listItem]}>

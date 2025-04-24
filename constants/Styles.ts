@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native";
-import { theme } from "./Theme";
 
 export const style = StyleSheet.create({
     // global layout styles ---------------------
@@ -91,7 +90,6 @@ export const style = StyleSheet.create({
     // Tank Card Styles ----------------
    tankCard: {
     height: 'auto',
-    backgroundColor: 'white',
     padding: 24, 
     marginVertical: 12,
     borderWidth: 1,

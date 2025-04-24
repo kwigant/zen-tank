@@ -49,10 +49,9 @@ export const theme = {
           },
         }
     }),
+    roundness: 8,
     // Specify custom property in nested object
     colors: {
       ...DefaultTheme.colors,
-      primary: '#9AE9FF', 
-      gray: '#D9D9D950',
     },
   };

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, Image, ScrollView } from "react-native";
-import { Button, Text } from "react-native-paper";
+import { Button, Text, useTheme } from "react-native-paper";
 import { style } from "@/constants/Styles";
 import { useLocalSearchParams } from "expo-router";
 import Tabs from "@/components/layouts/Tabs";
@@ -11,8 +11,9 @@ import BasicCare from "@/components/plants/BasicCare";
 import AddToTankModal, { AddToTankProps } from "@/components/tanks/AddToTankModal";
 
 export default function PlantProfileScreen({}) {
-  const { id, tank_name, tank_id } = useLocalSearchParams();
+  const { id, tank_name, tank_id, fish_count, plant_count } = useLocalSearchParams();
   const [tab, setTab] = React.useState(0);
+  const theme = useTheme()
    // modal props
     const [visible, setVisible] = React.useState(false);
     const showModal = () => setVisible(true);
@@ -26,7 +27,9 @@ export default function PlantProfileScreen({}) {
 
   function getProps(): AddToTankProps {
      const props: AddToTankProps =  {
-        add: added,
+        setAdded: setAdd,
+        fish_count: parseInt(fish_count.toString()),
+        plant_count: parseInt(plant_count.toString()),
         name: tank_name.toString(),
         tank: tank_id.toString(),
         plant: plant,
@@ -38,7 +41,7 @@ export default function PlantProfileScreen({}) {
 
     if (isLoading) return <Text>Loading...</Text>
     return (
-      <View style={{ backgroundColor: "#fff", paddingTop: 0, height: "100%" }}>
+      <View style={{ backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>
         <Image
           source={{ uri: plant?.img }}
           resizeMode="cover"

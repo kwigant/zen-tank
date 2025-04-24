@@ -75,6 +75,8 @@ export default function NewTankModal(props: NewTankProps) {
                   description: description,
                   size: parseInt(size),
                   email: user.email,
+                  plant_count: 0,
+                  fish_count: 0
                 };
                 try {
                   await createTank(updatedTank).then(() =>

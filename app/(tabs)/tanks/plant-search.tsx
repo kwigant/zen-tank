@@ -5,21 +5,22 @@ import GridItem from "@/components/layouts/GridItem";
 import { fetchPlantList } from "@/api/plants";
 import { useQuery } from "react-query";
 import { useLocalSearchParams } from "expo-router";
+import { useTheme } from "react-native-paper";
 
 export default function PlantSearchScreen() {
-    const {tank_id, tank_name} = useLocalSearchParams()
-  
+  const { tank_id, tank_name, fish_count, plant_count } =
+    useLocalSearchParams();
+  const theme = useTheme();
   const [searchQuery, setSearchQuery] = React.useState("");
   const { data: plantList, isLoading } = useQuery({
     queryKey: "plantList",
     queryFn: fetchPlantList,
   });
 
-
   return (
     <View
       style={{
-        backgroundColor: "#fff",
+        backgroundColor: theme.colors.background,
         padding: 24,
         paddingTop: 0,
         marginBottom: 60,
@@ -49,7 +50,17 @@ export default function PlantSearchScreen() {
           data={plantList}
           style={{ marginBottom: 60 }}
           renderItem={({ item }) => {
-            return <GridItem item={item} isFish={false} tab={"tanks"} tank_name={tank_name.toString()}  tank_id={tank_id.toString()}/>;
+            return (
+               <GridItem
+                  item={item}
+                  isFish={false}
+                  tab={"tanks"}
+                  tank_name={tank_name.toString()}
+                  tank_id={tank_id.toString()}
+                  fish_count={fish_count.toString()}
+                  plant_count={plant_count.toString()}
+                />
+            );
           }}
           keyExtractor={(item) => item.id}
         />
