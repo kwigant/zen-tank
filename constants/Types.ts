@@ -128,3 +128,13 @@ export type SearchDataProps = {
 export type FetchFishProps = {
   setFishData: Dispatch<SetStateAction<fish[]>>
 }
+
+export type Tasks = {
+  task_id: string;
+  tank_id: string;
+  user_id: string;
+  name: string;
+  description: string;
+  checked: boolean;
+  email: string;
+}
