@@ -5,6 +5,7 @@ import { useQuery } from "react-query";
 import { fetchFishList } from "@/api/fish";
 import { useLocalSearchParams } from "expo-router/build/hooks";
 import { useTheme } from "react-native-paper";
+import Loading from "@/components/layouts/Loading";
 
 export default function FishSearchScreen() {
   const { tank_id, tank_name, fish_count, plant_count } =
@@ -38,7 +39,7 @@ export default function FishSearchScreen() {
       </View> */}
 
       {isLoading ? (
-        <Text>Loading...</Text>
+        <Loading/>
       ) : (
         <FlatList
           data={fishList}

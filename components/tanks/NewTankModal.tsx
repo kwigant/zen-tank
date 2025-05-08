@@ -13,6 +13,7 @@ import {
 import { useQueryClient } from "react-query";
 import uuid from "react-native-uuid";
 import { useAuth } from "@/hooks/Auth";
+import { Dropdown, Option } from "react-native-paper-dropdown";
 
 type NewTankProps = {
   visible: boolean;
@@ -23,6 +24,9 @@ export default function NewTankModal(props: NewTankProps) {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [size, setSize] = useState("");
+  const [temp, setTemp] = useState("");
+  const [selectedSub, setSelectedSub] = useState('')
+  const substrates: Option[] = [{label: 'Sand', value: 'sand'}, {label: 'Aqua Soil', value: 'aqua-soil'}, {label: 'Gravel', value: 'gravel'}, {label: 'None', value: 'none'}]
   const queryClient = useQueryClient();
   const ctx = useAuth();
   const { user } = useContext(ctx);
@@ -62,6 +66,21 @@ export default function NewTankModal(props: NewTankProps) {
             value={size}
             onChangeText={(e) => setSize(e)}
           ></TextInput>
+           <TextInput
+            inputMode="numeric"
+            label={"Temperature"}
+            value={temp}
+            onChangeText={(e) => setTemp(e)}></TextInput>
+            <Dropdown
+              label="Pick a Substrate"
+              placeholder="Pick a Substrate"
+              options={substrates}
+              value={selectedSub}
+              onSelect={(s) => {
+                if (s) {setSelectedSub(s)};
+              }}
+            />
+         
           <Button
             style={[style.iconBtn, { padding: 2, minWidth: null }]}
             textColor="black"
@@ -76,7 +95,9 @@ export default function NewTankModal(props: NewTankProps) {
                   size: parseInt(size),
                   email: user.email,
                   plant_count: 0,
-                  fish_count: 0
+                  fish_count: 0,
+                  substrates: selectedSub,
+                  temp: temp
                 };
                 try {
                   await createTank(updatedTank).then(() =>

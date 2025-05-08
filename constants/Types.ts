@@ -58,6 +58,8 @@ export type tank = {
   email?: string;
   fish_count: number;
   plant_count: number;
+  temp: string;
+  substrates: string;
 }
 
 // User Profile 

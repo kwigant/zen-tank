@@ -12,6 +12,7 @@ import AddToTankModal, {
   AddToTankProps,
 } from "@/components/tanks/AddToTankModal";
 import RemoveFromTankModal from "@/components/tanks/RemoveFromTankModal";
+import Loading from "@/components/layouts/Loading";
 
 export default function PlantProfileScreen({}) {
   const { id, tank_id, tank_name, fish_count, plant_count, adding, plant_id } =
@@ -43,7 +44,7 @@ export default function PlantProfileScreen({}) {
     };
     return props;
   }
-  if (isLoading) return <Text>Loading...</Text>;
+  if (isLoading) return <Loading/>;
   return (
     <View
       style={{

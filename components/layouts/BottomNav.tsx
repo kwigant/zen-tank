@@ -2,7 +2,7 @@ import { Stack } from 'expo-router';
 import * as React from 'react';
 import { BottomNavigation, Text } from 'react-native-paper';
 
-const TankRoute = () =>      <Stack>
+const TankRoute = () =>      <Stack screenOptions={{headerShadowVisible: false}}>
         <Stack.Screen
           name="index"
           options={{
@@ -89,7 +89,13 @@ const BottomNav = () => {
       navigationState={{ index, routes }}
       onIndexChange={setIndex}
       renderScene={renderScene}
+      style={{
+        borderTopWidth: 0,
+        elevation: 0, // For Android
+        shadowOpacity: 0, // For iOS
+      }}
     />
+
   );
 };
 

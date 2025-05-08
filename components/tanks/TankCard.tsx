@@ -12,24 +12,24 @@ type tankCardProps = {
 export default function TankCard(props: tankCardProps) {
   return (
     <Link
-    style={{marginBottom: 24}}
+    style={{marginBottom: 18, }}
       href={{
         pathname: "/(tabs)/tanks/fish-tank",
         params: { id: props.tank.tank_id },
       }}
     >
-      <Card  style={{padding: 12, margin: 0, width: '100%'}}>
-        <View style={style.row}>
-          <Image
+      <View  style={{padding: 24, borderRadius: 8, width: '100%', borderWidth: 2, borderColor: theme.colors.surfaceVariant, backgroundColor: theme.colors.background}}>
+      <Image
             style={{
-              width: 80,
-              height: 80,
-              marginRight: 18,
+              width: 'auto',
+              height: 100,
             }}
             source={require("@/assets/images/full-tank.png")}
           />
+        <View style={style.row}>
+        
           <View style={style.column}>
-            <Text variant={"bodyMedium"} style={{ fontWeight: "bold" }}>
+            <Text variant={"headlineSmall"} style={{ fontWeight: "bold" }}>
               {props.tank.name}
             </Text>
             <TankChips size={props.tank.size} fish_count={props.tank.fish_count} plant_count={props.tank.plant_count}/>
@@ -38,7 +38,7 @@ export default function TankCard(props: tankCardProps) {
             </Text>
           </View>
         </View>
-      </Card>
+      </View>
     </Link>
   );
 }

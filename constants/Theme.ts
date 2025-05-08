@@ -10,7 +10,7 @@ export const theme = {
             fontWeight: 'bold',
             lineHeight: 22,
             fontSize: 16,
-            fontFamily: 'sans-serif'
+            fontFamily: 'Poppins'
           }, 
           headlineMedium: {
             letterSpacing: 0.5,

@@ -13,6 +13,7 @@ import AdditionalCare from "@/components/fish/AdditionalCare";
 import BasicCare from "@/components/fish/BasicCare";
 import FishStats from "@/components/fish/FishStats";
 import RemoveFromTankModal from "@/components/tanks/RemoveFromTankModal";
+import Loading from "@/components/layouts/Loading";
 
 export default function FishProfileScreen({}) {
   const { id, tank_id, tank_name, fish_count, plant_count, adding, fish_id } =
@@ -43,7 +44,7 @@ export default function FishProfileScreen({}) {
     return props;
   }
 
-  if (isLoading) return <Text>Loading...</Text>;
+  if (isLoading) return <Loading/>;
 
   return (
     <View

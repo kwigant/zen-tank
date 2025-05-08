@@ -8,7 +8,7 @@ const TabsLayout = () => {
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarLabelStyle: { fontSize: 16 },
+        tabBarLabelStyle: { fontSize: 24 },
         tabBarActiveTintColor: theme.colors.primary,
         tabBarStyle: { backgroundColor: theme.colors.background },
       }}
@@ -16,6 +16,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         options={() => ({
           title: "Tools",
+          tabBarLabelStyle: {fontFamily: 'Poppins'},
           tabBarIcon: ({ color, size }) => (
             <Icon source={"tools"} size={size} color={color} />
           ),
@@ -25,6 +26,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         options={() => ({
           title: "Tanks",
+          tabBarLabelStyle: {fontFamily: 'Poppins'},
           tabBarIcon: ({ focused, color, size }) => (
             <Icon
               source={focused ? "cube" : "cube-outline"}
@@ -38,6 +40,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         options={() => ({
           title: "Search",
+          tabBarLabelStyle: {fontFamily: 'Poppins'},
           tabBarIcon: ({ color, size }) => (
             <Icon source="magnify" size={size} color={color} />
           ),

@@ -1,6 +1,7 @@
 import { searchFishData } from "@/api/fish";
 import { searchPlantData } from "@/api/plants";
 import GridItem from "@/components/layouts/GridItem";
+import Loading from "@/components/layouts/Loading";
 import Tabs from "@/components/layouts/Tabs";
 import { useState } from "react";
 import { FlatList, View } from "react-native";
@@ -46,7 +47,7 @@ export default function SearchScreen() {
         onChangeText={(e) => handleSearchChange(e)}
       />
       <Tabs tabs={["Fish", "Plants"]} tab={tab} setTab={setTab} />
-      {isLoading && <Text>Loading...</Text>}
+      {isLoading && <Loading/>}
       {tab === 0 ? (
         <FlatList
           data={fishData}

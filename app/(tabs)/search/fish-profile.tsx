@@ -10,6 +10,7 @@ import { useQuery } from "react-query";
 import AdditionalCare from "@/components/fish/AdditionalCare";
 import BasicCare from "@/components/fish/BasicCare";
 import FishStats from "@/components/fish/FishStats";
+import Loading from "@/components/layouts/Loading";
 
 export default function FishProfileScreen({}) {
   const { id } = useLocalSearchParams();
@@ -38,7 +39,7 @@ export default function FishProfileScreen({}) {
     };
   }
 
-  if (isLoading) return <Text>Loading...</Text>
+  if (isLoading) return <Loading/>
 
   return (
     <View style={{ backgroundColor: theme.colors.background, paddingTop: 0, height: "100%" }}>

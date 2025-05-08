@@ -8,6 +8,7 @@ import TankCard from "@/components/tanks/TankCard";
 import { useQuery } from "react-query";
 import { style } from "@/constants/Styles";
 import NewTankModal from "@/components/tanks/NewTankModal";
+import Loading from "@/components/layouts/Loading";
 
 export default function DashboardScreen() {
   // get context
@@ -25,18 +26,18 @@ export default function DashboardScreen() {
       queryFn: () => listTanks(user.id),
     });
 
-    if (isLoading) return <Text>Loading...</Text>;
+    if (isLoading) return <Loading/>;
 
     return (
       <View
         style={{
           backgroundColor: theme.colors.background,
           height: "100%",
-          alignItems: "center",
+          
           padding: 24,
         }}
       >
-        <View style={{ alignItems: "center", marginVertical: 24 }}>
+        <View style={{ alignItems: "center", marginVertical: 12 }}>
           <Text variant="headlineLarge" style={{ wordWrap: "wrap" }}>
             Welcome {profile?.first_name}!
           </Text>
@@ -45,19 +46,19 @@ export default function DashboardScreen() {
           </Text>
         </View>
 
-        <Button
+        <FlatList
+          data={allTanks}
+          contentContainerStyle={{ marginTop: 24, padding: 4 }}
+          renderItem={({ item }) => {
+            return <TankCard tank={item}></TankCard>;
+          }}
+          ListFooterComponent={ <Button
               onPress={() => setVisible(true)}
               style={[style.iconBtn, { padding: 2, minWidth: null }]}
               textColor="black"
             >
               Add a Tank
-            </Button>
-        <FlatList
-          data={allTanks}
-          contentContainerStyle={{ marginTop: 24 }}
-          renderItem={({ item }) => {
-            return <TankCard tank={item}></TankCard>;
-          }}
+            </Button>}
           keyExtractor={(item) => item.id}
         />
         <NewTankModal visible={visible} hideModal={hideModal} />

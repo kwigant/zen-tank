@@ -15,22 +15,23 @@ export default function Task(props: TaskProps) {
     const [checked, setChecked] = useState(props.task.checked);
    
     return (
-        <Card onPress={()=>props.setSelectedTask(props.task)} style={{marginHorizontal: 12, marginVertical: 6, padding: 12}}>
+        <TouchableOpacity onPress={()=>props.setSelectedTask(props.task)} style={{ borderColor: theme.colors.surfaceVariant, borderWidth: 2, borderRadius: 8, marginVertical: 6, padding: 12}}>
             <View style={style.justifiedRow}>
-                <View style={style.row}>
-                    <View style={{marginRight: 12, borderWidth: 1, borderColor: theme.colors.backdrop, borderRadius: 25}}>
-                        <Checkbox
-                              status={checked ? 'checked' : 'unchecked'}
-                              onPress={() => {
-                                setChecked(!checked);
-                              }}
-                            />
+                    <View style={style.row}>
+                        <View style={{marginRight: 12, borderWidth: 2, borderColor: theme.colors.surfaceVariant, borderRadius: 25}}>
+                            <Checkbox
+                                  status={checked ? 'checked' : 'unchecked'}
+                                  onPress={() => {
+                                    setChecked(!checked);
+                                  }}
+                                />
+                        </View>
+                        <View style={[style.column, {width: '70%'}]}>
+                            <Text variant="headlineSmall">{props.task.name}</Text>
+                            <Text style={{ wordWrap: 'wrap'}}>{props.task.description}</Text>
+                        </View>
                     </View>
-                    <View style={style.column}>
-                        <Text>{props.task.name}</Text>
-                        <Text>{props.task.description}</Text>
-                    </View>
-                </View>
+                
 
                { props.selectedTask === props.task && <View style={[style.row]}>
                    <TouchableOpacity onPress={()=>props.setVisible(true)}>
@@ -42,6 +43,6 @@ export default function Task(props: TaskProps) {
                </View>}
             </View>
 
-        </Card>
+        </TouchableOpacity>
     )
 }

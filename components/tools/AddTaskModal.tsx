@@ -52,15 +52,17 @@ export default function NewTaskModal(props: NewTaskProps) {
       <Portal>
         <Modal visible={props.visible} onDismiss={props.hideModal}>
           <Card style={{ margin: 24, padding: 24 }}>
-            <Text>Make a New Task</Text>
+            <Text variant="headlineMedium">Create a New Task</Text>
             <TextInput
               label={"Name"}
               value={name}
+              mode="outlined"
               onChangeText={(e) => setName(e)}
             ></TextInput>
 
             <TextInput
               label={"Description"}
+              mode="outlined"
               value={description}
               onChangeText={(e) => setDescription(e)}
             ></TextInput>
@@ -74,8 +76,8 @@ export default function NewTaskModal(props: NewTaskProps) {
               }}
             />
             <Button
-              style={[style.iconBtn, { padding: 2, minWidth: null }]}
-              textColor="black"
+              style={[style.iconBtn, { padding: 2, color: 'white' }]}
+              textColor="white"
               disabled={checkInputs()}
               onPress={async () => {
                 if (user) {

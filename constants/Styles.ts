@@ -1,10 +1,14 @@
 import { StyleSheet } from "react-native";
-
+import { Colors } from "./Colors";
 export const style = StyleSheet.create({
     // global layout styles ---------------------
     mt20: {
         marginTop: 20,
     },
+    background: {
+        padding: 24,
+        height: '100%'
+    }, 
     row: {
         display: 'flex',
         flexDirection: 'row', 
@@ -106,12 +110,12 @@ export const style = StyleSheet.create({
         justifyContent: "center",
     },
     iconBtn: {
-        backgroundColor: "#F5F5F5", 
+        backgroundColor: Colors.light.primaryContainer, 
         borderRadius: 8, 
         padding: 10, 
         margin: 4,
-        color: 'black',
         minWidth: '50%',
-        fontSize: 20
+        fontSize: 20,
+        color: 'white'
     }
 })

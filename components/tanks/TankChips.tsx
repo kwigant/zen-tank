@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { style } from "@/constants/Styles";
 import { theme } from "@/constants/Theme";
 import { View } from "react-native";
@@ -17,27 +18,34 @@ export default function TankChips({
   return (
     <View style={[style.row]}>
       <Chip
+        textStyle={{fontSize: 14}}
         style={{
+          backgroundColor: Colors.light.primaryContainer,
           borderRadius: 24,
-          backgroundColor: theme.colors.primary,
-          marginRight: 4,
+          marginRight: 16,
         }}
       >
-        {size} Gal.
+        Size: {size} Gal.
+      </Chip>
+      <Chip
+        textStyle={{fontSize: 14}}
+
+        style={{
+          borderRadius: 24,
+          marginRight: 16,
+        }}
+      >
+        Fish: {fish_count}
       </Chip>
       <Chip
         style={{
+          backgroundColor: theme.colors.tertiaryContainer,
           borderRadius: 24,
-          backgroundColor: theme.colors.secondary,
-          marginRight: 4,
         }}
+        textStyle={{fontSize: 14}}
+
       >
-        {fish_count} Fish
-      </Chip>
-      <Chip
-        style={{ borderRadius: 24, backgroundColor: theme.colors.tertiary }}
-      >
-        {plant_count} Plants
+        Plants: {plant_count}
       </Chip>
     </View>
   );
