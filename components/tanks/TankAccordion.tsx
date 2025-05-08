@@ -9,7 +9,7 @@ export default function TankAccordion(tank: tank) {
   const [sOne, setsOne] = useState(false);
   const [sTwo, setsTwo] = useState(false);
   const theme = useTheme();
-  const router = useRouter()
+  const router = useRouter();
   return (
     <List.Section style={{ margin: 0, paddingTop: 0 }}>
       <List.Accordion
@@ -29,6 +29,12 @@ export default function TankAccordion(tank: tank) {
           <Button
             style={[style.iconBtn, { padding: 2, minWidth: null }]}
             textColor="black"
+            onPress={() =>
+              router.push({
+                pathname: "/(tabs)/tanks/maintenance-logs",
+                params: { tank_id: tank.tank_id },
+              })
+            }
           >
             View Maintenance Logs
           </Button>
@@ -50,7 +56,7 @@ export default function TankAccordion(tank: tank) {
 
           <Text variant="bodyMedium">Next Task</Text>
           <Button
-            onPress={()=> router.push('/tools/tasks')}
+            onPress={() => router.push("/tools/tasks")}
             style={[style.iconBtn, { padding: 2, minWidth: null }]}
             textColor="black"
           >

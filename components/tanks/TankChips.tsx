@@ -16,7 +16,7 @@ export default function TankChips({
   plant_count,
 }: TankChipProps) {
   return (
-    <View style={[style.row]}>
+    <View style={[style.row, {marginVertical: 12}]}>
       <Chip
         textStyle={{fontSize: 14}}
         style={{
@@ -31,6 +31,7 @@ export default function TankChips({
         textStyle={{fontSize: 14}}
 
         style={{
+          backgroundColor: theme.colors.tertiaryContainer,
           borderRadius: 24,
           marginRight: 16,
         }}
@@ -39,7 +40,6 @@ export default function TankChips({
       </Chip>
       <Chip
         style={{
-          backgroundColor: theme.colors.tertiaryContainer,
           borderRadius: 24,
         }}
         textStyle={{fontSize: 14}}

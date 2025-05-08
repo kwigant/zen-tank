@@ -1,45 +1,52 @@
 import * as React from "react";
 import { View, Text, FlatList } from "react-native";
 import GridItem from "@/components/layouts/GridItem";
-import { useQuery } from "react-query";
-import { fetchFishList } from "@/api/fish";
+import { useQuery, useQueryClient } from "react-query";
+import { fetchFishList, searchFishData } from "@/api/fish";
 import { useLocalSearchParams } from "expo-router/build/hooks";
-import { useTheme } from "react-native-paper";
+import { IconButton, Searchbar, useTheme } from "react-native-paper";
 import Loading from "@/components/layouts/Loading";
 
 export default function FishSearchScreen() {
   const { tank_id, tank_name, fish_count, plant_count } =
     useLocalSearchParams();
-    const theme= useTheme()
-  const [searchQuery, setSearchQuery] = React.useState("");
-  const { data: fishList, isLoading } = useQuery({
-    queryKey: "fishList",
-    queryFn: fetchFishList,
-  });
+  const theme = useTheme();
+ const queryClient = useQueryClient()
+const [searchTerm, setSearchTerm] = React.useState("");
+
+  const { data: fishList, isLoading } = useQuery(
+    ["fishList", searchTerm],
+    () => searchFishData(searchTerm),
+    // {
+    //   enabled: !!searchTerm, // Disable query when searchTerm is empty
+    // }
+  );
+
+  const handleSearchChange = (text: string) => {
+    setSearchTerm(text);
+    queryClient.invalidateQueries('tankFish')
+  };
 
   return (
-    <View style={{ backgroundColor: theme.colors.background, padding: 24, paddingTop: 0 }}>
+    <View
+      style={{
+        backgroundColor: theme.colors.background,
+        padding: 24,
+        paddingTop: 0,
+      }}
+    >
       {/* <View style={[style.row, { width: "100%", marginVertical: 12 }]}>
         {/* <Image style={{width: 330, height: 180}} source={require('../assets/images/full-tank.png')}/> */}
 
-      {/* <Searchbar
-          placeholder="Search"
-          onChangeText={setSearchQuery}
-          value={searchQuery}
-          onSubmitEditing={searchFish}
-          inputStyle={{ minHeight: 0 }}
-          style={style.searchBar}
-        /> 
-        <IconButton
-          icon="filter-variant"
-          size={24}
-          iconColor="black"
-          style={{ margin: 0 }}
-        />
-      </View> */}
-
+      <Searchbar
+        placeholder="Search"
+        value={searchTerm}
+        onChangeText={(e) => handleSearchChange(e)}
+        style={{ marginVertical: 12 }}
+        inputStyle={{ minHeight: 0 }}
+      />
       {isLoading ? (
-        <Loading/>
+        <Loading />
       ) : (
         <FlatList
           data={fishList}
@@ -50,10 +57,10 @@ export default function FishSearchScreen() {
                 item={item}
                 isFish={true}
                 tab={"tanks"}
-                tank_name={tank_name ? tank_name.toString(): ''}
-                tank_id={tank_id ? tank_id.toString(): ''}
-                fish_count={fish_count ? fish_count.toString() : '0'}
-                plant_count={plant_count ? plant_count.toString(): '0'}
+                tank_name={tank_name ? tank_name.toString() : ""}
+                tank_id={tank_id ? tank_id.toString() : ""}
+                fish_count={fish_count ? fish_count.toString() : "0"}
+                plant_count={plant_count ? plant_count.toString() : "0"}
               />
             );
           }}

@@ -29,11 +29,11 @@ export default function TankCard(props: tankCardProps) {
         <View style={style.row}>
         
           <View style={style.column}>
-            <Text variant={"headlineSmall"} style={{ fontWeight: "bold" }}>
+            <Text variant={"headlineSmall"} style={{marginTop: 12}}>
               {props.tank.name}
             </Text>
             <TankChips size={props.tank.size} fish_count={props.tank.fish_count} plant_count={props.tank.plant_count}/>
-            <Text style={{ marginTop: 12, marginBottom: 12 }} variant="bodyLarge">
+            <Text variant="bodyLarge">
               {props.tank.description}
             </Text>
           </View>

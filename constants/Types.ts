@@ -140,3 +140,13 @@ export type Tasks = {
   checked: boolean;
   email: string;
 }
+
+export type Logs = {
+  log_id: string;
+  tank_id: string; 
+  date_added: string;
+  title: string;
+  description: string;
+  user_id: string;
+  email: string;
+}
